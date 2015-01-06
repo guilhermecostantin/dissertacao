@@ -1,0 +1,357 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[Abdel-Hamid e Madnick 1991]{Abdel-Hamid1991}
+\abntrefinfo{Abdel-Hamid e Madnick}{ABDEL-HAMID; MADNICK}{1991}
+{ABDEL-HAMID, T.; MADNICK, S.~E. \textbf{{Software Project Dynamics: An
+  Integrated Approach}}. Upper Saddle River, NJ, USA: Prentice-Hall, Inc.,
+  1991.
+ISBN 0-13-822040-9.}
+
+\bibitem[Alper, Tjosvold e Law 2000]{Alper2000}
+\abntrefinfo{Alper, Tjosvold e Law}{ALPER; TJOSVOLD; LAW}{2000}
+{ALPER, S.; TJOSVOLD, D.; LAW, K.~S. {Conflict Management, Efficacy, and
+  Performance in Organizational Teams}.
+\textbf{Personnel Psychology}, v.~53, p. 625--642, 2000.
+ISSN 0031-5826.
+Dispon{\'\i}vel em:
+  \url{http://doi.wiley.com/10.1111/j.1744-6570.2000.tb00216.x}.}
+
+\bibitem[Banker, Datar e Kemerer 1987]{Banker1987}
+\abntrefinfo{Banker, Datar e Kemerer}{BANKER; DATAR; KEMERER}{1987}
+{BANKER, R.~D.; DATAR, S.~M.; KEMERER, C.~F. {Factors affecting software
+  maintenance productivity: An exploratory study}. In:  \textbf{Proceedings of
+  the International Conference on Information Systems}. Pittsburgh, PA: [s.n.],
+  1987. p. 160--175.}
+
+\bibitem[Banker, Datar e Kemerer 1991]{Banker1991}
+\abntrefinfo{Banker, Datar e Kemerer}{BANKER; DATAR; KEMERER}{1991}
+{\underline{\ \ \ \ \ \ \ \ }. \textbf{{A Model to Evaluate Variables Impacting
+  the Productivity of Software Maintenance Projects}}. 1991. 1--18~p.}
+
+\bibitem[Boehm 1984]{Boehm1984}
+\abntrefinfo{Boehm}{BOEHM}{1984}
+{BOEHM, B.~W. {Software Engineering Economics}.
+\textbf{IEEE Transactions on Software Engineering}, SE-10, 1984.
+ISSN 0098-5589.}
+
+\bibitem[Boehm 1987]{Boehm1987}
+\abntrefinfo{Boehm}{BOEHM}{1987}
+{\underline{\ \ \ \ \ \ \ \ }. {Improving Software Productivity}.
+\textbf{Computer}, IEEE Computer Society, Los Alamitos, CA, USA, v.~20, n.~9,
+  p. 43--57, 1987.
+ISSN 0018-9162.}
+
+\bibitem[Boehm et al. 2000]{Boehm2000}
+\abntrefinfo{Boehm et al.}{BOEHM et al.}{2000}
+{BOEHM, B.~W. et al. \textbf{{Software Cost Estimation with Cocomo II with
+  Cdrom}}. 1st. ed. Upper Saddle River, NJ, USA: Prentice Hall PTR, 2000.
+ISBN 0130266922.}
+
+\bibitem[Boehm et al. 1982]{Boehm1982}
+\abntrefinfo{Boehm et al.}{BOEHM et al.}{1982}
+{\underline{\ \ \ \ \ \ \ \ }. {The TRW Software Productivity System}. In:
+  \textbf{Proceedings of the 6th International Conference on Software
+  Engineering}. Los Alamitos, CA, USA: IEEE Computer Society Press, 1982.
+  (ICSE '82), p. 148--156. Dispon{\'\i}vel em:
+  \url{http://dl.acm.org/citation.cfm?id=800254.807757}.}
+
+\bibitem[Boehm e Papaccio 1988]{Boehm1988}
+\abntrefinfo{Boehm e Papaccio}{BOEHM; PAPACCIO}{1988}
+{BOEHM, B.~W.; PAPACCIO, P.~N. {Understanding and controlling software costs}.
+\textbf{Software Engineering, IEEE Transactions on}, v.~14, n.~10, p.
+  1462--1477, 1988.
+ISSN 0098-5589.}
+
+\bibitem[Briand, Emam e Bomarius 1998]{Briand1998}
+\abntrefinfo{Briand, Emam e Bomarius}{BRIAND; EMAM; BOMARIUS}{1998}
+{BRIAND, L.; EMAM, K.~E.; BOMARIUS, F. {COBRA: a hybrid method for software
+  cost estimation, benchmarking, and risk assessment}.
+\textbf{Proceedings of the 20th International Conference on Software
+  Engineering}, 1998.
+ISSN 0270-5257.}
+
+\bibitem[{Brooks Jr} 1987]{BrooksJr1987}
+\abntrefinfo{{Brooks Jr}}{{Brooks Jr}}{1987}
+{{Brooks Jr}, F.~P. {No silver bullet-essence and accidents of software
+  engineering}.
+\textbf{IEEE computer}, v.~20, n.~4, p. 10--19, 1987.}
+
+\bibitem[Brooks 1981]{Brooks1981}
+\abntrefinfo{Brooks}{BROOKS}{1981}
+{BROOKS, W. {Software Technology Payoff: Some Statistical Evidence}.
+\textbf{J. Syst. Softw.}, Elsevier Science Inc., New York, NY, USA, v.~2, n.~1,
+  p.~3--9, 1981.
+ISSN 0164-1212.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/0164-1212(81)90041-8}.}
+
+\bibitem[Calow 1991]{Calow1991}
+\abntrefinfo{Calow}{CALOW}{1991}
+{CALOW, H. {Maintenance productivity factors-a case study}. In:
+  \textbf{Software Maintenance, 1991., Proceedings. Conference on}. [S.l.:
+  s.n.], 1991. p. 250--253.}
+
+\bibitem[Chatzoglou e Macaulay 1997]{Chatzoglou1997}
+\abntrefinfo{Chatzoglou e Macaulay}{CHATZOGLOU; MACAULAY}{1997}
+{CHATZOGLOU, P.~D.; MACAULAY, L.~A. \textbf{{The importance of human factors in
+  planning the requirements capture stage of a project}}. 1997. 39--53~p.}
+
+\bibitem[Chiavenato 2008]{Chiavenato2008}
+\abntrefinfo{Chiavenato}{CHIAVENATO}{2008}
+{CHIAVENATO, I. \textbf{{Gest\~{a}o de pessoas}}. 3ª. ed. [S.l.: s.n.], 2008.}
+
+\bibitem[Clincy 2003]{Clincy2003}
+\abntrefinfo{Clincy}{CLINCY}{2003}
+{CLINCY, V.~A. {Software Development Productivity and Cycle Time Reduction}.
+\textbf{J. Comput. Sci. Coll.}, Consortium for Computing Sciences in Colleges,
+  USA, v.~19, n.~2, p. 278--287, 2003.
+ISSN 1937-4771.
+Dispon{\'\i}vel em: \url{http://dl.acm.org/citation.cfm?id=948785.948824}.}
+
+\bibitem[Cole 1995]{Cole1995}
+\abntrefinfo{Cole}{COLE}{1995}
+{COLE, A. {Runaway Projects - Cause and Effects}.
+\textbf{Software World (UK)}, v.~26, n.~3, 1995.}
+
+\bibitem[Coram e Bohner 2005]{Coram2005}
+\abntrefinfo{Coram e Bohner}{CORAM; BOHNER}{2005}
+{CORAM, M.; BOHNER, S. {The impact of agile methods on software project
+  management}. In:  \textbf{Engineering of Computer-Based Systems, 2005. ECBS
+  '05. 12th IEEE International Conference and Workshops on the}. [S.l.: s.n.],
+  2005. p. 363--370.}
+
+\bibitem[{de Barros Sampaio} et al. 2010]{deBarrosSampaio2010}
+\abntrefinfo{{de Barros Sampaio} et al.}{{de Barros Sampaio} et al.}{2010}
+{{de Barros Sampaio}, S.~C. et al. {A Review of Productivity Factors and
+  Strategies on Software Development}. In:  \textbf{Software Engineering
+  Advances (ICSEA), 2010 Fifth International Conference on}. [S.l.: s.n.],
+  2010. p. 196--204.}
+
+\bibitem[DeMarco e Timothy 1987]{DeMarco1987}
+\abntrefinfo{DeMarco e Timothy}{DEMARCO; TIMOTHY}{1987}
+{DEMARCO, T.; TIMOTHY, L. \textbf{peopleware - productive projects and teams}.
+  [S.l.: s.n.], 1987.}
+
+\bibitem[Dutra 2004]{Dutra2004}
+\abntrefinfo{Dutra}{DUTRA}{2004}
+{DUTRA, J.~S. \textbf{{Compet\^{e}ncias: Conceitos e Instrumentos para a
+  Gest\~{a}o de Pessoas na Empresa Moderna}}. 1ª. ed. [S.l.: s.n.], 2004.}
+
+\bibitem[{Faria Sueli} 2005]{FariaSueli2005}
+\abntrefinfo{{Faria Sueli}}{{Faria Sueli}}{2005}
+{{Faria Sueli}, O. V. F. d. F. L. . D.~F. {Compet\^{e}ncias do profissional da
+  informa\c{c}\~{a}o: uma reflex\~{a}o a partir da Classifica\c{c}\~{a}o
+  Brasileira de Ocupa\c{c}\~{o}es}.
+\textbf{Ci\^{e}ncia da Informa\c{c}\~{a}o}, scielo, v.~34, p. 26--33, 2005.
+ISSN 0100-1965.
+Dispon{\'\i}vel em:
+  \url{http://www.scielo.br/scielo.php?script=sci\\_arttext\&pid=S0100-19652005000200003\&nrm=iso}.}
+
+\bibitem[Finnie, Wittig e Petkov 1993]{Finnie1993}
+\abntrefinfo{Finnie, Wittig e Petkov}{FINNIE; WITTIG; PETKOV}{1993}
+{FINNIE, G.~R.; WITTIG, G.~E.; PETKOV, D.~I. \textbf{{Prioritizing software
+  development productivity factors using the analytic hierarchy process}}.
+  1993. 129--139~p.}
+
+\bibitem[Fleury e Fleury 2001]{Fleury2001}
+\abntrefinfo{Fleury e Fleury}{FLEURY; FLEURY}{2001}
+{FLEURY, M. T.~L.; FLEURY, A. \textbf{{Construindo o conceito de
+  compet\^{e}ncia}}. 2001. 183--196~p.}
+
+\bibitem[Guzzo 1988]{Guzzo1988}
+\abntrefinfo{Guzzo}{GUZZO}{1988}
+{GUZZO, R.~A. {Productivity research: Reviewing psychological and economic
+  perspectives}. In:  . [S.l.]: Jossey-Bass Publishers, 1988. p. 63--81.}
+
+\bibitem[Hanson e Rosinski 1985]{Hanson1985}
+\abntrefinfo{Hanson e Rosinski}{HANSON; ROSINSKI}{1985}
+{HANSON, S.~J.; ROSINSKI, R.~R. {Programmer Perceptions of Productivity and
+  Programming Tools}.
+\textbf{Commun. ACM}, ACM, New York, NY, USA, v.~28, n.~2, p. 180--189, 1985.
+ISSN 0001-0782.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/2786.2791}.}
+
+\bibitem[Hantos e Gisbert 2000]{Hantos2000}
+\abntrefinfo{Hantos e Gisbert}{HANTOS; GISBERT}{2000}
+{HANTOS, P.; GISBERT, M. {Identifying software productivity improvement
+  approaches and risks: Construction industry case study}.
+\textbf{IEEE Software}, v.~17, p. 48--56, 2000.
+ISSN 07407459.}
+
+\bibitem[Holmes, Donkin e Witten]{Holmes}
+\abntrefinfo{Holmes, Donkin e Witten}{HOLMES; DONKIN; WITTEN}{}
+{HOLMES, G.; DONKIN, A.; WITTEN, I.~H. {W EKA : A Machine Learning Workbench}.}
+
+\bibitem[Jones 1986]{Jones1986}
+\abntrefinfo{Jones}{JONES}{1986}
+{JONES, C. \textbf{{Programming Productivity: Steps Toward a Science.
+  McGraw-Hill Series in Software Engineering and Technology.}} [S.l.]:
+  McGraw-Hill, 1986.}
+
+\bibitem[Jones 1997]{Jones1997}
+\abntrefinfo{Jones}{JONES}{1997}
+{\underline{\ \ \ \ \ \ \ \ }. \textbf{{Applied software measurement: assuring
+  productivity and quality}}. [s.n.], 1997.
+ISBN 0070328137. Dispon{\'\i}vel em:
+  \url{http://books.google.ch/books/about/Applied\\_software\\_measurement.html?id=U9JQAAAAMAAJ\&redir\\_esc=y}.}
+
+\bibitem[Jones 2000]{Jones2000}
+\abntrefinfo{Jones}{JONES}{2000}
+{\underline{\ \ \ \ \ \ \ \ }. \textbf{{Software Assessments, Benchmarks, and
+  Best Practices}}. Boston, MA, USA: Addison-Wesley Longman Publishing Co.,
+  Inc., 2000.
+ISBN 0-201-48542-7.}
+
+\bibitem[Lakhanpal 1993]{Lakhanpal1993}
+\abntrefinfo{Lakhanpal}{LAKHANPAL}{1993}
+{LAKHANPAL, B. \textbf{{Understanding the factors influencing the performance
+  of software development groups: An exploratory group-level analysis}}. 1993.
+  468--473~p.}
+
+\bibitem[Lalsing, Kishnah e Pudaruth 2012]{Lalsing2012}
+\abntrefinfo{Lalsing, Kishnah e Pudaruth}{LALSING; KISHNAH; PUDARUTH}{2012}
+{LALSING, V.; KISHNAH, S.; PUDARUTH, S. {People Factors in Agile Software
+  Development and Project Management}.
+\textbf{International Journal of Software Engineering \& Applications}, v.~3,
+  p. 117--138, 2012.
+Dispon{\'\i}vel em:
+  \url{http://airccse.org/journal/ijsea/papers/3112ijsea09.pdf}.}
+
+\bibitem[Lokan 2001]{Lokan2001}
+\abntrefinfo{Lokan}{LOKAN}{2001}
+{LOKAN, C.~J. {Impact of Subjective Factors on Software Productivity}. In:
+  \textbf{Proceedings of 7th Australian Conference on Software Metrics}.
+  Melbourne: [s.n.], 2001.}
+
+\bibitem[Maxwell e Forselius 2000]{Maxwell2000}
+\abntrefinfo{Maxwell e Forselius}{MAXWELL; FORSELIUS}{2000}
+{MAXWELL, K.~D.; FORSELIUS, P. {Benchmarking software development
+  productivity}.
+\textbf{Software, IEEE}, v.~17, p. 80--88, 2000.
+ISSN 0740-7459.}
+
+\bibitem[Melo et al. 2011]{Melo2011}
+\abntrefinfo{Melo et al.}{MELO et al.}{2011}
+{MELO, C. et al. {Agile Team Perceptions of Productivity Factors}. In:
+  \textbf{Agile Conference (AGILE), 2011}. [S.l.: s.n.], 2011. p. 57--66.}
+
+\bibitem[Rasch 1991]{Rasch1991}
+\abntrefinfo{Rasch}{RASCH}{1991}
+{RASCH, R.~H. {An Investigation of Factors That Impact Behavioral Outcomes of
+  Software Engineers}. In:  \textbf{Proceedings of the 1991 Conference on
+  SIGCPR}. New York, NY, USA: ACM, 1991.  (SIGCPR '91), p. 38--53.
+ISBN 0-89791-389-2. Dispon{\'\i}vel em:
+  \url{http://doi.acm.org/10.1145/111084.111090}.}
+
+\bibitem[Scacchi e Hurley 1995]{Scacchi1995}
+\abntrefinfo{Scacchi e Hurley}{SCACCHI; HURLEY}{1995}
+{SCACCHI, W.; HURLEY, D. {Understanding software productivity}. In:
+  \textbf{Software Engineering and Knowledge Engineering: Trends for the Next
+  Decade}. [s.n.], 1995. v.~4, p. 273--316.
+Dispon{\'\i}vel em:
+  \url{http://books.google.com/books?hl=en\&lr=\&id=bDlZa4KvFGgC\&oi=fnd\&pg=PA273\&dq=Understanding+software+productivity\&ots=TFYqI5HTtY\&sig=QBz5suT4\\_1Fwjkp-NwO0ZMeGEIY}.}
+
+\bibitem[Schwaber 2004]{Schwaber2004}
+\abntrefinfo{Schwaber}{SCHWABER}{2004}
+{SCHWABER, K. \textbf{{Agile Project Management With Scrum}}. Redmond, WA, USA:
+  Microsoft Press, 2004.
+ISBN 073561993X.}
+
+\bibitem[Scudder e Kucic 1991]{Scudder1991}
+\abntrefinfo{Scudder e Kucic}{SCUDDER; KUCIC}{1991}
+{SCUDDER, R.~A.; KUCIC, A.~R. {Productivity Measures for Information Systems}.
+\textbf{Inf. Manage.}, Elsevier Science Publishers B. V., Amsterdam, The
+  Netherlands, The Netherlands, v.~20, n.~5, p. 343--354, 1991.
+ISSN 0378-7206.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/0378-7206(91)90033-X}.}
+
+\bibitem[Sharp et al. 2009]{Sharp2009}
+\abntrefinfo{Sharp et al.}{SHARP et al.}{2009}
+{SHARP, H. et al. {Models of Motivation in Software Engineering}.
+\textbf{Inf. Softw. Technol.}, Butterworth-Heinemann, Newton, MA, USA, v.~51,
+  n.~1, p. 219--233, 2009.
+ISSN 0950-5849.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.infsof.2008.05.009}.}
+
+\bibitem[Sharpe e Cangussu 2005]{Sharpe2005}
+\abntrefinfo{Sharpe e Cangussu}{SHARPE; CANGUSSU}{2005}
+{SHARPE, J.~L.; CANGUSSU, J.~W. {A productivity metric based on statistical
+  pattern recognition}. In:  \textbf{Computer Software and Applications
+  Conference, 2005. COMPSAC 2005. 29th Annual International}. [S.l.: s.n.],
+  2005. v.~1, p. 59--64 Vol. 2.
+ISSN 0730-3157.}
+
+\bibitem[Symons 2010]{Symons2010}
+\abntrefinfo{Symons}{SYMONS}{2010}
+{SYMONS, C. {Software Industry Performance: What You Measure Is What You Get}.
+\textbf{Software, IEEE}, v.~27, n.~6, p. 66--72, 2010.
+ISSN 0740-7459.}
+
+\bibitem[Turcotte e Rennison 2004]{Turcotte2004}
+\abntrefinfo{Turcotte e Rennison}{TURCOTTE; RENNISON}{2004}
+{TURCOTTE, J.; RENNISON, L.~W. {The Link between Technology Use, Human Capital,
+  Productivity and Wages: Firm-level Evidence}.
+\textbf{International Productivity Monitor}, v.~9, p. 25--36, 2004.
+Dispon{\'\i}vel em: \url{http://ideas.repec.org/a/sls/ipmsls/v9y20043.html}.}
+
+\bibitem[Vosburgh et al. 1984]{Vosburgh1984}
+\abntrefinfo{Vosburgh et al.}{VOSBURGH et al.}{1984}
+{VOSBURGH, J. et al. {Productivity factors and programming environments}. In:
+  \textbf{ICSE '84 Proceedings of the 7th International Conference on Software
+  Engineering}. [s.n.], 1984. p. 143--152.
+ISBN 0-8186-0528-6. Dispon{\'\i}vel em:
+  \url{http://dl.acm.org/citation.cfm?id=800054.801963}.}
+
+\bibitem[Wagner e Ruhe 2008]{Wagner2008}
+\abntrefinfo{Wagner e Ruhe}{WAGNER; RUHE}{2008}
+{WAGNER, S.; RUHE, M. \textbf{{A Structured Review of Productivity Factors in
+  Software Development Technical }}.
+[S.l.], 2008.}
+
+\bibitem[Wallace, Keil e Rai 2004]{Wallace2004}
+\abntrefinfo{Wallace, Keil e Rai}{WALLACE; KEIL; RAI}{2004}
+{WALLACE, L.; KEIL, M.; RAI, A. {Understanding Software Project Risk: A Cluster
+  Analysis}.
+\textbf{Inf. Manage.}, Elsevier Science Publishers B. V., Amsterdam, The
+  Netherlands, The Netherlands, v.~42, n.~1, p. 115--125, 2004.
+ISSN 0378-7206.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.im.2003.12.007}.}
+
+\bibitem[Walston e Felix 1977]{Walston1977}
+\abntrefinfo{Walston e Felix}{WALSTON; FELIX}{1977}
+{WALSTON, C.~E.; FELIX, C.~P. \textbf{{A method of programming measurement and
+  estimation}}. 1977. 54--73~p.}
+
+\bibitem[Witten e Frank 2005]{Witten2005}
+\abntrefinfo{Witten e Frank}{WITTEN; FRANK}{2005}
+{WITTEN, I.~H.; FRANK, E. \textbf{{Data Mining: Practical Machine Learning
+  Tools and Techniques, Second Edition (Morgan Kaufmann Series in Data
+  Management Systems)}}. San Francisco, CA, USA: Morgan Kaufmann Publishers
+  Inc., 2005.
+ISBN 0120884070.}
+
+\bibitem[Wohlin e Ahlgren 1995]{Wohlin1995}
+\abntrefinfo{Wohlin e Ahlgren}{WOHLIN; AHLGREN}{1995}
+{WOHLIN, C.; AHLGREN, M. {Soft factors and their impact on time to market}.
+\textbf{Software Quality Journal}, v.~4, p. 189--205, 1995.
+ISSN 09639314.}
+
+\bibitem[Wohlin e Andrews 2001]{Wohlin2001}
+\abntrefinfo{Wohlin e Andrews}{WOHLIN; ANDREWS}{2001}
+{WOHLIN, C.; ANDREWS, A.~A. {Assessing Project Success Using Subjective
+  Evaluation Factors}.
+\textbf{Software Quality Journal}, v.~9, p. 43--70, 2001.
+ISSN 09639314.}
+
+\bibitem[Yu, Smith e Huang 1991]{Yu1991}
+\abntrefinfo{Yu, Smith e Huang}{YU; SMITH; HUANG}{1991}
+{YU, W.~D.; SMITH, D.~P.; HUANG, S.~T. {Software productivity measurements}.
+  In:  \textbf{Computer Software and Applications Conference, 1991. COMPSAC
+  '91., Proceedings of the Fifteenth Annual International}. [S.l.: s.n.], 1991.
+  p. 558--564.}
+
+\end{thebibliography}

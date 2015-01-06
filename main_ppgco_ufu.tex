@@ -1,0 +1,274 @@
+%% main_ppgco_ufu.tex v1.0, Lásaro Camargos e Denise Guliato
+% adaptado de modeloABNT2.tex, v1.0 athila 
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% eesc: Modelo de Trabalho Acadêmico (tese de doutorado, dissertação de
+% mestrado e trabalhos monográficos em geral) em conformidade com 
+% ABNT NBR 14724:2011. Esta classe estende as funcionalidades da classe
+% abnTeX2 elaborada de forma a adequar os parâmetros exigidos pelas 
+% normas USP e do departamento de elétrica da Escola de Engenharia 
+% de São Carlos - USP.
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+
+% ------------------------------------------------------------------------
+% Opções:
+% 	tesedr:     Formata documento para tese de doutorado
+%	qualidr:    Formata documento para qualificação de doutorado
+% 	dissertmst: Formata documento para dissertação de mestrado
+% 	qualimst:   Formata documento para qualificação de mestrado
+% ------------------------------------------------------------------------
+\documentclass[dissertmst]{ppgco}
+%Não altere o comando seguinte. O título de seu trabalho será especificado mais adiante.
+\title{Template de Monografia do PPGCO}
+
+% ---
+% PACOTES
+% ---
+
+% ---
+% Pacotes fundamentais 
+% ---
+\usepackage{cmap}				% Mapear caracteres especiais no PDF
+\usepackage{lmodern}				% Usa a fonte Latin Modern			
+\usepackage{makeidx}            	% Cria o indice
+\usepackage{hyperref}  			% Controla a formação do índice
+\usepackage{lastpage}			% Usado pela Ficha catalográfica
+\usepackage{indentfirst}			% Indenta o primeiro parágrafo de cada seção.
+\usepackage{nomencl} 			% Lista de simbolos
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{amsmath}
+% ---
+
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo eesc
+% ---
+\usepackage{lipsum}				       % para geração de dummy text
+\usepackage[printonlyused]{acronym}
+\usepackage[table]{xcolor}
+
+% ---
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+%
+% Título:
+%	1. Título em português
+%	2. Título em inglês
+\titulo{A Importância Dos Desenvolvedores De Software Sob A Perspectiva Dos Supervisores}{Título em inglês}
+%
+% Autor:
+%	1. Nome completo do autor
+%	2. Formato de nome para bibliografia
+\autor{Guilherme Costantin Tângari }{Tângari, Guilherme}
+%
+% Cidade
+\local{Uberlândia}
+% Ano de defesa
+\data{2014}
+% Área de concentração da pesquisa
+\areaconcentracao{Ciência da Computação}
+% Nome do orientador
+\orientador{Nome completo do orientador}
+% Nome do coorientador
+\coorientador{Nome completo do coorientador}
+% ---
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+% ---
+% Compila a lista de abreviaturas e siglas
+% ---
+\makenomenclature
+% ---
+
+% ---
+% Inserir ficha catalográfica
+%
+% Caso o comando \inserirfichacatalografica seja definido, a %ficha catalográfica
+% será inserida atrás da folha de rosto. Caso contrário a página será deixada em
+% branco.
+%
+% CUIDADO: Esta opção deve ser preenchida antes do comando \maketitle
+% ---
+%entre em contato com a biblioteca para obter a sua ficha catalográfica em arquivo pdf. Essa %folha só será inserida no documento após a sua defesa.
+
+\inserirfichacatalografica{fichaCatalografica.pdf}
+% ---
+
+% ---
+% Inserir folha de aprovação
+%
+% Caso o comando \inserirfolhaaprovacao seja definido, a a folha de aprovação
+% será inserida. Além disso, conforme Resolução CoPGr 5890, as informações 
+% de rodapé são inseridas apropriadamente na folha de rosto.
+%
+% CUIDADO: Esta opção deve ser preenchida antes do comando \maketitle
+% ---
+% baseie-se no modelo desse documento e gere a sua folha de %rosto em arquivo pdf.
+
+\inserirfolhaaprovacao{folhaAprovacao.pdf}
+% ---
+
+% ----
+% Início do documento
+% ----
+
+\begin{document}
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+\pretextual
+
+% ---
+% Insere Capa, Folha de rosto, Ficha catalográfica (se inserida)
+% e folha de aprovação (se inserida).
+% ---
+\maketitle
+
+
+% ---
+% Dedicatória
+% ---
+\imprimirdedicatoria{À minha família e à minha futura esposa.}
+% ---
+
+% ---
+% Agradecimentos
+% ---
+\imprimiragradecimentos{
+Primeiramente gostaria de agradecer aos meus pais, Gilberto e Valéria, que fizeram uma enorme esforço para que eu pudesse ter acesso à educação que tive. Saibam que serei eternamente grato por todos os sacrifícios que fizeram e nenhuma herança no mundo supera a base educacional que vocês me proporcionaram. Sem dúvida nenhuma, vocês são os grandes responsáveis por eu ter chegado até onde cheguei e divido todos os méritos com vocês. Agradeço também à minha irmã Larissa por todo o apoio nesses últimos anos, também fundamental para que eu pudesse seguir em frente.
+De maneira especial, também gostaria de agradecer à minha noiva, que me deu todo o suporte, mental e estrutural, e me deu forças quando elas faltaram para seguir em frente. Liana, com certeza sem você esse caminho teria sido muito mais árduo, talvez impossível de ser traçado. Com seu apoio e sua motivação, consegui chegar ao fim dessa jornada, e também divido os méritos com você. Também gostaria de deixar um abraço especial para toda sua família, que sempre me deram apoio incondicional.
+Gostaria de agradecer também à empresa na qual trabalho atualmente, o MahaGestão, que apostou em mim como profissional e forneceu a flexibilidade necessária no decorrer do curso viabilizando assim esse mestrado.
+Não menos importante, gostaria de agradecer a todos os meus amigos, aos de longa data, que me acompanham desde o ensino básico e que continuam firme ao meu lado onde sempre estiveram sempre que precisei, às amizades feitas ao longo da minha graduação, que também já se tornaram amizades de longa data, e que compartilham de uma realidade de estudos e trabalhos semelhantes, sempre apoiando uns aos outros, e também à todos os outros grupos de amigos, do Maha, dos casais (amiguinhos), da Charanga, da minha noiva que eu adotei como meus (chicas), todos vocês foram muito importantes nessa jornada. Um salve especial ao Lucas (Lucão) pela sua colaboração com meu trabalho.
+E por último, gostaria de agradecer pela orientação do professor Marcelo Maia, seu apoio e compreensão foi fundamental para a conclusão desse trabalho e do mestrado como um todo.
+}
+% ---
+
+% ---
+% Epígrafe
+% ---
+\imprimirepigrafe{
+		``Sua vida pode ser dividida em dois períodos: antes de agora e a partir de agora.''\\
+		(Prof. Obvious Stating)
+}
+% ---
+
+% ---
+% RESUMO e ABSTRACT
+% ---
+
+% Resumo em português - as palavras entre chaves são as palavras-chave do trbalho
+\begin{resumo}{Importância do desenvolvedor. reconhecimento de padrões. produtividade. fatores humanos.}
+
+ 	 Várias empresas de tecnologia usam a quantidade de entregas como métrica de avaliação de performance de desenvolvedores de software. Esse é o conceito clássico de produtividade, e ainda é amplamente usado pelas empresas hoje em dia. Também é bastante comum misturar o conceito de importância com produtividade. Porém, a importância de um desenvolvedor para a empresa e, mais especificamente, o time em que trabalha não está apenas relacionado com a quantidade de linhas de código produzidos. Existe uma variedade de fatores que contribuem para a relevância de um desenvolvedor dentro de uma organização. Esse trabalho visa mapear esses fatores, medir quais dentre esse fatores possuem maior influência nas empresas atualmente e propor um modelo de avaliação da importância dos desenvolvedores que considere mais do que apenas as entregas. Levantamos, baseados em estudos passados, dezesseis fatores que mais tendem a participar da avaliação de importância dos desenvolvedores. Descobrimos que, dentre esses fatores, alguns são mais importantes que os outros no momento da avaliação, bem como uma variação nos fatores mais importantes quando olhamos sob a ótica de uma determinada empresa ou time. Nós também construímos um classificador de alta acurácia que pode indicar a importância do desenvolvedor baseado em uma série de atributos.
+     
+\end{resumo}
+
+% Resumo em inglês
+\begin{abstract}{Developer's importance. pattern recognition. productivity. human factors.}
+Several technology companies use the amount of deliveries as evaluation metric for the software developer’s performance. This is the classical concept of productivity, and still is widely used by the companies nowadays. It is also quite common to confuse the concepts of importance and productivity. But the importance of the developer for the company, and more specifically, for the team he works, isn’t related only with the amount of line of codes produced. There is a variety of factors that contribute to the relevance of a developer inside an organization. This work aims to map those factors, measure which ones has greater influence in today’s companies and propose an evaluation model of the developer’s importance that considers more than just deliveries. We raised, based on past studies, sixteen factors that are more likely to be used in the developer’s importance evaluation. We figured out that, between those factors, some are more important than others at the evaluation moment, and that there is a variation in the most important factors when we analyze under the perspective from different companies or teams. We also built a high accuracy classifier that can measure the developer’s importance based on a series of factors.	
+\end{abstract}
+% ---
+
+% ---
+% inserir lista de ilustrações
+% ---
+\listailustracoes
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+\listatabelas
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+\listasiglas{abrev/Abreviaturas}
+% ---
+
+% ---
+% inserir o sumario
+% ---
+\sumario
+% ---
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\mainmatter
+
+% ----------------------------------------------------------
+% Introdução
+% ----------------------------------------------------------
+\include{cap_introducao/introducao}
+
+% ----------------------------------------------------------
+% Referencial Teórico
+% ----------------------------------------------------------
+\include{cap_referencial/referencial}
+
+% ----------------------------------------------------------
+% Referencial Teórico
+% ----------------------------------------------------------
+\include{cap_metodologia/metodologia}
+
+% ----------------------------------------------------------
+% Referencial Teórico
+% ----------------------------------------------------------
+\include{cap_resultados_gerais/resultados_gerais}
+
+% ----------------------------------------------------------
+% Referencial Teórico
+% ----------------------------------------------------------
+\include{cap_resultados_individuais/resultados_individuais}
+
+% ----------------------------------------------------------
+% Discussão
+% ----------------------------------------------------------
+\include{cap_discussao/discussao}
+
+% ----------------------------------------------------------
+% Conclusão
+% ----------------------------------------------------------
+\include{cap_conclusao/conclusao}
+
+% ---
+% Finaliza a parte no bookmark do PDF, para que se inicie o bookmark na raiz
+% ---
+%\bookmarksetup{startatroot}% 
+% ---
+ 
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{bib/referencia}
+
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+%\glossary
+
+
+
+\end{document}

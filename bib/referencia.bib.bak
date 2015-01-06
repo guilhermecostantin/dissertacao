@@ -1,0 +1,1266 @@
+% This file was created with JabRef 2.9.2.
+% Encoding: Cp1252
+
+@BOOK{Abdel-Hamid1991,
+  title = {{Software Project Dynamics: An Integrated Approach}},
+  publisher = {Prentice-Hall, Inc.},
+  year = {1991},
+  author = {Abdel-Hamid, Tarek and Madnick, Stuart E},
+  address = {Upper Saddle River, NJ, USA},
+  isbn = {0-13-822040-9}
+}
+
+@ARTICLE{AgrellA.andGustafson1994,
+  author = {{Agrell, A. and Gustafson}, R.},
+  title = {{The Team Climate Inventory (TCI) and group innovation: A psychometric
+	test on a Swedish sample of work groups}},
+  journal = {Journal of Occupational and Organizational Psychology},
+  year = {1994},
+  volume = {67},
+  pages = {143--151}
+}
+
+@INPROCEEDINGS{Allamanis2013,
+  author = {Allamanis, Miltiadis and Sutton, Charles},
+  title = {{Why, when, and What: Analyzing Stack Overflow Questions by Topic,
+	Type, and Code}},
+  booktitle = {Proceedings of the 10th Working Conference on Mining Software Repositories},
+  year = {2013},
+  series = {MSR '13},
+  pages = {53--56},
+  address = {Piscataway, NJ, USA},
+  publisher = {IEEE Press},
+  isbn = {978-1-4673-2936-1},
+  url = {http://dl.acm.org/citation.cfm?id=2487085.2487098}
+}
+
+@ARTICLE{Alper2000,
+  author = {Alper, Steve and Tjosvold, Dean and Law, Kenneth S.},
+  title = {{Conflict Management, Efficacy, and Performance in Organizational
+	Teams}},
+  journal = {Personnel Psychology},
+  year = {2000},
+  volume = {53},
+  pages = {625--642},
+  abstract = {The study empirically links conflict management literature with research
+	on efficacy and organizational teams. Sixty-one self-managing teams
+	with 489 employees were recruited from the production department
+	of a leading electronic manufacturer. Structural equation analysis
+	supports the model that a cooperative instead of competitive approach
+	to conflict leads to conflict efficacy that in turn results in effective
+	performance as measured by managers. Findings suggest how organizational
+	teams can be prepared to make use of their autonomy to deal with
+	problems and conflicts so that they are productive},
+  doi = {10.1111/j.1744-6570.2000.tb00216.x},
+  isbn = {00315826},
+  issn = {0031-5826},
+  pmid = {3590762},
+  url = {http://doi.wiley.com/10.1111/j.1744-6570.2000.tb00216.x}
+}
+
+@INPROCEEDINGS{Arnold1998,
+  author = {Arnold, Martin and Pedross, Peter},
+  title = {{Software Size Measurement and Productivity Rating in a Large-scale
+	Software Development Department}},
+  booktitle = {Proceedings of the 20th International Conference on Software Engineering},
+  year = {1998},
+  series = {ICSE '98},
+  pages = {490--493},
+  address = {Washington, DC, USA},
+  publisher = {IEEE Computer Society},
+  isbn = {0-8186-8368-6},
+  url = {http://dl.acm.org/citation.cfm?id=302163.302221}
+}
+
+@MISC{Banker1991,
+  author = {Banker, R. D. and Datar, S. M. and Kemerer, C. F.},
+  title = {{A Model to Evaluate Variables Impacting the Productivity of Software
+	Maintenance Projects}},
+  year = {1991},
+  abstract = {The cost of maintaining application software has been rapidly escalating,
+	and is currently estimated to comprise from 50-80\% of corporate
+	information systems department budgets. In this research we develop
+	an estimable production frontier model of software maintenance, using
+	a new methodology that allows the simultaneous estimation of both
+	the production frontier and the effects of several productivity factors.
+	Our model allows deviations on both sides of the estimated frontier
+	to reflect the impact of both production inefficiencies and random
+	effects such as measurement errors. The model is then estimated using
+	an empirical dataset of 65 software maintenance projects from a large
+	commercial bank. The insights obtained from the estimation results
+	are found to be quite consistent for reasonable variations in the
+	specification of the model. Estimates of the marginal impacts of
+	all of the included productivity factors are obtained to aid managers
+	in improving productivity in software maintenance.},
+  booktitle = {Management Science},
+  doi = {10.1287/mnsc.37.1.1},
+  issn = {0025-1909},
+  pages = {1--18},
+  volume = {37}
+}
+
+@INPROCEEDINGS{Banker1987,
+  author = {Banker, Rajiv D and Datar, Srikant M and Kemerer, Chris F},
+  title = {{Factors affecting software maintenance productivity: An exploratory
+	study}},
+  booktitle = {Proceedings of the International Conference on Information Systems},
+  year = {1987},
+  pages = {160--175},
+  address = {Pittsburgh, PA}
+}
+
+@MISC{Basili1992,
+  author = {Basili, Victor R},
+  title = {{Software modeling and measurement: the Goal/Question/Metric paradigm}},
+  year = {1992},
+  abstract = {This paper discusses the use of the Goal/Question/Metric paradigm
+	as a mechanism for defining and interpreting software measuremente.
+	Templates are provided for defining goals and generating questions.
+	Different types of metrics are discussed. Examples of both processe
+	and product goals are defined.},
+  booktitle = {Quality},
+  isbn = {CS-TR-2956},
+  pages = {24},
+  url = {http://portal.acm.org/citation.cfm?id=137076}
+}
+
+@ARTICLE{Basili1994,
+  author = {Basili, Victor R and Caldiera, Gianluigi and Rombach, H Dieter},
+  title = {{The goal question metric approach}},
+  journal = {Encyclopedia of Software Engineering},
+  year = {1994},
+  volume = {2},
+  pages = {528--532},
+  abstract = {As with any engineering discipline, software development requires
+	a measurement mechanism for feedback and evaluation. Measurement
+	is a mechanism for creating a corporate memory and an aid in answering
+	a variety of questions associated with the enactment of any software
+	process. It helps support project planning (e.g., How much will a
+	new project cost?); it allows us to determine the strengths and weaknesses
+	of the current processes and products (e.g., What is the frequency
+	of certain types of errors?); it provides a rationale for adopting/refining
+	techniques (e.g., What is the impact of the technique XX on the productivity
+	of the projects?); it allows us to evaluate the quality of specific
+	processes and products (e.g., What is the defect density in a specific
+	system after deployment?). Measurement also helps, during the course
+	of a project, to assess its progress, to take corrective action based
+	on this assessment, and to evaluate the impact of such action.},
+  institution = {University of Maryland},
+  publisher = {Wiley},
+  url = {http://maisqual.squoring.com/wiki/index.php/The Goal Question Metric Approach}
+}
+
+@ARTICLE{Begel2013,
+  author = {Begel, A and Bosch, J and Storey, M.-A.},
+  title = {{Social Networking Meets Software Development: Perspectives from
+	GitHub, MSDN, Stack Exchange, and TopCoder}},
+  journal = {Software, IEEE},
+  year = {2013},
+  volume = {30},
+  pages = {52--66},
+  number = {1},
+  doi = {10.1109/MS.2013.13},
+  issn = {0740-7459},
+  keywords = {Internet;configuration management;marketing;social}
+}
+
+@INPROCEEDINGS{Ben2013,
+  author = {Ben, Xu and Beijun, Shen and Weicheng, Yang},
+  title = {{Mining Developer Contribution in Open Source Software Using Visualization
+	Techniques}},
+  booktitle = {Intelligent System Design and Engineering Applications (ISDEA), 2013
+	Third International Conference on},
+  year = {2013},
+  pages = {934--937},
+  doi = {10.1109/ISDEA.2012.223},
+  keywords = {data analysis;data mining;data visualisation;publi}
+}
+
+@BOOK{Bishop2006,
+  title = {{Pattern recognition and machine learning}},
+  publisher = {Springer},
+  year = {2006},
+  editor = {Jordan, M and Kleinberg, J and Sch\"{o}lkopf, B},
+  author = {Bishop, Christopher M CM Christopher M.},
+  volume = {4},
+  number = {4},
+  pages = {738},
+  series = {Information science and statistics},
+  abstract = {The dramatic growth in practical applications for machine learning
+	over the last ten years has been accompanied by many important developments
+	in the underlying algorithms and techniques. For example, Bayesian
+	methods have grown from a specialist niche to become mainstream,
+	while graphical models have emerged as a general framework for describing
+	and applying probabilistic techniques. The practical applicability
+	of Bayesian methods has been greatly enhanced by the development
+	of a range of approximate inference algorithms such as variational
+	Bayes and expectation propagation, while new models based on kernels
+	have had a significant impact on both algorithms and applications.
+	This completely new textbook reflects these recent developments while
+	providing a comprehensive introduction to the fields of pattern recognition
+	and machine learning. It is aimed at advanced undergraduates or first-year
+	PhD students, as well as researchers and practitioners. No previous
+	knowledge of pattern recognition or machine learning concepts is
+	assumed. Familiarity with multivariate calculus and basic linear
+	algebra is required, and some experience in the use of probabilities
+	would be helpful though not essential as the book includes a self-contained
+	introduction to basic probability theory. The book is suitable for
+	courses on machine learning, statistics, computer science, signal
+	processing, computer vision, data mining, and bioinformatics. Extensive
+	support is provided for course instructors, including more than 400
+	exercises, graded according to difficulty. Example solutions for
+	a subset of the exercises are available from the book web site, while
+	solutions for the remainder can be obtained by instructors from the
+	publisher. The book is supported by a great deal of additional material,
+	and the reader is encouraged to visit the book web site for the latest
+	information. A forthcoming companion volume will deal with practical
+	aspects of pattern recognition and machine learning, and will include
+	free software implementations of the key algorithms along with example
+	data sets and demonstration programs. Christopher Bishop is Assistant
+	Director at Microsoft Research Cambridge, and also holds a Chair
+	in Computer Science at the University of Edinburgh. He is a Fellow
+	of Darwin College Cambridge, and was recently elected Fellow of the
+	Royal Academy of Engineering. The author's previous textbook "Neural
+	Networks for Pattern Recognition" has been widely adopted.},
+  archiveprefix = {arXiv},
+  arxivid = {0-387-31073-8},
+  booktitle = {Pattern Recognition},
+  chapter = {Graphical},
+  doi = {10.1117/1.2819119},
+  eprint = {0-387-31073-8},
+  isbn = {978-0387310732},
+  issn = {10179909},
+  pmid = {8943268},
+  url = {http://soic.iupui.edu/syllabi/semesters/4142/INFO\_B529\_Liu\_s.pdf$\backslash$nhttp://www.library.wisc.edu/selectedtocs/bg0137.pdf}
+}
+
+@ARTICLE{Boehm1987,
+  author = {Boehm, B W},
+  title = {{Improving Software Productivity}},
+  journal = {Computer},
+  year = {1987},
+  volume = {20},
+  pages = {43--57},
+  number = {9},
+  address = {Los Alamitos, CA, USA},
+  doi = {http://doi.ieeecomputersociety.org/10.1109/MC.1987.1663694},
+  issn = {0018-9162},
+  publisher = {IEEE Computer Society}
+}
+
+@ARTICLE{Boehm1984,
+  author = {Boehm, Barry W.},
+  title = {{Software Engineering Economics}},
+  journal = {IEEE Transactions on Software Engineering},
+  year = {1984},
+  volume = {SE-10},
+  abstract = {This paper summarizes the current state of the art and recent trends
+	in software engineering economics. It provides an overview of economic
+	analysis techniques and their applicability to software engineering
+	and management. It surveys the field of software cost estimation,
+	including the major estimation techniques available, the state of
+	the art in algorithmic cost models, and the outstanding research
+	issues in software cost estimation.},
+  doi = {10.1109/TSE.1984.5010193},
+  isbn = {0138221227},
+  issn = {0098-5589},
+  keywords = {Computer programming costs,cost models,management decision aids,software
+	cost estimation,software economics,software engineering,software
+	management},
+  pmid = {14026}
+}
+
+@BOOK{Boehm2000,
+  title = {{Software Cost Estimation with Cocomo II with Cdrom}},
+  publisher = {Prentice Hall PTR},
+  year = {2000},
+  author = {Boehm, Barry W and Clark and Horowitz and Brown and Reifer and Chulani
+	and Madachy, Ray and Steece, Bert},
+  address = {Upper Saddle River, NJ, USA},
+  edition = {1st},
+  isbn = {0130266922}
+}
+
+@INPROCEEDINGS{Boehm1982,
+  author = {Boehm, Barry W and Elwell, James F and Pyster, Arthur B and Stuckle,
+	E Donald and Williams, Robert D},
+  title = {{The TRW Software Productivity System}},
+  booktitle = {Proceedings of the 6th International Conference on Software Engineering},
+  year = {1982},
+  series = {ICSE '82},
+  pages = {148--156},
+  address = {Los Alamitos, CA, USA},
+  publisher = {IEEE Computer Society Press},
+  url = {http://dl.acm.org/citation.cfm?id=800254.807757}
+}
+
+@ARTICLE{Boehm1988,
+  author = {Boehm, B W and Papaccio, P N},
+  title = {{Understanding and controlling software costs}},
+  journal = {Software Engineering, IEEE Transactions on},
+  year = {1988},
+  volume = {14},
+  pages = {1462--1477},
+  number = {10},
+  doi = {10.1109/32.6191},
+  issn = {0098-5589},
+  keywords = {DP management;software engineering;black-box;cost }
+}
+
+@INPROCEEDINGS{Bosu2013,
+  author = {Bosu, Amiangshu and Corley, Christopher S and Heaton, Dustin and
+	Chatterji, Debarshi and Carver, Jeffrey C and Kraft, Nicholas A},
+  title = {{Building Reputation in StackOverflow: An Empirical Investigation}},
+  booktitle = {Proceedings of the 10th Working Conference on Mining Software Repositories},
+  year = {2013},
+  series = {MSR '13},
+  pages = {89--92},
+  address = {Piscataway, NJ, USA},
+  publisher = {IEEE Press},
+  isbn = {978-1-4673-2936-1},
+  url = {http://dl.acm.org/citation.cfm?id=2487085.2487107}
+}
+
+@ARTICLE{Briand1998,
+  author = {Briand, L.C. and Emam, K. El and Bomarius, F.},
+  title = {{COBRA: a hybrid method for software cost estimation, benchmarking,
+	and risk assessment}},
+  journal = {Proceedings of the 20th International Conference on Software Engineering},
+  year = {1998},
+  abstract = {Current cost estimation techniques have a number of drawbacks. For
+	example, developing algorithmic models requires extensive past project
+	data. Also, off-the-shelf models have been found to be difficult
+	to calibrate but inaccurate without calibration. Informal approaches
+	based on experienced estimators depend on estimators' availability
+	and are not easily repeatable, as well as not being much more accurate
+	than algorithmic techniques. We present a method for cost estimation
+	that combines aspects of algorithmic and experiential approaches
+	(referred to as COBRA, COst estimation, Benchmarking, and Risk Assessment).
+	We find through a case study that cost estimates using COBRA show
+	an average ARE of 0.09. Although we do not have the room to describe
+	the benchmarking and risk assessment parts, the reader will find
+	detailed information in (Briand et al., 1997)},
+  doi = {10.1109/ICSE.1998.671392},
+  isbn = {0-8186-8368-6},
+  issn = {0270-5257}
+}
+
+@ARTICLE{Brooks1981,
+  author = {Brooks, W.Douglas},
+  title = {{Software Technology Payoff: Some Statistical Evidence}},
+  journal = {J. Syst. Softw.},
+  year = {1981},
+  volume = {2},
+  pages = {3--9},
+  number = {1},
+  address = {New York, NY, USA},
+  doi = {10.1016/0164-1212(81)90041-8},
+  issn = {0164-1212},
+  publisher = {Elsevier Science Inc.},
+  url = {http://dx.doi.org/10.1016/0164-1212(81)90041-8}
+}
+
+@ARTICLE{BrooksJr1987,
+  author = {{Brooks Jr}, Frederick P},
+  title = {{No silver bullet-essence and accidents of software engineering}},
+  journal = {IEEE computer},
+  year = {1987},
+  volume = {20},
+  pages = {10--19},
+  number = {4}
+}
+
+@INPROCEEDINGS{Calow1991,
+  author = {Calow, H},
+  title = {{Maintenance productivity factors-a case study}},
+  booktitle = {Software Maintenance, 1991., Proceedings. Conference on},
+  year = {1991},
+  pages = {250--253},
+  doi = {10.1109/ICSM.1991.160338},
+  keywords = {Application software;Computer aided software engin}
+}
+
+@MISC{Chatzoglou1997,
+  author = {Chatzoglou, Prodromos D and Macaulay, Linda A},
+  title = {{The importance of human factors in planning the requirements capture
+	stage of a project}},
+  year = {1997},
+  abstract = {One of the reasons why existing software planning models fail to give
+	accurate, consistent and reliable results is that they are based
+	on inadequate factors which cannot be measured at the beginning of
+	the development process. This paper presents the theoretical aspects
+	of a new model that attempts to overcome the problems faced by existing
+	models through considering human factors which are relevant to the
+	process of requirements capture and analysis (RCA). Emphasis is given
+	to those factors whose value can be measured at the beginning of
+	the development process. The factors that are examined are classified
+	into four main categories: team members' attitude, users' attitude,
+	project management and technology, and finally, project characteristics.
+	An explanation of all the factors is provided and a literature review
+	is given. Finally, an analytical description of the research methodology
+	followed and a brief presentation of the model developed are given.},
+  booktitle = {International Journal of Project Management},
+  doi = {10.1016/S0263-7863(96)00038-5},
+  isbn = {S0263-7863(96)00038-5},
+  issn = {02637863},
+  pages = {39--53},
+  volume = {15}
+}
+
+@BOOK{Chiavenato2008,
+  title = {{Gest\~{a}o de pessoas}},
+  year = {2008},
+  editor = {Elsevier and Campus},
+  author = {Chiavenato, Idalberto},
+  edition = {3ª}
+}
+
+@ARTICLE{Clincy2003,
+  author = {Clincy, Victor A},
+  title = {{Software Development Productivity and Cycle Time Reduction}},
+  journal = {J. Comput. Sci. Coll.},
+  year = {2003},
+  volume = {19},
+  pages = {278--287},
+  number = {2},
+  address = {USA},
+  issn = {1937-4771},
+  publisher = {Consortium for Computing Sciences in Colleges},
+  url = {http://dl.acm.org/citation.cfm?id=948785.948824}
+}
+
+@ARTICLE{Cole1995,
+  author = {Cole, Andy},
+  title = {{Runaway Projects - Cause and Effects}},
+  journal = {Software World (UK)},
+  year = {1995},
+  volume = {26},
+  number = {3}
+}
+
+@INPROCEEDINGS{Coram2005,
+  author = {Coram, M and Bohner, S},
+  title = {{The impact of agile methods on software project management}},
+  booktitle = {Engineering of Computer-Based Systems, 2005. ECBS '05. 12th IEEE
+	International Conference and Workshops on the},
+  year = {2005},
+  pages = {363--370},
+  doi = {10.1109/ECBS.2005.68},
+  keywords = {formal specification;project management;risk manag}
+}
+
+@INPROCEEDINGS{deBarrosSampaio2010,
+  author = {{de Barros Sampaio}, S C and Barros, E A and de Aquino, G S and e
+	Silva, M J C and {de Lemos Meira}, S R},
+  title = {{A Review of Productivity Factors and Strategies on Software Development}},
+  booktitle = {Software Engineering Advances (ICSEA), 2010 Fifth International Conference
+	on},
+  year = {2010},
+  pages = {196--204},
+  doi = {10.1109/ICSEA.2010.37},
+  keywords = {productivity;software development management;catal}
+}
+
+@BOOK{DeMarco1987,
+  title = {peopleware - productive projects and teams},
+  year = {1987},
+  author = {DeMarco, Tom and Timothy, Lister},
+  keywords = {misc ownprivate}
+}
+
+@BOOK{Dutra2004,
+  title = {{Compet\^{e}ncias: Conceitos e Instrumentos para a Gest\~{a}o de
+	Pessoas na Empresa Moderna}},
+  year = {2004},
+  editor = {Atlas},
+  author = {Dutra, Joel Souza},
+  edition = {1ª}
+}
+
+@MISC{Dutra2000,
+  author = {Dutra, Joel Souza and Hip\'{o}lito, Jos\'{e} Antonio Monteiro and
+	Silva, Cassiano Machado},
+  title = {{Gest\~{a}o de pessoas por compet\^{e}ncias: o caso de uma empresa
+	do setor de telecomunica\c{c}\~{o}es}},
+  year = {2000},
+  abstract = {A gest\~{a}o de pessoas vem passando por amplo processo de transforma\c{c}\~{a}o,
+	na medida em que os sistemas tradicionalmente utilizados como referencial
+	- centrados em cargos - v\^{e}m demonstrando fragilidades diante
+	do ambiente turbulento e mut\'{a}vel pelo qual v\^{e}m passando as
+	organiza\c{c}\~{o}es, especialmente aquelas insertas em setores de
+	vanguarda. A proposta deste artigo consiste na apresenta\c{c}\~{a}o
+	de um modelo capaz de balizar a gest\~{a}o de pessoas de forma integrada,
+	a despeito das press\~{o}es ambientais, estruturado a partir do conceito
+	de compet\^{e}ncias. A aplicabilidade do modelo \'{e} testada a partir
+	da an\'{a}lise de sua implementa\c{c}\~{a}o numa empresa do setor
+	de telecomu- nica\c{c}\~{o}es, o qual passou por profundas altera\c{c}\~{o}es
+	nos \'{u}ltimos anos. O artigo come\c{c}a com o resga- te do conceito
+	de compet\^{e}ncias, em suas diversas correntes te\'{o}ricas, seguido
+	pela apresenta\c{c}\~{a}o do setor e da empresa estudados. Em seguida,
+	listam-se os principais resultados esperados com a implementa\c{c}\~{a}o
+	do modelo e realiza-se uma an\'{a}lise do processo de implementa\c{c}\~{a}o.
+	A efici\^{e}ncia do modelo \'{e} checada a partir da percep\c{c}\~{a}o
+	dos gerentes da organiza\c{c}\~{a}o estudada, que aponta para o sucesso
+	do referencial, enquanto balizador das decis\~{o}es inerentes \`{a}
+	gest\~{a}o de pessoas},
+  booktitle = {Revista de Administra\c{c}\~{a}o Contempor\^{a}nea},
+  doi = {10.1590/S1415-65552000000100009},
+  file = {:Users/guilhermecostantin/Library/Application Support/Mendeley Desktop/Downloaded/Dutra, Hip\'{o}lito, Silva - 2000 - Gest\~{a}o de pessoas por compet\^{e}ncias o caso de uma empresa do setor de telecomunica\c{c}\~{o}es.pdf:pdf},
+  issn = {1415-6555},
+  volume = {4}
+}
+
+@ARTICLE{Edmans2011,
+  author = {Edmans, Alex},
+  title = {{Does the stock market fully value intangibles? Employee satisfaction
+	and equity prices}},
+  journal = {Journal of Financial Economics},
+  year = {2011},
+  volume = {101},
+  pages = {621--640},
+  abstract = {This paper analyzes the relationship between employee satisfaction
+	and long-run stock returns. A value-weighted portfolio of the "100
+	Best Companies to Work For in America" earned an annual four-factor
+	alpha of 3.5\% from 1984 to 2009, and 2.1\% above industry benchmarks.
+	The results are robust to controls for firm characteristics, different
+	weighting methodologies, and the removal of outliers. The Best Companies
+	also exhibited significantly more positive earnings surprises and
+	announcement returns. These findings have three main implications.
+	First, consistent with human capital-centered theories of the firm,
+	employee satisfaction is positively correlated with shareholder returns
+	and need not represent managerial slack. Second, the stock market
+	does not fully value intangibles, even when independently verified
+	by a highly public survey on large firms. Third, certain socially
+	responsible investing (SRI) screens may improve investment returns.
+	?? 2011 Elsevier B.V.},
+  doi = {10.1016/j.jfineco.2011.03.021},
+  isbn = {0304-405X},
+  issn = {0304405X},
+  keywords = {Human capital,Intangibles,Market efficiency,Socially responsible investing,Underreaction},
+  pmid = {22136637}
+}
+
+@ARTICLE{FariaSueli2005,
+  author = {{Faria Sueli}, Oliveira Vanda Fulg\^{e}ncio de Forner Liliane \&
+	D'Astuto Floriana},
+  title = {{Compet\^{e}ncias do profissional da informa\c{c}\~{a}o: uma reflex\~{a}o
+	a partir da Classifica\c{c}\~{a}o Brasileira de Ocupa\c{c}\~{o}es}},
+  journal = {Ci\^{e}ncia da Informa\c{c}\~{a}o},
+  year = {2005},
+  volume = {34},
+  pages = {26--33},
+  issn = {0100-1965},
+  publisher = {scielo},
+  url = {http://www.scielo.br/scielo.php?script=sci\_arttext\&pid=S0100-19652005000200003\&nrm=iso}
+}
+
+@MISC{Finnie1993,
+  author = {Finnie, Gavin R and Wittig, Gerhard E and Petkov, Doncho I},
+  title = {{Prioritizing software development productivity factors using the
+	analytic hierarchy process}},
+  year = {1993},
+  abstract = {This article describes a model, based on the analytic hierarchy process,
+	that allows prioritization of software development productivity factors.
+	The model handles both quantitative and qualitative variables affecting
+	the problem in a multicriteria decision-making framework. The results
+	may serve as guidelines for software managers to enhance the productivity
+	of software development.},
+  booktitle = {Journal of Systems and Software},
+  doi = {10.1016/0164-1212(93)90091-B},
+  issn = {01641212},
+  pages = {129--139},
+  volume = {22}
+}
+
+@MISC{Fleury2001,
+  author = {Fleury, Maria Tereza Leme and Fleury, Afonso},
+  title = {{Construindo o conceito de compet\^{e}ncia}},
+  year = {2001},
+  abstract = {Nos \'{u}ltimos anos, o tema compet\^{e}ncia, seu desenvolvimento,
+	sua gest\~{a}o, entrou para a pauta das discuss\~{o}es acad\^{e}micas
+	e empresariais, associado a diferentes inst\^{a}ncias de compreens\~{a}o:
+	no n\'{\i}vel da pessoa (a compet\^{e}ncia do indiv\'{\i}duo), das
+	organiza\c{c}\~{o}es (as core competences) e dos pa\'{\i}ses (sistemas
+	educacionais e forma\c{c}\~{a}o de compet\^{e}ncias). O objetivo
+	deste trabalho \'{e} recuperar o debate te\'{o}rico a respeito da
+	no\c{c}\~{a}o de compet\^{e}ncia, explicitando o conceito em seus
+	v\'{a}rios n\'{\i}veis de compreens\~{a}o, relacionando-o \`{a} estrat\'{e}gia
+	e aos processos de aprendizagem organizacional. Para tanto, o di\'{a}logo
+	entre a literatura americana e a literatura europ\'{e}ia, principalmente
+	francesa, enri- queceu a constru\c{c}\~{a}o deste conceito.},
+  booktitle = {Revista de Administra\c{c}\~{a}o Contempor\^{a}nea},
+  doi = {10.1590/S1415-65552001000500010},
+  file = {:Users/guilhermecostantin/Library/Application Support/Mendeley Desktop/Downloaded/Fleury, Fleury - 2001 - Construindo o conceito de compet\^{e}ncia.pdf:pdf},
+  issn = {1982-7849},
+  pages = {183--196},
+  volume = {5}
+}
+
+@INPROCEEDINGS{Guzzo1988,
+  author = {Guzzo, R. A.},
+  title = {{Productivity research: Reviewing psychological and economic perspectives}},
+  year = {1988},
+  pages = {63--81},
+  publisher = {Jossey-Bass Publishers}
+}
+
+@ARTICLE{Hanson1985,
+  author = {Hanson, Stephen Jos\'{e} and Rosinski, Richard R},
+  title = {{Programmer Perceptions of Productivity and Programming Tools}},
+  journal = {Commun. ACM},
+  year = {1985},
+  volume = {28},
+  pages = {180--189},
+  number = {2},
+  address = {New York, NY, USA},
+  doi = {10.1145/2786.2791},
+  issn = {0001-0782},
+  publisher = {ACM},
+  url = {http://doi.acm.org/10.1145/2786.2791}
+}
+
+@ARTICLE{Hantos2000,
+  author = {Hantos, Peter and Gisbert, Mario},
+  title = {{Identifying software productivity improvement approaches and risks:
+	Construction industry case study}},
+  journal = {IEEE Software},
+  year = {2000},
+  volume = {17},
+  pages = {48--56},
+  abstract = {The realities of the global economy are forcing US manufacturers to
+	identify ways to control software development more effectively, even
+	if the discipline presently lacks agreed-upon processes and standard
+	quality metrics. To foster improvements in software research and
+	development, interdisciplinary, cross-pollination approach can provide
+	many benefits within individual and group settings. Using a popular
+	training video from the construction industry, the authors identify
+	ways to overcome cultural, institutional, and implementation barriers
+	to software process improvement},
+  doi = {10.1109/52.819968},
+  isbn = {07407459},
+  issn = {07407459}
+}
+
+@ARTICLE{Holmes,
+  author = {Holmes, Geoffrey and Donkin, Andrew and Witten, Ian H},
+  title = {{W EKA : A Machine Learning Workbench}},
+  file = {:Users/guilhermecostantin/Library/Application Support/Mendeley Desktop/Downloaded/Holmes, Donkin, Witten - Unknown - W EKA A Machine Learning Workbench.pdf:pdf}
+}
+
+@INPROCEEDINGS{John1995,
+  author = {John, George H and Langley, Pat},
+  title = {{Estimating Continuous Distributions in Bayesian Classifiers}},
+  booktitle = {Proceedings of the Eleventh Conference on Uncertainty in Artificial
+	Intelligence},
+  year = {1995},
+  series = {UAI'95},
+  pages = {338--345},
+  address = {San Francisco, CA, USA},
+  publisher = {Morgan Kaufmann Publishers Inc.},
+  isbn = {1-55860-385-9},
+  url = {http://dl.acm.org/citation.cfm?id=2074158.2074196}
+}
+
+@BOOK{Jones2000,
+  title = {{Software Assessments, Benchmarks, and Best Practices}},
+  publisher = {Addison-Wesley Longman Publishing Co., Inc.},
+  year = {2000},
+  author = {Jones, Capers},
+  address = {Boston, MA, USA},
+  isbn = {0-201-48542-7}
+}
+
+@BOOK{Jones1997,
+  title = {{Applied software measurement: assuring productivity and quality}},
+  year = {1997},
+  author = {Jones, Capers},
+  abstract = {Software measurement has quickly earned its place as the best method
+	to ensureproductivity and quality control. But since the original
+	publication of thisdefinitive work-which introduced the science and
+	put it on the map-metricshave grown far more complex. This edition
+	addresses the massive measurementchanges wrought by new technologies
+	and paradigms, as well as outsourcing andreenginering. A true classic
+	in the literature of information systems, thesecond edition fully
+	discusses software metrics in relation to areas of acuteinterest
+	today.},
+  booktitle = {Mc},
+  isbn = {0070328137},
+  pmid = {569014},
+  url = {http://books.google.ch/books/about/Applied\_software\_measurement.html?id=U9JQAAAAMAAJ\&redir\_esc=y}
+}
+
+@BOOK{Jones1986,
+  title = {{Programming Productivity: Steps Toward a Science. McGraw-Hill Series
+	in Software Engineering and Technology.}},
+  publisher = {McGraw-Hill},
+  year = {1986},
+  author = {Jones, C.}
+}
+
+@INPROCEEDINGS{Khoshgoftaar2003,
+  author = {Khoshgoftaar, T M and Nguyen, L and Gao, Kehan and Rajeevalochanam,
+	J},
+  title = {{Application of an attribute selection method to CBR-based software
+	quality classification}},
+  booktitle = {Tools with Artificial Intelligence, 2003. Proceedings. 15th IEEE
+	International Conference on},
+  year = {2003},
+  pages = {47--52},
+  doi = {10.1109/TAI.2003.1250169},
+  issn = {1082-3409},
+  keywords = {case-based reasoning;software engineering;software}
+}
+
+@INPROCEEDINGS{Kira1992,
+  author = {Kira, Kenji and Rendell, Larry A},
+  title = {{The Feature Selection Problem: Traditional Methods and a New Algorithm}},
+  booktitle = {Proceedings of the Tenth National Conference on Artificial Intelligence},
+  year = {1992},
+  series = {AAAI'92},
+  pages = {129--134},
+  publisher = {AAAI Press},
+  isbn = {0-262-51063-4},
+  url = {http://dl.acm.org/citation.cfm?id=1867135.1867155}
+}
+
+@ARTICLE{Kohavi1997,
+  author = {Kohavi, Ron and John, George H.},
+  title = {{Wrappers for feature subset selection}},
+  journal = {Artificial Intelligence},
+  year = {1997},
+  volume = {97},
+  pages = {273--324},
+  number = {1-2},
+  month = dec,
+  abstract = {In the feature subset selection problem, a learning algorithm is faced
+	with the problem of selecting a relevant subset of features upon
+	which to focus its attention, while ignoring the rest. To achieve
+	the best possible performance with a particular learning algorithm
+	on a particular training set, a feature subset selection method should
+	consider how the algorithm and the training set interact. We explore
+	the relation between optimal feature subset selection and relevance.
+	Our wrapper method searches for an optimal feature subset tailored
+	to a particular algorithm and a domain. We study the strengths and
+	weaknesses of the wrapper approach and show a series of improved
+	designs. We compare the wrapper approach to induction without feature
+	subset selection and to Relief, a filter approach to feature subset
+	selection. Significant improvement in accuracy is achieved for some
+	datasets for the two families of induction algorithms used: decision
+	trees and Naive-Bayes.},
+  doi = {10.1016/S0004-3702(97)00043-X},
+  file = {:Users/guilhermecostantin/Library/Application Support/Mendeley Desktop/Downloaded/Kohavi, John - 1997 - Wrappers for feature subset selection.pdf:pdf},
+  issn = {00043702},
+  keywords = {Classification,Feature selection,Filter,Wrapper},
+  url = {http://www.sciencedirect.com/science/article/pii/S000437029700043X}
+}
+
+@MISC{Lakhanpal1993,
+  author = {Lakhanpal, B},
+  title = {{Understanding the factors influencing the performance of software
+	development groups: An exploratory group-level analysis}},
+  year = {1993},
+  abstract = {$\backslash$nThe increasing complexity and size of software systems
+	makes the performance and productivity of the software development
+	activity a critical issue. Most studies of software development performance
+	to date have focused on individual software developers. However,
+	software development, especially for large-scale software projects,
+	is a group effort in which the characteristics of the group itself
+	play an important role. The paper examines the variation in the performance
+	of software development groups as a function of the characteristics
+	of the group itself. Using data from 31 software development groups,
+	we examined the influence of the group's cohesiveness, total experience
+	in software development and capability on the group's performance
+	level. The influence of cohesiveness and capability was found to
+	be strong and significant while the influence of experience was the
+	weakest. The results from this exploratory research provide interesting
+	insights into the issue of software development performance and offer
+	important implications for development teams working on software
+	projects.},
+  booktitle = {Information and Software Technology},
+  doi = {10.1016/0950-5849(93)90044-4},
+  issn = {09505849},
+  pages = {468--473},
+  volume = {35}
+}
+
+@ARTICLE{Lalsing2012,
+  author = {Lalsing, Vikash and Kishnah, Somveer and Pudaruth, Sameerchand},
+  title = {{People Factors in Agile Software Development and Project Management}},
+  journal = {International Journal of Software Engineering \& Applications},
+  year = {2012},
+  volume = {3},
+  pages = {117--138},
+  abstract = {With the increasing popularity of Agile Methods, many software organisations
+	are moving away from traditional methods to adopt Agile development
+	methodologies. Instead of being predictive, Agile is rather adaptive
+	and people-focussed. It advocates a small and collaborative team
+	that work closely together. But team size is a factor that is in
+	turn constrained by people factors. When implementing Agile, these
+	key factors are often overlooked. This study aims at identifying
+	the underlying people factors to consider when adopting Agile for
+	a team to be effective. The method used is the study of three different
+	sized Agile teams developing products based on the same technologies
+	and using Scrum. Both objective and subjective measures were used
+	and the results are supported by a survey. The results clearly show
+	that for agile methodologies to work well, it is crucial to select
+	the right people for the right team.},
+  keywords = {Agile Methodology,Agile Teams,Project Management,Scrum,Software Development},
+  url = {http://airccse.org/journal/ijsea/papers/3112ijsea09.pdf}
+}
+
+@INPROCEEDINGS{Lokan2001,
+  author = {Lokan, C. J.},
+  title = {{Impact of Subjective Factors on Software Productivity}},
+  booktitle = {Proceedings of 7th Australian Conference on Software Metrics},
+  year = {2001},
+  address = {Melbourne}
+}
+
+@ARTICLE{Maxwell2000,
+  author = {Maxwell, K D and Forselius, P},
+  title = {{Benchmarking software development productivity}},
+  journal = {Software, IEEE},
+  year = {2000},
+  volume = {17},
+  pages = {80--88},
+  abstract = {The article examines a statistical analysis of a productivity$\backslash$nvariation,
+	involving a unique database containing 206 business software$\backslash$nprojects
+	from 26 Finnish companies. The authors examine differences in$\backslash$nthe
+	factors, explaining productivity in the banking, insurance,$\backslash$nmanufacturing,
+	wholesale/retail, and public administration sectors. The$\backslash$nauthors
+	provide productivity benchmarking equations that are useful both$\backslash$nfor
+	estimating expected productivity at the start of a new project and$\backslash$nfor
+	benchmarking a completed project for each business sector},
+  doi = {10.1109/52.820015},
+  issn = {0740-7459},
+  keywords = {business data processing;software metrics;software}
+}
+
+@ARTICLE{McLean1996,
+  author = {McLean, Ephraim R. and Smits, Stanley J. and Tanner, John R.},
+  title = {{The importance of salary on job and career attitudes of information
+	systems professionals}},
+  journal = {Information and Management},
+  year = {1996},
+  volume = {30},
+  pages = {291--299},
+  abstract = {In labeling pay or money as a "mere" hygiene factor, Frederick Herzberg
+	set off a controversy that has continued up to the present by asking:
+	Does money matter? Our study, involving several hundred I/S graduates
+	over a four-year period, measures the importance of "above-average
+	salaries" to these graduates as they progress through the early months
+	of their I/S careers. Initially, salary is ranked highly; but as
+	time passes, other factors tend to crowd out salary in importance.
+	It loses its role as a motivator; and, as Herzberg suggests, becomes
+	a hygiene factor.},
+  doi = {10.1016/S0378-7206(96)01059-2},
+  issn = {03787206},
+  keywords = {Careers,Money,Motivation,Pay,Salary},
+  pmid = {1175}
+}
+
+@INPROCEEDINGS{Melo2011,
+  author = {Melo, C and Cruzes, D S and Kon, F and Conradi, R},
+  title = {{Agile Team Perceptions of Productivity Factors}},
+  booktitle = {Agile Conference (AGILE), 2011},
+  year = {2011},
+  pages = {57--66},
+  doi = {10.1109/AGILE.2011.35},
+  keywords = {productivity;software development management;softw}
+}
+
+@INPROCEEDINGS{Morrison2013,
+  author = {Morrison, Patrick and Murphy-Hill, Emerson},
+  title = {{Is Programming Knowledge Related to Age? An Exploration of Stack
+	Overflow}},
+  booktitle = {Proceedings of the 10th Working Conference on Mining Software Repositories},
+  year = {2013},
+  series = {MSR '13},
+  pages = {69--72},
+  address = {Piscataway, NJ, USA},
+  publisher = {IEEE Press},
+  isbn = {978-1-4673-2936-1},
+  url = {http://dl.acm.org/citation.cfm?id=2487085.2487102}
+}
+
+@ARTICLE{Parrish2004,
+  author = {Parrish, A and Smith, R and Hale, D and Hale, J},
+  title = {{A field study of developer pairs: productivity impacts and implications}},
+  journal = {Software, IEEE},
+  year = {2004},
+  volume = {21},
+  pages = {76--79},
+  number = {5},
+  doi = {10.1109/MS.2004.1331306},
+  issn = {0740-7459},
+  keywords = { A.;Researchers have reported varied, D.;Hale, J.;Journal paper;Parrish,
+	R.;University of Alabama;agile software processes, even disparate,
+	findings about the productivity of paired versus ,productivity;software
+	development management;softw}
+}
+
+@BOOK{Quinlan1993,
+  title = {{C4.5: Programs for Machine Learning}},
+  publisher = {Morgan Kaufmann Publishers Inc.},
+  year = {1993},
+  author = {Quinlan, J Ross},
+  address = {San Francisco, CA, USA},
+  isbn = {1-55860-238-0}
+}
+
+@INPROCEEDINGS{Rasch1991,
+  author = {Rasch, Ronald H},
+  title = {{An Investigation of Factors That Impact Behavioral Outcomes of Software
+	Engineers}},
+  booktitle = {Proceedings of the 1991 Conference on SIGCPR},
+  year = {1991},
+  series = {SIGCPR '91},
+  pages = {38--53},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  doi = {10.1145/111084.111090},
+  isbn = {0-89791-389-2},
+  url = {http://doi.acm.org/10.1145/111084.111090}
+}
+
+@INCOLLECTION{Scacchi1995,
+  author = {Scacchi, Walt and Hurley, D},
+  title = {{Understanding software productivity}},
+  booktitle = {Software Engineering and Knowledge Engineering: Trends for the Next
+	Decade},
+  year = {1995},
+  volume = {4},
+  pages = {273--316},
+  abstract = {What affects software productivity and how do we improve it? This
+	report examines the current state of the art in software productivity
+	measurement. In turn, it describes a framework for understanding
+	software productivity, some fundamentals of measurement, surveys
+	empirical studies of software productivity, and identifies challenges
+	involved in measuring software productivity. A radical alternative
+	to current approaches is suggested: to construct, evaluate, deploy,
+	and evolve a knowledge­based `software productivity modeling and
+	simulation system' using tools and techniques from the domain of
+	software process engineering.},
+  url = {http://books.google.com/books?hl=en\&lr=\&id=bDlZa4KvFGgC\&oi=fnd\&pg=PA273\&dq=Understanding+software+productivity\&ots=TFYqI5HTtY\&sig=QBz5suT4\_1Fwjkp-NwO0ZMeGEIY}
+}
+
+@BOOK{Schwaber2004,
+  title = {{Agile Project Management With Scrum}},
+  publisher = {Microsoft Press},
+  year = {2004},
+  author = {Schwaber, Ken},
+  address = {Redmond, WA, USA},
+  isbn = {073561993X}
+}
+
+@ARTICLE{Scudder1991,
+  author = {Scudder, Richard A and Kucic, A Ronald},
+  title = {{Productivity Measures for Information Systems}},
+  journal = {Inf. Manage.},
+  year = {1991},
+  volume = {20},
+  pages = {343--354},
+  number = {5},
+  address = {Amsterdam, The Netherlands, The Netherlands},
+  doi = {10.1016/0378-7206(91)90033-X},
+  issn = {0378-7206},
+  publisher = {Elsevier Science Publishers B. V.},
+  url = {http://dx.doi.org/10.1016/0378-7206(91)90033-X}
+}
+
+@ARTICLE{Sharp2009,
+  author = {Sharp, Helen and Baddoo, Nathan and Beecham, Sarah and Hall, Tracy
+	and Robinson, Hugh},
+  title = {{Models of Motivation in Software Engineering}},
+  journal = {Inf. Softw. Technol.},
+  year = {2009},
+  volume = {51},
+  pages = {219--233},
+  number = {1},
+  address = {Newton, MA, USA},
+  doi = {10.1016/j.infsof.2008.05.009},
+  issn = {0950-5849},
+  keywords = { Motivation, Project management, Systematic literature review,Human
+	factors},
+  publisher = {Butterworth-Heinemann},
+  url = {http://dx.doi.org/10.1016/j.infsof.2008.05.009}
+}
+
+@INPROCEEDINGS{Sharpe2005,
+  author = {Sharpe, J L and Cangussu, J W},
+  title = {{A productivity metric based on statistical pattern recognition}},
+  booktitle = {Computer Software and Applications Conference, 2005. COMPSAC 2005.
+	29th Annual International},
+  year = {2005},
+  volume = {1},
+  pages = {59--64 Vol. 2},
+  doi = {10.1109/COMPSAC.2005.31},
+  issn = {0730-3157},
+  keywords = {pattern clustering;productivity;software developme}
+}
+
+@INPROCEEDINGS{Sinha2013,
+  author = {Sinha, Vibha Singhal and Mani, Senthil and Gupta, Monika},
+  title = {{Exploring Activeness of Users in QA Forums}},
+  booktitle = {Proceedings of the 10th Working Conference on Mining Software Repositories},
+  year = {2013},
+  series = {MSR '13},
+  pages = {77--80},
+  address = {Piscataway, NJ, USA},
+  publisher = {IEEE Press},
+  isbn = {978-1-4673-2936-1},
+  url = {http://dl.acm.org/citation.cfm?id=2487085.2487104}
+}
+
+@MASTERSTHESIS{Spiegl2007,
+  author = {Spiegl, Klaus},
+  title = {{Projektmanagement life - Best Practices und Significant Events im
+	Software Projektmanagement}},
+  year = {2007},
+  abstract = {Noch immer gelingt es einem Gro\{\ss\}teil der Software-Entwicklungsprojekte
+	nicht, die geforderten Funktionalit\{\"{a}\}ten in der vorgegeben
+	Zeit mit den geplanten Ressourcen umzusetzen. In den letzten Jahren
+	entstanden in vielen Bereichen des Projektmanagements immer mehr
+	Methoden und Entwicklungsphilosophien, welche einen "Pool" von "Best
+	Practices" verwenden. Dieser Methodenpool sollte den Projektmanagern
+	die Arbeit erleichtern und die Erfolgsquote der Projekte verbessern.
+	Was bedeuten "Best Practices" f\{\"{u}\}r Projektleiter und den Projekterfolg
+	jedoch wirklich?
+	
+	Mit dieser Arbeit wurden zwei Ziele verfolgt. Das erste Ziel war das
+	"Nebeneinander-Stellen" des theoretischen Projektmanagements (Literatur)
+	und des Projektmanagementalltags (Interviews). Das zweite Ziel war
+	die Ausarbeitung und Analyse von "Best Practices" und "Significant
+	Events" im Rahmen der Experteninterviews. Die Daten wurden mittels
+	halbstrukturierten Interviews mit erfahrenen Projektleitern und CIOs
+	zu den Themen "Best Practices" und "Significant Events" erhoben.
+	
+	
+	Die Interviewdaten wurden in folgende Richtungen ausgewertet: Welche
+	Erfahrungen haben erfahrene Projektleiter und CIOs in ihrer Karrierelaufbahn
+	gemacht? Wo "zwickt es" im t\{\"{a}\}glichen Projektgesch\{\"{a}\}ft?
+	Was sind immer wiederkehrende Probleme und was sind die ganz pers\{\"{o}\}nlichen
+	L\{\"{o}\}sungs- und Erfolgsstrategien der Entscheidungstr\{\"{a}\}ger
+	f\{\"{u}\}r diese Probleme. Es wurden die allt\{\"{a}\}glichen Probleme,
+	deren Ursachen und Auswirkungen aufzeigt, mit welchen Projektmanager
+	im Rahmen eines Softwareprojektes in der Praxis regelm\{\"{a}\}\{\ss\}ig
+	konfrontiert sind.
+	
+	
+	Weiters wurden signifikante Ereignisse aus abgeschlossenen Projekten
+	n\{\"{a}\}her betrachtet. Dabei wurden Antworten auf die Fragen "Wie
+	kam es zu diesem Ereignis?", "Welche Personen (Rollen) spielten eine
+	wesentliche Rolle?", "Wie h\{\"{a}\}tte man diese Situation verhindern
+	k\{\"{o}\}nnen bzw. wie kann man gezielt auf diese Situation "hinarbeiten"?",
+	"Was kann man dadurch allgemein f\{\"{u}\}r (zuk\{\"{u}\}nftige)
+	Software-Projekte ableiten?" und "Was f\{\"{u}\}r Auswirkungen hatte
+	das Ereignis auf den Projektverlauf?" gesucht. Die daf\{\"{u}\}r
+	aus den verschiedenen Einzelinterviews erhobenen signifikanten Ereignisse
+	wurden miteinander verglichen, um \{\"{A}\}hnlichkeiten herauszufinden.},
+  publisher = {Universit\{\"{a}\}t Wien \& Technische Universit\{\"{a}\}t Wien},
+  url = {http://eprints.cs.univie.ac.at/467/}
+}
+
+@INPROCEEDINGS{Thung2013,
+  author = {Thung, F and Bissyande, T F and Lo, D and Jiang, Lingxiao},
+  title = {{Network Structure of Social Coding in GitHub}},
+  booktitle = {Software Maintenance and Reengineering (CSMR), 2013 17th European
+	Conference on},
+  year = {2013},
+  pages = {323--326},
+  doi = {10.1109/CSMR.2013.41},
+  issn = {1534-5351},
+  keywords = {graph theory;groupware;social networking (online);}
+}
+
+@ARTICLE{Turcotte2004,
+  author = {Turcotte, Julie and Rennison, Lori Whewell},
+  title = {{The Link between Technology Use, Human Capital, Productivity and
+	Wages: Firm-level Evidence}},
+  journal = {International Productivity Monitor},
+  year = {2004},
+  volume = {9},
+  pages = {25--36},
+  abstract = {Arguably the most important development in the Canadian workplace
+	in recent years has been the massive introduction of information
+	and communications technologies (ICT). The impact of this development
+	on a range of variables, including productivity and wages, are manifold,
+	but are still poorly understood. Julie Turcotte and Lori Whewell
+	Rennison of Finance Canada examine the effects of education, training
+	and technology use on productivity and wages at the firm level. They
+	make innovative use of Statistics Canada’s Workplace and Employee
+	Survey, which allows the linking of the characteristics of workers
+	in a firm to firm performance measures. They find that productivity
+	is higher: the more intensively technology is used in the firm; the
+	greater the proportion of university educated workers; the greater
+	the participation of workers in formal training programs; the greater
+	the proportion of workers who receive computer training; and the
+	greater the firm’s export orientation. A key finding with important
+	policy implications is that computer skills training can augment
+	the qualifications of lower-skilled workers and consequently boost
+	firm productivity.},
+  keywords = {Human Capital; Productivity; Firm-level; Wages; Tr},
+  url = {http://ideas.repec.org/a/sls/ipmsls/v9y20043.html}
+}
+
+@INPROCEEDINGS{Vasilescu2013,
+  author = {Vasilescu, Bogdan and Filkov, Vladimir and Serebrenik, Alexander},
+  title = {{StackOverflow and GitHub: associations between software development
+	and crowdsourced knowledge}},
+  booktitle = {Proceedings of the 2013 ASE/IEEE International Conference on Social
+	Computing. IEEE},
+  year = {2013},
+  pages = {188--195}
+}
+
+@INPROCEEDINGS{Vosburgh1984,
+  author = {Vosburgh, J. and Curtis, B. and Wolverton, R. and Albert, B. and
+	Malec, H. and Hoben, S. and Liu, Y.},
+  title = {{Productivity factors and programming environments}},
+  booktitle = {ICSE '84 Proceedings of the 7th International Conference on Software
+	Engineering},
+  year = {1984},
+  pages = {143--152},
+  abstract = {Fourteen factors that influence the efficiency of programming projects
+	were identified in a corporate-wide study of 44 ITT programming projects
+	in nine countries. Productivity factors were classified according
+	to project management's ability to control them. Product-related
+	factors are not generally under the control of project management.
+	They describe intrinsic properties of the programming product and
+	tend to place limitations on achievable productivity. Project-related
+	factors, on the other hand, are controllable by project management
+	to varying degrees. These factors provide real opportunities for
+	productivity improvement. The analysis indicates that productivity
+	variation is almost equally attributable to product-related and project-related
+	factors.},
+  isbn = {0-8186-0528-6},
+  url = {http://dl.acm.org/citation.cfm?id=800054.801963}
+}
+
+@TECHREPORT{Wagner2008,
+  author = {Wagner, S and Ruhe, M},
+  title = {{A Structured Review of Productivity Factors in Software Development
+	Technical }},
+  year = {2008}
+}
+
+@ARTICLE{Wallace2004,
+  author = {Wallace, Linda and Keil, Mark and Rai, Arun},
+  title = {{Understanding Software Project Risk: A Cluster Analysis}},
+  journal = {Inf. Manage.},
+  year = {2004},
+  volume = {42},
+  pages = {115--125},
+  number = {1},
+  address = {Amsterdam, The Netherlands, The Netherlands},
+  doi = {10.1016/j.im.2003.12.007},
+  issn = {0378-7206},
+  keywords = { outsourcing, project management, scope, software project risk,cluster
+	analysis},
+  publisher = {Elsevier Science Publishers B. V.},
+  url = {http://dx.doi.org/10.1016/j.im.2003.12.007}
+}
+
+@MISC{Walston1977,
+  author = {Walston, C. E. and Felix, C. P.},
+  title = {{A method of programming measurement and estimation}},
+  year = {1977},
+  abstract = {Improvements in programming technology have paralleled improvements
+	in computing system architecture and materials. Along with increasing
+	knowledge of the system and program development processes, there
+	has been some notable research into programming project measurement,
+	estimation, and planning. Discussed is a method of programming project
+	productivity estimation. Also presented are preliminary results of
+	research into methods of measuring and estimating programming project
+	duration, staff size, and computer cost.},
+  booktitle = {IBM Systems Journal},
+  doi = {10.1147/sj.161.0054},
+  issn = {0018-8670},
+  pages = {54--73},
+  pmid = {245},
+  volume = {16}
+}
+
+@BOOK{Witten2005,
+  title = {{Data Mining: Practical Machine Learning Tools and Techniques, Second
+	Edition (Morgan Kaufmann Series in Data Management Systems)}},
+  publisher = {Morgan Kaufmann Publishers Inc.},
+  year = {2005},
+  author = {Witten, Ian H and Frank, Eibe},
+  address = {San Francisco, CA, USA},
+  isbn = {0120884070}
+}
+
+@ARTICLE{Wohlin1995,
+  author = {Wohlin, Claes and Ahlgren, Magnus},
+  title = {{Soft factors and their impact on time to market}},
+  journal = {Software Quality Journal},
+  year = {1995},
+  volume = {4},
+  pages = {189--205},
+  abstract = {Time to market is considered to be one of the most important quality
+	attributes for an organization to retain its competitive edge. Soft
+	factors are at least as important as technical issues in improving
+	and controlling the time to market. Soft factors are used as a collective
+	term for factors that are difficult to quantify exactly, i.e. non-technical
+	aspects. Based on the identified importance of the soft factors,
+	a method, incorporating the soft factors, has been developed to increase
+	the predictability of time to market. The method consists of three
+	main parts: model development, model usage and model maintenance.
+	The proposed method is general, while the actual model is primarily
+	useful for the organization for which data have been collected. The
+	objective is two-fold: first to prevent a general method of incorporating
+	soft factors into the prediction of the time to market, and secondly
+	to identify a set of critical soft factors for the organization in
+	which data have been collected. The model is based on data collection
+	from 12 large software projects. Time to market, effort (manhours)
+	and a grade for ten soft factors have been collected. The model is
+	derived from a set of eight projects and it is evaluated using the
+	remaining four projects. The method is shown to be superior to the
+	prediction made without taking the soft factors into account. The
+	need to maintain the model is stressed as the model will evolve with
+	time through new experiences gained. The proposed method can be applied
+	in practice to help software engineers and managers to plan and control
+	time to market and soft factors in software projects.},
+  doi = {10.1007/BF01351923},
+  issn = {09639314},
+  keywords = {metrics,productivity,soft factors,time to market}
+}
+
+@ARTICLE{Wohlin2001,
+  author = {Wohlin, Claes and Andrews, Anneliese Amschler},
+  title = {{Assessing Project Success Using Subjective Evaluation Factors}},
+  journal = {Software Quality Journal},
+  year = {2001},
+  volume = {9},
+  pages = {43--70},
+  abstract = {Project evaluation is essential to understand and assess the key aspects
+	of a project that make it either a success or failure. The latter
+	is influenced by a large number of factors, and many times it is
+	hard to measure them objectively. This paper addresses this by introducing
+	a new method for identifying and assessing key project characteristics,
+	which are crucial for a project's success. The method consists of
+	a number of well-defined steps, which are described in detail. The
+	method is applied to two case studies from different application
+	domains and continents. It is concluded that patterns are possible
+	to detect from the data sets. Further, the analysis of the two data
+	sets shows that the proposed method using subjective factors is useful,
+	since it provides an increased understanding, insight and assessment
+	of which project factors might affect project success.},
+  doi = {10.1023/A:1016673203332},
+  isbn = {09639314},
+  issn = {09639314},
+  keywords = {Project assessment,Project success,Subjective measures}
+}
+
+@INPROCEEDINGS{Yu1991,
+  author = {Yu, W D and Smith, D P and Huang, S T},
+  title = {{Software productivity measurements}},
+  booktitle = {Computer Software and Applications Conference, 1991. COMPSAC '91.,
+	Proceedings of the Fifteenth Annual International},
+  year = {1991},
+  pages = {558--564},
+  doi = {10.1109/CMPSAC.1991.170239},
+  keywords = {DP management;software metrics;5ESS switch;managem}
+}
+

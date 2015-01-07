@@ -12,6 +12,13 @@
   1991.
 ISBN 0-13-822040-9.}
 
+\bibitem[{Agrell, A. and Gustafson} 1994]{AgrellA.andGustafson1994}
+\abntrefinfo{{Agrell, A. and Gustafson}}{{Agrell, A. and Gustafson}}{1994}
+{{Agrell, A. and Gustafson}, R. {The Team Climate Inventory (TCI) and group
+  innovation: A psychometric test on a Swedish sample of work groups}.
+\textbf{Journal of Occupational and Organizational Psychology}, v.~67, p.
+  143--151, 1994.}
+
 \bibitem[Alper, Tjosvold e Law 2000]{Alper2000}
 \abntrefinfo{Alper, Tjosvold e Law}{ALPER; TJOSVOLD; LAW}{2000}
 {ALPER, S.; TJOSVOLD, D.; LAW, K.~S. {Conflict Management, Efficacy, and
@@ -32,6 +39,14 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Banker, Datar e Kemerer}{BANKER; DATAR; KEMERER}{1991}
 {\underline{\ \ \ \ \ \ \ \ }. \textbf{{A Model to Evaluate Variables Impacting
   the Productivity of Software Maintenance Projects}}. 1991. 1--18~p.}
+
+\bibitem[Basili, Caldiera e Rombach 1994]{Basili1994}
+\abntrefinfo{Basili, Caldiera e Rombach}{BASILI; CALDIERA; ROMBACH}{1994}
+{BASILI, V.~R.; CALDIERA, G.; ROMBACH, H.~D. {The goal question metric
+  approach}.
+\textbf{Encyclopedia of Software Engineering}, Wiley, v.~2, p. 528--532, 1994.
+Dispon{\'\i}vel em: \url{http://maisqual.squoring.com/wiki/index.php/The Goal
+  Question Metric Approach}.}
 
 \bibitem[Boehm 1984]{Boehm1984}
 \abntrefinfo{Boehm}{BOEHM}{1984}
@@ -141,6 +156,13 @@ Dispon{\'\i}vel em: \url{http://dl.acm.org/citation.cfm?id=948785.948824}.}
 {DUTRA, J.~S. \textbf{{Compet\^{e}ncias: Conceitos e Instrumentos para a
   Gest\~{a}o de Pessoas na Empresa Moderna}}. 1ª. ed. [S.l.: s.n.], 2004.}
 
+\bibitem[Edmans 2011]{Edmans2011}
+\abntrefinfo{Edmans}{EDMANS}{2011}
+{EDMANS, A. {Does the stock market fully value intangibles? Employee
+  satisfaction and equity prices}.
+\textbf{Journal of Financial Economics}, v.~101, p. 621--640, 2011.
+ISSN 0304405X.}
+
 \bibitem[{Faria Sueli} 2005]{FariaSueli2005}
 \abntrefinfo{{Faria Sueli}}{{Faria Sueli}}{2005}
 {{Faria Sueli}, O. V. F. d. F. L. . D.~F. {Compet\^{e}ncias do profissional da
@@ -206,6 +228,23 @@ ISBN 0070328137. Dispon{\'\i}vel em:
   Inc., 2000.
 ISBN 0-201-48542-7.}
 
+\bibitem[Kira e Rendell 1992]{Kira1992}
+\abntrefinfo{Kira e Rendell}{KIRA; RENDELL}{1992}
+{KIRA, K.; RENDELL, L.~A. {The Feature Selection Problem: Traditional Methods
+  and a New Algorithm}. In:  \textbf{Proceedings of the Tenth National
+  Conference on Artificial Intelligence}. AAAI Press, 1992.  (AAAI'92), p.
+  129--134.
+ISBN 0-262-51063-4. Dispon{\'\i}vel em:
+  \url{http://dl.acm.org/citation.cfm?id=1867135.1867155}.}
+
+\bibitem[Kohavi e John 1997]{Kohavi1997}
+\abntrefinfo{Kohavi e John}{KOHAVI; JOHN}{1997}
+{KOHAVI, R.; JOHN, G.~H. {Wrappers for feature subset selection}.
+\textbf{Artificial Intelligence}, v.~97, n.~1-2, p. 273--324, dez. 1997.
+ISSN 00043702.
+Dispon{\'\i}vel em:
+  \url{http://www.sciencedirect.com/science/article/pii/S000437029700043X}.}
+
 \bibitem[Lakhanpal 1993]{Lakhanpal1993}
 \abntrefinfo{Lakhanpal}{LAKHANPAL}{1993}
 {LAKHANPAL, B. \textbf{{Understanding the factors influencing the performance
@@ -234,10 +273,23 @@ Dispon{\'\i}vel em:
 \textbf{Software, IEEE}, v.~17, p. 80--88, 2000.
 ISSN 0740-7459.}
 
+\bibitem[McLean, Smits e Tanner 1996]{McLean1996}
+\abntrefinfo{McLean, Smits e Tanner}{MCLEAN; SMITS; TANNER}{1996}
+{MCLEAN, E.~R.; SMITS, S.~J.; TANNER, J.~R. {The importance of salary on job
+  and career attitudes of information systems professionals}.
+\textbf{Information and Management}, v.~30, p. 291--299, 1996.
+ISSN 03787206.}
+
 \bibitem[Melo et al. 2011]{Melo2011}
 \abntrefinfo{Melo et al.}{MELO et al.}{2011}
 {MELO, C. et al. {Agile Team Perceptions of Productivity Factors}. In:
   \textbf{Agile Conference (AGILE), 2011}. [S.l.: s.n.], 2011. p. 57--66.}
+
+\bibitem[Quinlan 1993]{Quinlan1993}
+\abntrefinfo{Quinlan}{QUINLAN}{1993}
+{QUINLAN, J.~R. \textbf{{C4.5: Programs for Machine Learning}}. San Francisco,
+  CA, USA: Morgan Kaufmann Publishers Inc., 1993.
+ISBN 1-55860-238-0.}
 
 \bibitem[Rasch 1991]{Rasch1991}
 \abntrefinfo{Rasch}{RASCH}{1991}
@@ -297,6 +349,14 @@ ISSN 0740-7459.}
   Productivity and Wages: Firm-level Evidence}.
 \textbf{International Productivity Monitor}, v.~9, p. 25--36, 2004.
 Dispon{\'\i}vel em: \url{http://ideas.repec.org/a/sls/ipmsls/v9y20043.html}.}
+
+\bibitem[Vasilescu, Filkov e Serebrenik 2013]{Vasilescu2013}
+\abntrefinfo{Vasilescu, Filkov e Serebrenik}{VASILESCU; FILKOV;
+  SEREBRENIK}{2013}
+{VASILESCU, B.; FILKOV, V.; SEREBRENIK, A. {StackOverflow and GitHub:
+  associations between software development and crowdsourced knowledge}. In:
+  \textbf{Proceedings of the 2013 ASE/IEEE International Conference on Social
+  Computing. IEEE}. [S.l.: s.n.], 2013. p. 188--195.}
 
 \bibitem[Vosburgh et al. 1984]{Vosburgh1984}
 \abntrefinfo{Vosburgh et al.}{VOSBURGH et al.}{1984}

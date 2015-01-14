@@ -1,10 +1,9 @@
 \chapter[Introdução]{Introdução}
 
-\section{Considerações Iniciais}\label{secao1.1}
 Atualmente, as empresas em geral estão investindo em técnicas para aumento de produtividade, com o intuito de aumentar a competitividade no mercado, e isso não é diferente para a indústria de software, que permanece investindo em métodos, ferramentas e melhores práticas para ter um ganho na produção de seu software \cite{deBarrosSampaio2010}.
 Porém, diferentemente do hardware, que tem ganhos em ordens de magnitude de preço e performance por década, a produção de software parece ter dificuldade em evoluir \cite{Boehm1987}. As taxas de produtividade atuais são similares às taxas de décadas atrás (uma ou duas linhas de código por homem-hora)\cite{Boehm1987}. Brooks et al. \cite{BrooksJr1987} afirma ainda que não há nenhuma técnica, seja de tecnologia ou de gerenciamento, que por si só prometa um aumento de uma ordem de magnitude na produtividade, simplicidade e confiabilidade do software.
 
-Os métodos tradicionais para se medir produtividade em desenvolvimento de software são baseados em linhas de código (LOC) e pontos de função (FP)\cite{Wagner2008}, por exemplo, a quantidade de LOC ou FP produzidos por um desenvolvedor em uma hora. Uma definição um pouco mais abstrata coloca produtividade como sendo os outputs entregues pelos inputs consumidos, podendo os outputs ser LOC, FP ou alguma outra saída considerada relevante, e inputs como recursos utilizados para produzir aquela saída (tempo, pessoal, etc), como mostrado na Equação 1 \cite{Boehm1987, Walston1977, Yu1991}.
+Os métodos tradicionais para se medir produtividade em desenvolvimento de software são baseados em linhas de código (LOC) e pontos de função (FP)\cite{Wagner2008}, por exemplo, a quantidade de LOC ou FP produzidos por um desenvolvedor em uma hora. Uma definição um pouco mais abstrata coloca produtividade como sendo os outputs entregues pelos inputs consumidos, podendo os outputs ser LOC, FP ou alguma outra saída considerada relevante, e inputs como recursos utilizados para produzir aquela saída (tempo, pessoal, etc), como mostrado na equação abaixo \cite{Boehm1987, Walston1977, Yu1991}.
 
 \begin{equation}
 \text{Produtividade} = \dfrac{\text{outputs produzidos pelo processo}}{\text{inputs consumidos pelo processo}}
@@ -13,7 +12,7 @@ Os métodos tradicionais para se medir produtividade em desenvolvimento de softw
 \section{Problema e Motivação}\label{secao1.2}
 Dentro das empresas de TI, geralmente é encontrado um departamento de recursos humanos ou desenvolvimento pessoal. Esses departamentos são responsáveis pela devida remuneração e determinação de cargos e posições dentro das empresas, e geralmente o fazem com base em avaliações de desempenho vinda dos supervisores responsáveis de cada área. Geralmente, encontramos um ou mais supervisores ou gerentes responsáveis na área de desenvolvimento, comumente conhecida pelos nomes de indústria ou fábrica de software.
 
-Utilizar apenas o método tradicional citado na seção \ref{secao1.1} para avaliar o desempenho de um desenvolvedor pode ser muito negativo para a empresa. Esse método de avaliar apenas LOC por exemplo é considerado primitivo e produz resultados que não estão de acordo com a realidade \cite{Symons2010}. Quantidade de linhas de código não leva em consideração o esforço necessário para escreve-las, nem o conhecimento que serviu de base para o mesmo acontecer. Problemas complexos, por exemplo, geralmente necessitam de um desenvolvedor mais experiente para serem resolvidos, e muitas vezes, não são necessárias muitas linhas de código para o fazer.
+Utilizar apenas o método tradicional acima para avaliar o desempenho de um desenvolvedor pode ser muito negativo para a empresa. Esse método de avaliar apenas LOC por exemplo é considerado primitivo e produz resultados que não estão de acordo com a realidade \cite{Symons2010}. Quantidade de linhas de código não leva em consideração o esforço necessário para escrevê-las, nem o conhecimento que serviu de base para o mesmo acontecer. Problemas complexos, por exemplo, geralmente necessitam de um desenvolvedor mais experiente para serem resolvidos, e muitas vezes, não são necessárias muitas linhas de código para o fazer.
 
 Existem outras noções de produtividade que também não são levadas em consideração ao avaliar apenas linhas de código, por exemplo, um desenvolvedor com conhecimento em uma ferramenta muito específica, ou o supervisor, podem ser consultados frequentemente por outros desenvolvedores, agilizando e melhorando o processo de desenvolvimento de outros desenvolvedores, logo, esse desenvolvedor/supervisor possui uma produtividade indireta, que não é mensurada no método tradicional pois quando se está ajudando e ensinando, não se está escrevendo linhas de código.
 
@@ -30,14 +29,14 @@ Várias empresas estão começando a ganhar consciência dessas questões e est�
 	\item É possível construir um classificador de desenvolvedores de alta acurácia, usando os critérios propostos? Essa pergunta pode ser refinada em duas novas perguntas:
 	\begin{enumerate}
 		\item É possível se obter um classificador genérico, i.e., independente de empresa?
-		\item É possível se obter classificadores customizados para cada empresa?
+		\item É mais adequado construir classificadores customizados para cada empresa?
 	\end{enumerate}
 \end{enumerate}
 
 
 
 \section{Objetivos e Contribuição}
-Como mencionado na seção \ref{secao1.1}, o desempenho de um desenvolvedor é muito relacionado com sua produtividade, que possui um conceito clássico de quantidade de entregas. Porém, os supervisores e gerentes que participam ativamente da sua área de desenvolvimento e convivem com os desenvolvedores que ali trabalham, possuem percepções diferentes sobre cada membro de seu time. Isso nada mais é que uma avaliação subjetiva de desempenho, que não considera apenas a produção individual resultante, mas diversas outras características que fazem que o desenvolvedor possua uma determinada importância na visão do seu supervisor.
+Como mencionado anteriormente, o desempenho de um desenvolvedor é muito relacionado com sua produtividade, que possui um conceito clássico de quantidade de entregas. Porém, os supervisores e gerentes que participam ativamente da sua área de desenvolvimento e convivem com os desenvolvedores que ali trabalham, possuem percepções diferentes sobre cada membro de seu time. Isso nada mais é que uma avaliação subjetiva de desempenho, que não considera apenas a produção individual resultante, mas diversas outras características que fazem que o desenvolvedor possua uma determinada importância na visão do seu supervisor.
 
 Entendemos que a métrica mais comum hoje é a “produtividade” no sentido de quantidade de entregas. Porém, sabemos que muito mais é levado em consideração ao avaliar a importância de um determinado desenvolvedor, o problema é que essa avaliação geralmente acontece de uma forma subjetiva por parte do supervisor, isto é, cada supervisor, de acordo com a vivência, identifica quais os desenvolvedores mais importantes devido à sua percepção, sem a orientação de métricas bem estabelecidas.
 

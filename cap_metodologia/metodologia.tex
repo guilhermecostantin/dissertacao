@@ -1,16 +1,17 @@
 \chapter[Metodolodia]{Metodologia}
 
-\section{Considerações Iniciais}
 Para investigar a prática atual de avaliação de desenvolvedores, nós precisamos olhar mais profundamente em como as empresas o fazem. No propósito de conduzirmos esse estudo, decidimos executar uma pesquisa com sujeitos humanos para extrair a informação desejada e analisá-la. Nesse estudo nós pedimos para os respondentes para primeiro classificar o desenvolvedor (em níveis de importância), e depois preencher o resto do formulário com as características do desenvolvedor.
 
-Para analisar os dados obtidos, nós decidimos em usar métodos de classificação para obtermos uma visão clara em como as características afetam a classificação dos supervisores, e como produto, nós talvez consigamos obter um classificador que pode ser usado para ajudar os supervisores a ganhar insights de como melhorar a produtividade geral do time.
+Para analisar os dados obtidos, nós decidimos em usar métodos de classificação para obtermos uma visão clara em como as características afetam a classificação dos supervisores, e como produto, dependendo dos dados encontrados, obter um classificador que possa ser utilizado para ajudar os supervisores a ganhar insights de como melhorar a importância geral do time.
 
 Esta seção se dedica a explicar o desenho desse experimento, mostrando a criação e a aplicação da pesquisa com os supervisores, e mostrar também como conduzimos a análise dos dados obtidos dessa pesquisa, incluindo a análise de critérios e a construção do classificador.
 
 \section{Pesquisa}\label{secao3.2}
 
+Nas próximas subseções serão tratados a abordagem utilizada para compor a pesquisa, a aplicação da pesquisa em si nos supervisores das empresas participantes e a caracterização dos mesmos.
+
 \subsection{Goal-Question-Metric}\label{secao3.2.1}
-Nós usamos uma abordagem chamada Goal-Question-Metric(GQM) \cite{Basili1994} que nos ajudou a compor nossa pesquisa. GQM é uma abordagem do tipo top-down, que é baseada no pressuposto que primeiro, para se medir algo, você precisa especificar objetivos (goal), dos quais é possível derivar perguntas (question), e então, especificar as métricas (metric) que precisam ser coletadas para responder essas perguntas.
+Foi utilizada uma abordagem chamada Goal-Question-Metric(GQM) \cite{Basili1994} que nos ajudou a compor nossa pesquisa. GQM é uma abordagem do tipo top-down, que é baseada no pressuposto que primeiro, para se medir algo, você precisa especificar objetivos (goal), dos quais é possível derivar perguntas (question), e então, especificar as métricas (metric) que precisam ser coletadas para responder essas perguntas.
 
 Para atingir o propósito de um objetivo, nós temos que determinar 3 coordenadas:
 
@@ -72,14 +73,13 @@ Para preservar a privacidade das empresas participantes, nós não solicitamos n
 
 A pesquisa foi projetada para ser aplicada em empresas que possuem uma área de desenvolvimento de software, com uma estrutura hierárquica mínima onde existisse o cargo de supervisor, ou gerente, ou engenheiros-chefe, etc (para futuras referências, nós chamaremos essa pessoa de supervisor).
 
-Os respondentes da pesquisa são então supervisores de times de desenvolvimento. Nós entendemos que eles são as pessoas certas para o fazer porque, diferente do dono da empresa, eles estão perto o suficiente do dia a dia de trabalho, e conseguem julgar quais os desenvolvedores mais importantes, mesmo que eles não usem um método formalizado para tal. Eles devem responder uma avaliação para cada desenvolvedor, i.e., se eles estão avaliando 10 desenvolvedores para atingir o mínimo para obter uma avaliação individual da empresa, eles precisam responder 10 questionários.
-
+Os respondentes da pesquisa são então supervisores de times de desenvolvimento. Nós entendemos que eles são as pessoas certas para o fazer, porque diferentemente do dono da empresa eles estão perto o suficiente do dia a dia de trabalho, e conseguem julgar quais os desenvolvedores mais importantes, mesmo que eles não usem um método formalizado para tal. Eles devem responder a avaliação para cada desenvolvedor.
 \section{Seleção de Características}\label{secao3.3}
 No intuito de conduzir a análise dos critérios para determinar quais fatores são os mais relevantes e possuem maior influência na avaliação do supervisor, nós usamos a ferramenta WEKA\cite{Holmes}.
 
-Vários problemas reais, como o nosso, possuem diversas características envolvidas (mostradas na \autoref{tabela2}), e apenas algumas dentre elas são relevantes para o objetivo final \cite{Kira1992}, no nosso caso, classificar a importância de um desenvolvedor. Para resolver essa problema, nós iremos usar uma estratégia chamada seleção de características (do inglês, Feature Selection), onde nós iremos selecionar um subconjunto de características para focar nossa atenção, e ignorar o restante para acelerar o processo de aprendizado, aprimorar a qualidade do classificador e atingir a melhor acurácia do algoritmo de aprendizado de máquinas \cite{Kira1992,Kohavi1997}. 
+Vários problemas reais possuem diversas características envolvidas (mostradas na \autoref{tabela2}), e apenas algumas dentre elas são relevantes para o objetivo final \cite{Kira1992}, no nosso caso, classificar a importância de um desenvolvedor. Para resolver essa problema, nós iremos usar uma estratégia chamada seleção de características (do inglês, Feature Selection), onde nós iremos selecionar um subconjunto de características para focar nossa atenção, e ignorar o restante para acelerar o processo de aprendizado, aprimorar a qualidade do classificador e atingir a melhor acurácia do algoritmo de aprendizado de máquinas \cite{Kira1992,Kohavi1997}. 
 
-O algoritmo que iremos usar é chamado GainRatioAttributeEval, que é um avaliar de atributo único, que avalia os atributos um a um independentemente e os ordena de acordo com sua influência sobre a classe. Nossa seleção de características vai então escolher, baseado nessa ordenação, e isso nos permite eliminar atributos irrelevantes. Esse método, como não avalia um subconjunto de atributos, não elimina atributos redundantes (apenas os irrelevantes), mas isso não é um problema para  porque nós conhecemos todos os atributos e esse tipo de avaliador não necessita de um método de buscam o que o torna muito rápido em sua execução.
+O algoritmo que iremos usar é chamado GainRatioAttributeEval, que avalia os atributos um a um independentemente e os ordena de acordo com sua influência sobre a classe. A seleção de características escolhe baseada nessa ordenação, e isso nos permite eliminar atributos irrelevantes. Esse método, como não avalia um subconjunto de atributos, não elimina atributos redundantes (apenas os irrelevantes), mas isso não é um problema para  porque nós conhecemos todos os atributos e esse tipo de avaliador não necessita de um método de buscam o que o torna muito rápido em sua execução.
 
 \section{Classificação}\label{secao3.4}
 
@@ -87,17 +87,11 @@ Como resultado de nossa pesquisa, nós teremos um conjunto com várias avaliaç�
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=\textwidth]{figs/training-datasets.png}
+	\includegraphics[scale=0.7]{figs/training-datasets-pequeno.png}
 	\caption{\label{fig_1}Processo dos algoritmos de aprendizado de máquinas}
 \end{figure}
 
-Existe uma variedade de métodos para avaliar a performance de um classificador. Nós podemos, por exemplo, selecionar uma porcentagem de um conjunto de dados para aplicar os algoritmos de aprendizado de máquinas e usar o resto para teste. O método de avaliação padrão e mais confiável é chamado cross-validation. No nosso caso, nós usamos o 10-fold cross-validation que divide o conjunto em 10 partes iguais (as chamadas folds), usa 9 partes dessa divisão para treinamento um guarda uma parte para teste, e depois, faz isso mais 9 vezes, sempre alternando o pedaço utilizado para teste (como mostrado na \autoref{fig_2}), assim, uma determinada parte é usada 9 vezes para treinamento e uma para teste. O resultado será a média das 10 vezes que o algoritmo executou.
-
-\begin{figure}[p]
-	\centering
-	\includegraphics[width=\textwidth]{figs/10-fold-cross-validation.png}
-	\caption{\label{fig_2}Representação do 10-fold cross-validation}
-\end{figure}
+Existe uma variedade de métodos para avaliar a performance de um classificador. Nós podemos, por exemplo, selecionar uma porcentagem de um conjunto de dados para aplicar os algoritmos de aprendizado de máquinas e usar o resto para teste. O método de avaliação padrão e mais confiável é chamado cross-validation. No nosso caso, nós usamos o 10-fold cross-validation que divide o conjunto em 10 partes iguais (as chamadas folds), usa 9 partes dessa divisão para treinamento um guarda uma parte para teste, e depois, faz isso mais 9 vezes, sempre alternando o pedaço utilizado para teste, assim, uma determinada parte é usada 9 vezes para treinamento e uma para teste. O resultado será a média das 10 vezes que o algoritmo executou.
 
 Os algoritmos de aprendizado de máquina que nós iremos usar serão o J48, um classificador em árvore, e o NaïveBayes, um classificador bayesiano.
 
@@ -105,9 +99,9 @@ J48 é uma variação de um famoso sistema chamado C4.5, que foi descrito por Qu
 
 NaïveBayes é um método probabilístico que possui duas assunções: que os atributos são igualmente importantes e estatisticamente independentes (essa assunção de independência nunca é 100\% correta, mas os métodos baseados nela geralmente funcionam bem na prática). Observando as métricas que iremos coletar e o conjunto de dados que será gerado após a aplicação da pesquisa, esses dois métodos parecem servir bem aos nossos propósitos.
 
-Nós iremos usar também um terceiro algoritmo chamado AttributeSelectClassifier, que na verdade usa um método de seleção de características (no nosso caso, o GainRatio) e um algoritmo para executar a classificação (no nosso caso, J48 ou NaïveBayes). Esse é o jeito mais apropriado para aplicar seleção de características porque assim o algoritmo seleciona as características no conjunto de treinamento, tornando os resultados mais confiáveis.
+Nós iremos usar também um terceiro algoritmo chamado AttributeSelectClassifier, que na verdade usa um método de seleção de características (no nosso caso, o GainRatio) e um algoritmo para executar a classificação (no nosso caso, J48 ou NaïveBayes). Esta é uma maneira mais apropriada para aplicar seleção de características porque assim o algoritmo seleciona as características no conjunto de treinamento, tornando os resultados mais confiáveis.
 
-Por fim, para conduzir todas essas análises nós iremos usar um modo do programa WEKA chamado EXPERIMENTER, que nos permite rodar o mesmo experimento mais de uma vez e determinar a média e o desvio padrão, para evitar falsos resultados otimistas ou pessimistas (alta ou baixa acurácia) devido à seleção de atributos nos conjuntos de treinamento e teste. Esse modo também nos permite comparar os resultados de diferentes algoritmos.
+Por fim, para conduzir todas essas análises nós iremos usar um modo do programa WEKA chamado EXPERIMENTER, que permite rodar o mesmo experimento mais de uma vez e determinar a média e o desvio padrão, para evitar falsos resultados otimistas ou pessimistas (alta ou baixa acurácia) devido à seleção de atributos nos conjuntos de treinamento e teste. Esse modo também nos permite comparar os resultados de diferentes algoritmos.
 
 
 

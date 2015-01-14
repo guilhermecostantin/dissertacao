@@ -1,6 +1,5 @@
 \chapter[Resultados Gerais]{Resultados Gerais (Todas Empresas)}
 
-\section{Considerações Iniciais}
 Seguindo os passos apresentados no capítulo anterior, nós iremos mostrar os resultados da aplicação da pesquisa, a seleção de características executada no conjunto de dados gerados por essa pesquisa e a aplicação dos classificadores e suas respectivas acurácias na classificação dos desenvolvedores.
 
 \section{Pesquisa}\label{secao4.2}
@@ -10,13 +9,15 @@ Nós pedimos para os supervisores classificarem os desenvolvedores em 5 graus de
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=\textwidth]{figs/geral/imagem-classe-original.png}
+	\includegraphics[scale=0.8]{figs/geral/imagem-classe-original.png}
 	\caption{\label{fig_3}Distribuição dos desenvolvedores avaliados pelas classes de importância}
 \end{figure}
 
-Analisando os resultados da pesquisa, nós chegamos à conclusão que os supervisores foram, em certo nível, conservadores em classificar seus desenvolvedores nas classificações mais baixas de importância.
+Analisando os resultados da pesquisa, nós chegamos à conclusão que os supervisores foram, em certo nível, conservadores em classificar seus desenvolvedores nas classificações mais baixas de importância. Uma possível explicação para esse comportamento é o supervisor, invés de analisar de uma forma comparativa os desenvolvedores ao realizar a classificação por importância, ter avaliado cada desenvolvedor individualmente, o que pode ter criado um viés ao seguir a linha de raciocínio de que se o desenvolvedor possue baixa importância, ele não estaria na equipe.
 
-A partir dessa análise, juntamente com a análise da matriz de confusão gerada pela aplicação dos algoritmos descritos na seção \ref{secao3.4} , nós decidimos agrupar os desenvolvedores em apenas duas classes, baseadas nas cinco classes originais de importância, como mostrado na \autoref{tabela3}, com o intuito de obter uma análise mais realística.
+Esse viés na classificação dos desenvolvedores impacta diretamente a acurácia dos classificadores, visto que eles usam a classe como base para tentar descobrir um padrão nos dados. Caso a classificação não tenha ficado clara para todos os respondentes, os algoritmos podem se confundir e apresentar erros leves, classificando um determinado indivíduo em classes similares, mas não à classe que ele realmente pertence. Esses erros, mesmo que leves, em grande quantidade interferem e possuem um impacto negativo significativo na acurácia do classificador que é proposto nesse estudo.
+
+A partir dessa análise, juntamente com a análise da matriz de confusão gerada pela aplicação dos algoritmos descritos na Seção \ref{secao3.4}, nós decidimos agrupar os desenvolvedores em apenas duas classes, baseadas nas cinco classes originais de importância, como mostrado na \autoref{tabela3}, com o intuito de obter uma análise mais realística.
 
 %inserir tabela 3
 
@@ -39,13 +40,13 @@ Utilizando esse novo conjunto de classes para agrupar os desenvolvedores, obtive
 
 \begin{figure}[p]
 	\centering
-	\includegraphics[width=\textwidth]{figs/geral/imagem-classe-alternativa.png}
+	\includegraphics[scale=0.8]{figs/geral/imagem-classe-alternativa.png}
 	\caption{\label{fig_4}Distribuição dos desenvolvedores avaliados pela nova classe de importância}
 \end{figure}
 
 \section{Seleção de Características}\label{secao4.3}
 
-Como explicado na seção \ref{secao3.3} , nós usamos o algoritmo GainRatio para ordenar os atributos propostos, para prosseguirmos com a seleção de características. A \autoref{tabela4} mostra as características ordenadas pelo mérito médio (um grau de influência do atributo na classificação, calculado pelo algoritmo) resultante da aplicação do algoritmo usando as classes originais e a \autoref{tabela5} mostra a mesma visão, utilizando agora as novas classes.
+Como explicado na Seção \ref{secao3.3} , nós usamos o algoritmo \textit{GainRatio} para ordenar os atributos propostos, para prosseguirmos com a seleção de características. A \autoref{tabela4} mostra as características ordenadas pelo mérito médio (um grau de influência do atributo na classificação, calculado pelo algoritmo) resultante da aplicação do algoritmo usando as classes originais e a \autoref{tabela5} mostra a mesma visão, utilizando agora as novas classes.
 
 %inserir Tabela 4
 \begin{table}[h]
@@ -65,7 +66,7 @@ Como explicado na seção \ref{secao3.3} , nós usamos o algoritmo GainRatio par
 		Criatividade                                                            & 7.4 +- 1.62                                 & 0.18  +- 0.021                                                                         \\ \hline
 		Foco nos resultados                                                     & 8.7 +- 1.27                                 & 0.167 +- 0.017                                                                         \\ \hline
 		Foco no cliente                                                         & 10 +- 2.45                                  & 0.148 +- 0.023                                                                         \\ \hline
-		PRINCIPAL comportamento do desenvolvedor                                & 11.1 +- 1.58                                & 0.14  +- 0.021                                                                         \\ \hline
+		Principal comportamento do desenvolvedor                                & 11.1 +- 1.58                                & 0.14  +- 0.021                                                                         \\ \hline
 		Comunicação com os colegas                                              & 11.6 +- 1.02                                & 0.137 +- 0.011                                                                         \\ \hline
 		Organização e planejamento                                              & 12.3 +- 1.27                                & 0.122 +- 0.015                                                                         \\ \hline
 		Liderança                                                               & 14.5 +- 1.2                                 & 0.097 +- 0.018                                                                         \\ \hline
@@ -105,11 +106,11 @@ Como explicado na seção \ref{secao3.3} , nós usamos o algoritmo GainRatio par
 
 \section{Classificação}\label{secao4.4}
 
-Considerando que os atributos foram ordenados, nós aplicamos a técnica de seleção de características e usamos apenas os atributos mais relevantes na classificação. Para determinar quantas características precisam ser selecionadas para obtermos uma maior performance, nós conduzimos um teste exaustivo (rodamos os classificadores com um crescente número de características selecionadas, de 2 a 16) e escolhemos a configuração com melhor performance (8 atributos). A \autopageref{fig_5} e a \autoref{fig_6} mostram então a aplicação exaustiva do algoritmo que associa a seleção de características com os algoritmos de classificação, para o J48 e para o NaïveBayes respectivamente.
+Considerando que os atributos foram ordenados, nós aplicamos a técnica de seleção de características e usamos apenas os atributos mais relevantes na classificação. Para determinar quantas características precisam ser selecionadas para obtermos uma maior performance, nós conduzimos um teste exaustivo (rodamos os classificadores com um crescente número de características selecionadas, de 2 a 16) e escolhemos a configuração com melhor performance (8 atributos). A \autopageref{tabela7.1} e a \autoref{tabela7.2} mostram então a aplicação exaustiva do algoritmo que associa a seleção de características com os algoritmos de classificação, para o J48 e para o NaïveBayes respectivamente.
 
-A \autoref{tabela6} mostra os resultados da aplicação do algoritmo J48. Como podemos ver, J48 não apresentou uma boa performance, com acurácia perto de 60\%, para o conjunto original de classes, porém já apresentou uma acurácia significativa ao ser aplicado sobre o novo conjunto de classes (80\% de acertos). No caso do J48, para ambos os conjuntos de classe, o classificador obteve a melhor performance utilizando apenas 2 atributos, como mostrado na \autoref{fig_5}.
+A \autoref{tabela6} mostra os resultados da aplicação do algoritmo J48. Como podemos ver, J48 não apresentou uma boa performance, com acurácia perto de 60\%, para o conjunto original de classes, porém já apresentou uma acurácia significativa ao ser aplicado sobre o novo conjunto de classes (80\% de acertos). No caso do J48, para ambos os conjuntos de classe, o classificador obteve a melhor performance utilizando apenas 2 atributos, como mostrado na \autoref{tabela7.1}.
 
-NaïveBayes, como mostrado na \autoref{tabela7} obteve uma performance similar ao J48 quando aplicado no conjunto original de classes (acurácia perto de 61\%). Já para o novo conjunto de classes, NaïveBayes atingiu uma acurácia expressiva de 85\%. Ambos os melhores resultados do NaïveBayes foram atingidos utilizando 8 características, como mostra a \autoref{fig_6}.
+NaïveBayes, como mostrado na \autoref{tabela7} obteve uma performance similar ao J48 quando aplicado no conjunto original de classes (acurácia perto de 61\%). Já para o novo conjunto de classes, NaïveBayes atingiu uma acurácia expressiva de 85\%. Ambos os melhores resultados do NaïveBayes foram atingidos utilizando 8 características, como mostra a \autoref{tabela7.2}.
 
 %inserir Tabela 6
 
@@ -121,7 +122,7 @@ NaïveBayes, como mostrado na \autoref{tabela7} obteve uma performance similar a
 		\hline
 		\textbf{Classe}                         & \textbf{Porcentagem de acertos} \\ \hline
 		\textbf{Conjunto original de 5 classes} & 60.64\%                         \\ \hline
-		\textbf{Novo conjunto de classes}       & 80.14\%                         \\ \hline
+		\textbf{Conjunto com 2 classes}       & 80.14\%                         \\ \hline
 	\end{tabular}
 \end{table}
 
@@ -135,18 +136,66 @@ NaïveBayes, como mostrado na \autoref{tabela7} obteve uma performance similar a
 		\hline
 		\textbf{Classe}                         & \textbf{Porcentagem de acertos} \\ \hline
 		\textbf{Conjunto original de 5 classes} & 61.12\%                         \\ \hline
-		\textbf{Novo conjunto de classes}       & 85.62\%                         \\ \hline
+		\textbf{Conjunto com 2 classes}       & 85.62\%                         \\ \hline
 	\end{tabular}
 \end{table}
 
-\begin{figure}[p]
+\begin{table}[h]
 	\centering
-	\includegraphics[width=\textwidth]{figs/geral/exaustive-j48.png}
-	\caption{\label{fig_5}Aplicação exaustiva do J48}
-\end{figure}
+	\caption{Aplicação exaustiva do J48}
+	\label{tabela7.1}
+	\def\arraystretch{2}
+	
+	\begin{tabular}{|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{5.75cm}|>{\centering\arraybackslash}p{5.75cm}|}
+		\hline
+		\parbox[l][1.5cm][c]{3cm}{\textbf{Número de \\características}} &
+		\parbox[l][1.5cm][c]{5.75cm}{\textbf{\% de acertos - conjunto \\original de 5 classes}} &
+		\parbox[l][1.5cm][c]{5.75cm}{\textbf{\% de acertos - conjunto \\de 2 classes}} \\ \hline
+		2                                                                                                    & 60,64                                                                                                                                        & 80,14                                                                                                                               \\ \hline
+		3                                                                                                    & 55,38                                                                                                                                        & 78,33                                                                                                                               \\ \hline
+		4                                                                                                    & 58,55                                                                                                                                        & 77,67                                                                                                                               \\ \hline
+		5                                                                                                    & 57,14                                                                                                                                        & 77,5                                                                                                                                \\ \hline
+		6                                                                                                    & 56,31                                                                                                                                        & 77,02                                                                                                                               \\ \hline
+		7                                                                                                    & 53,45                                                                                                                                        & 76,52                                                                                                                               \\ \hline
+		8                                                                                                    & 51,88                                                                                                                                        & 75,88                                                                                                                               \\ \hline
+		9                                                                                                    & 51,07                                                                                                                                        & 75,24                                                                                                                               \\ \hline
+		10                                                                                                   & 50,6                                                                                                                                         & 74,74                                                                                                                               \\ \hline
+		11                                                                                                   & 49,29                                                                                                                                        & 74,74                                                                                                                               \\ \hline
+		12                                                                                                   & 48,64                                                                                                                                        & 74,74                                                                                                                               \\ \hline
+		13                                                                                                   & 48,81                                                                                                                                        & 74,74                                                                                                                               \\ \hline
+		14                                                                                                   & 48,14                                                                                                                                        & 74,74                                                                                                                               \\ \hline
+		15                                                                                                   & 48,48                                                                                                                                        & 74,6                                                                                                                                \\ \hline
+		16                                                                                                   & 48,48                                                                                                                                        & 74,6                                                                                                                                \\ \hline
+	\end{tabular}
+\end{table}
 
-\begin{figure}[p]
+\begin{table}[h]
 	\centering
-	\includegraphics[width=\textwidth]{figs/geral/exaustive-naivebayes.png}
-	\caption{\label{fig_6}Aplicação exaustiva do NaïveBayes}
-\end{figure}
+	\caption{Aplicação exaustiva do NaïveBayes}
+	\label{tabela7.2}
+	\def\arraystretch{2}
+	
+	\begin{tabular}{|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{5.75cm}|>{\centering\arraybackslash}p{5.75cm}|}
+		\hline
+		\parbox[l][1.5cm][c]{3cm}{\textbf{Número de \\características}} &
+		\parbox[l][1.5cm][c]{5.75cm}{\textbf{\% de acertos - conjunto \\original de 5 classes}} &
+		\parbox[l][1.5cm][c]{5.75cm}{\textbf{\% de acertos - conjunto \\de 2 classes}} \\ \hline
+		2                                                                                                    & 60,02                                                                                                                                        & 80,81                                                                                                                               \\ \hline
+		3                                                                                                    & 57,19                                                                                                                                        & 80,95                                                                                                                               \\ \hline
+		4                                                                                                    & 55,79                                                                                                                                        & 82,38                                                                                                                               \\ \hline
+		5                                                                                                    & 57,88                                                                                                                                        & 82,83                                                                                                                               \\ \hline
+		6                                                                                                    & 59,52                                                                                                                                        & 85,62                                                                                                                               \\ \hline
+		7                                                                                                    & 58,81                                                                                                                                        & 84,69                                                                                                                               \\ \hline
+		8                                                                                                    & 61,12                                                                                                                                        & 85,21                                                                                                                               \\ \hline
+		9                                                                                                    & 58,5                                                                                                                                         & 82,55                                                                                                                               \\ \hline
+		10                                                                                                   & 58,52                                                                                                                                        & 82,55                                                                                                                               \\ \hline
+		11                                                                                                   & 59,21                                                                                                                                        & 82,21                                                                                                                               \\ \hline
+		12                                                                                                   & 58,71                                                                                                                                        & 82,55                                                                                                                               \\ \hline
+		13                                                                                                   & 59,02                                                                                                                                        & 83,55                                                                                                                               \\ \hline
+		14                                                                                                   & 59,48                                                                                                                                        & 83,88                                                                                                                               \\ \hline
+		15                                                                                                   & 58,69                                                                                                                                        & 84,17                                                                                                                               \\ \hline
+		16                                                                                                   & 58,57                                                                                                                                        & 83,52                                                                                                                               \\ \hline
+	\end{tabular}
+\end{table}
+
+

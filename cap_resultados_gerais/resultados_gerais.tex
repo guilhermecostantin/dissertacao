@@ -4,6 +4,7 @@ Seguindo os passos apresentados no capítulo anterior, serão mostrados os resul
 
 \section{Pesquisa}\label{secao4.2}
 Primeiramente serão apresentados os dados coletados com a pesquisa. Onze respondentes (supervisores) forneceram 61 respostas (avaliações únicas de desenvolvedores). Em alguns casos, alguns supervisores trabalham na mesma empresa, porém eles supervisionam diferente times. No total, oito empresas foram envolvidas na coleta de dados. A tabela \ref{tabela2_1} mostra detalhes sobre a participação de cada empresa.
+Assim como mostrado na Seção \ref{caracterizacao_respondentes}, as empresas participantes são empresas que possuem uma área de desenvolvimento de software com ao menos um supervisor. Todas as empresas estão situadas na cidade de Uberlândia, e não foi utilizado nenhum fator para discriminar a participação das mesmas na pesquisa, como porte da empresa, número de funcionários ou infra-estrutura por exemplo. De fato, participaram grandes empresas, em faturamento e plantel de funcionários, que fazem parte de grupos ainda maiores, como empresas que possuem um pequeno número de funcionários (até 10), formando assim um grupo bastante heterogêneo de empresas participantes.
 
 \begin{table}[h]
 	\caption{Relação dos participantes na pesquisa}
@@ -28,7 +29,7 @@ Primeiramente serão apresentados os dados coletados com a pesquisa. Onze respon
 
 Foi pedido para os supervisores classificarem os desenvolvedores em 5 graus de importância. Esses graus de importância e a distribuição dos desenvolvedores avaliados neles é mostrado na \autoref{fig_3}.
 
-\begin{figure}[p]
+\begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.8]{figs/geral/imagem-classe-original.png}
 	\caption{\label{fig_3}Distribuição dos desenvolvedores avaliados pelas classes de importância}
@@ -59,7 +60,7 @@ A partir dessa análise, juntamente com a análise da matriz de confusão gerada
 
 Utilizando esse novo conjunto de classes para agrupar os desenvolvedores, obteve-se a distribuição mostrada na \autoref{fig_4}.
 
-\begin{figure}[p]
+\begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.8]{figs/geral/imagem-classe-alternativa.png}
 	\caption{\label{fig_4}Distribuição dos desenvolvedores avaliados pela nova classe de importância}
@@ -67,7 +68,9 @@ Utilizando esse novo conjunto de classes para agrupar os desenvolvedores, obteve
 
 \section{Seleção de Características}\label{secao4.3}
 
-Como explicado na Seção \ref{secao3.3} , foi utilizado o algoritmo \textit{GainRatio} para ordenar os atributos propostos, para prosseguir com a seleção de características. A \autoref{tabela4} mostra as características ordenadas pelo mérito médio (grau de influência do atributo na classificação, calculado pelo algoritmo) resultante da aplicação do algoritmo usando as classes originais e a \autoref{tabela5} mostra a mesma visão, utilizando agora as novas classes.
+Como explicado na Seção \ref{secao3.3} , foi utilizado o algoritmo \textit{GainRatio} para ordenar os atributos propostos, para prosseguir com a seleção de características. A \autoref{tabela4} mostra as características ordenadas pelo mérito médio (grau de influência do atributo na classificação, calculado pelo algoritmo) resultante da aplicação do algoritmo usando as classes originais e a \autoref{tabela5} mostra a mesma visão, utilizando agora o novo conjunto de 2 classes. 
+
+É Possível notar algumas semelhanças e diferenças entre essas tabelas. Os três primeiros atributos da primeira tabela, por exemplo, ocupam também as três primeiras posições na segunda, apesar de estarem em ordem diferente, o que mostra que a mudança do conjunto de classes não teve um impacto muito significativo na relevância desses atributos. Porém, após os três primeiros, é possível notar algumas diferenças mais expressivas no posicionamento dos atributos, mostrando então um maior impacto nos atributos menos relevantes causada pela troca do conjunto de classes.
 
 %inserir Tabela 4
 \begin{table}[h]
@@ -99,7 +102,7 @@ Como explicado na Seção \ref{secao3.3} , foi utilizado o algoritmo \textit{Gai
 %inserir Tabela 5
 
 \begin{table}[h]
-	\caption{Ordenação dos atributos (novo conjunto de classes)}
+	\caption{Ordenação dos atributos (novo conjunto de 2 classes)}
 	\label{tabela5}
 	\def\arraystretch{2}
 	\begin{tabular}{|p{8.5cm}|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{3cm}|}

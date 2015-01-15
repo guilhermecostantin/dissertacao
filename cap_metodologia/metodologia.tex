@@ -69,7 +69,7 @@ A pesquisa foi aplicada de maneira remota, para dar a liberdade necessária para
 
 Para preservar a privacidade das empresas participantes, não foi solicitado nenhum tipo de identificação, tanto do respondente como do desenvolvedor sendo analisado. A única identificação solicitada foi o nome da empresa de onde vinham as avaliações. Foi necessário solicitar esse dado para uma investigação mais profunda nos casos em que as empresas atingiam o mínimo de 10 desenvolvedores avaliados.
 
-\subsection{Caracterização dos respondentes}
+\subsection{Caracterização dos respondentes}\label{caracterizacao_respondentes}
 
 A pesquisa foi projetada para ser aplicada em empresas que possuem uma área de desenvolvimento de software, com uma estrutura hierárquica mínima onde existisse o cargo de supervisor, ou gerente, ou engenheiros-chefe, etc (para futuras referências, essa pessoa será referenciada como supervisor).
 
@@ -87,7 +87,7 @@ O algoritmo que será utilizado é chamado GainRatioAttributeEval, que avalia os
 
 Como resultado dessa pesquisa, será gerado um conjunto com várias avaliações de supervisores sobre os desenvolvedores. Nesse conjunto serão aplicados algoritmos de aprendizado de máquinas, no intuito de gerar um classificador de importância. Os algoritmos de aprendizado de máquinas precisam de dois conjuntos de dados: um para realizar o treinamento e um para testar o resultado, para verificar a acurácia do classificador. A \autoref{fig_1} mostra o processo que melhor representa esse cenário.
 
-\begin{figure}[p]
+\begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.7]{figs/training-datasets-pequeno.png}
 	\caption{\label{fig_1}Processo dos algoritmos de aprendizado de máquinas}

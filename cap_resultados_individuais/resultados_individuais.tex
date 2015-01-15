@@ -8,14 +8,15 @@ Para cada uma das 3 empresas, será feita a análise utilizando os dois conjunto
 
 Assim como foi feito com o conjunto de dados que representava todas as empresas, aqui foram aplicados os algoritmos de classificação J48 e NaïveBayes nos dados fornecidos pelas respectivas empresas, utilizando tanto o conjunto original de 5 classes quanto o conjunto de 2 classes. 
 
-Como explicado na Seção \ref{secao3.4}, para associar a seleção de características com os algoritmos de classificação da maneira correta, será utilizado o Algoritmo AttributeSelectedClassifier, usando o algoritmo GainRatioAttributeEval para selecionar os atributos mais relevantes. E da mesma maneira que foi realizado a seleção de características ao ser analisado o conjunto de dados de todas as empresas (apresentado na Seção \ref{secao4.4}), a quantidade de características ideal que maximiza a acurácia dos classificadores é escolhida através de um teste exaustivo, começando com apenas duas características e aumentando uma a uma até chegar nas dezesseis características apresentadas na \autoref{tabela2} (o processo foi iniciado com um número de características maior que 1 pois o objetivo não é encontrar correlação de alguma característica em específico com a classe, e sim encontrar um padrão na combinação de características que se correlacione com a importância dada pelo supervisor).
+Como explicado na Seção \ref{secao3.4}, para associar a seleção de características com os algoritmos de classificação da maneira correta, será utilizado o Algoritmo \textit{AttributeSelectedClassifier}, usando o algoritmo \textit{GainRatioAttributeEval} para selecionar os atributos mais relevantes. E da mesma maneira que foi realizado a seleção de características ao ser analisado o conjunto de dados de todas as empresas (apresentado na Seção \ref{secao4.4}), a quantidade de características ideal que maximiza a acurácia dos classificadores é escolhida através de um teste exaustivo, começando com apenas duas características e aumentando uma a uma até chegar nas dezesseis características apresentadas na \autoref{tabela2} (o processo foi iniciado com um número de características maior que 1 pois o objetivo não é encontrar correlação de alguma característica em específico com a classe, e sim encontrar um padrão na combinação de características que se correlacione com a importância dada pelo supervisor).
 
 \subsection{Análise da Empresa A}
 
 \subsubsection{Pesquisa}
 
-A empresa A obteve avaliações de 2 supervisores. Como eram times com propósitos bem diferentes, foram consideradas apenas as avaliações de um dos times para representar a Empresa A, visto que o segundo não obteve avaliações suficientes para ser analisado individualmente. Logo, o time avaliado obteve 19 avaliações de desenvolvedores. A \autopageref{fig_7} e a \autoref{fig_8} mostram a distribuição dos desenvolvedores pelo conjunto de classes original e pelo conjunto de 2 classes, respectivamente.
+A empresa A obteve avaliações de 2 supervisores. Como eram times com propósitos bem diferentes, foram consideradas apenas as avaliações de um dos times para representar a Empresa A, visto que o segundo não obteve avaliações suficientes para ser analisado individualmente. Logo, o time avaliado obteve 19 avaliações de desenvolvedores.
 
+A \autopageref{fig_7} e a \autoref{fig_8} mostram a distribuição dos desenvolvedores pelo conjunto de classes original e pelo conjunto de 2 classes, respectivamente. É possível notar que, ao comparar a distribuição dos desenvolvedores pelo conjunto original de 5 classes (\autopageref{fig_7}) desse empresa com o conjunto das empresas em geral(\autopageref{fig_3}), a Empresa A também apresentou um baixo uso das duas classes de importância mais baixas, porém, por ter utilizado mais a classe de importância média, obteve uma distribuição dos desenvolvedores mais balanceada no que se diz respeito ao novo conjunto de duas classes.
 
 \begin{figure}[h]
 	\centering
@@ -31,6 +32,10 @@ A empresa A obteve avaliações de 2 supervisores. Como eram times com propósit
 
 \subsubsection{Seleção de Características}
 O resultado da aplicação do algoritmo de seleção de características para o conjunto original de 5 classes e para o conjunto de 2 classes é apresentado na \autoref{tabela8} e na \autoref{tabela9} respectivamente.
+
+Ao comparar o resultado da aplicação do algoritmos para ambos os conjuntos de classe, assim como aconteceu para os dados de todas as empresas, não houve grande variação entre os fatores melhores posicionados. Em ambas as tabelas, os atributos mais relevantes tendem mais para o lado das características individuais e para o compromisso do desenvolvedor para com a empresa, apesar de um fator técnico, de capacidade de resolução de problemas complexos, se fazer presente como atributo relevante nos dois cenários.
+
+Ao fazer uma comparação entre os resultados da seleção de características da Empresa A com os dados de todas as empresas, pelo seu respectivo conjunto de classes, é possível encontrar algumas semelhanças, como o atributo mais relevante ser o mesmo tanto para o conjunto de 5 classes quanto para o de 2 classes, respectivamente, e também algumas diferenças significativas, como a distância de entre alguns fatores, como "Pró-atividade" para o conjunto de 5 classes e "Comunicação com os colegas" para o conjunto de 2 classes.
 
 %inserir Tabela 8
 \begin{table}[h]
@@ -96,6 +101,8 @@ A \autoref{tabela11_1} e a \autoref{tabela11_2} mostram a aplicação exaustiva 
 Observando o teste exaustivo do J48, é possível notar que ele obteve uma melhor performance utilizando um pequeno número de características ao realizar a classificação. No caso do conjunto original de 5 classes, os melhores resultados foram obtidos selecionando de 2 a 4 características, e ao ser aplicado utilizando o conjunto de 2 classes, a melhor acurácia foi obtida selecionando apenas 2 características. É importante ressaltar também o aumento de aproximadamente 20\% na acurácia do classificador utilizando a segunda classe de dados.
 
 Diferentemente do J48, o NaïveBayes obteve uma melhor performance ao selecionar um maior número de características, de 13 a 15 no conjunto original de 5 classes e acima de 7 no conjunto de 2 classes. O NaïveBayes também teve uma melhoria de performance considerável ao utilizar o novo conjunto de dados (11\%).
+
+Ambos os algoritmos, na sua melhor configuração de quantidade de características selecionadas para a classificação, e utilizando o conjunto de 2 classes que proporcionou um aumenta em suas respectivas acurácias, produziram uma porcentagem de acertos de 79,5\%. Apesar de ser uma porcentagem relevante, essa acurácia é menor que a acurácia obtida ao ser analisado o conjunto com os dados de todas as empresas
 
 %inserir Tabela 10
 \begin{table}[h]
@@ -206,6 +213,8 @@ A Empresa B obteve 10 avaliações de desenvolvedores feitas por um único super
 \subsubsection{Seleção de Características}
 O resultado da aplicação do algoritmo de seleção de características para o conjunto original de 5 classes e para o conjunto de 2 classes é apresentado na \autoref{tabela12} e na \autoref{tabela13} respectivamente.
 
+No caso da Empresa B, as características variam significativamente quando há a troca das classes sendo analisadas, e também diferem do resultado do conjunto de dados de todas as empresas.
+
 %inserir Tabela 12
 \begin{table}[h]
 	\caption{Ordenação dos atributos da Empresa B (conjunto original de 5 classes)}
@@ -270,7 +279,7 @@ A \autoref{tabela15_1} e a \autoref{tabela15_2} mostram a aplicação exaustiva 
 
 Observando o teste exaustivo do J48, é possível notar que, para o conjunto de classes original, o algoritmo obteve uma melhor performance utilizando um menor número de características (de 2 a 6). Já ao utilizar o conjunto de 2 classes, o classificador obteve a mesma acurácia independentemente do número de características utilizado. Utilizando o segundo conjunto de classes, o J48 teve um aumento de 10\% em sua acurácia final.
 
-No caso da Empresa B, o algoritmo NaïveBayes obteve uma performance extremamente semelhante ao J48, mantendo a performance praticamente constante de acordo com a variação das características selecionadas, obtendo uma melhoria de 10\% ao utilizar o conjunto de 2 classes, e obtendo uma acurácia final de 80\%. 
+No caso da Empresa B, o algoritmo NaïveBayes obteve uma performance extremamente semelhante ao J48, mantendo a performance praticamente constante de acordo com a variação das características selecionadas, obtendo uma melhoria de 10\% ao utilizar o conjunto de 2 classes, e obtendo uma acurácia final de 80\%. Assim como a Empresa A, a acurácia obtida pelos classificadores da Empresa B é menor que a acurácia obtida para o conjunto de dados de todas as empresas.
 
 %inserir Tabela 14
 \begin{table}[h]
@@ -380,6 +389,8 @@ A Empresa C obteve 18 avaliaçãos de desenvolvedores, dadas por 2 diferentes su
 
 \subsubsection{Seleção de Características}
 O resultado da aplicação do algoritmo de seleção de características para o conjunto original de 5 classes e para o conjunto de 2 classes é apresentado na \autoref{tabela16} e na \autoref{tabela17} respectivamente.
+
+No caso de Empresa C, ao analisar os atributos mais relevantes em ambas as tabelas nota-se uma nítida tendência pelos atributos pertencentes ao grupos de características técnicas, inclusive, ao comparar os dados dessas tabelas com os das tabelas que representam o resultado da seleção de características para o conjunto de dados de todas as empresas, a diferença mais notável entre os atributos relevantes é a ausência do atributo "Pró-atividade" nos resultados da Empresa C, que aparece como um dos mais relevantes no resultado geral.
 
 %inserir Tabela 16
 \begin{table}[h]

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.19)  14 JAN 2015 21:51
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.19)  14 JAN 2015 22:17
 entering extended mode
 **main_ppgco_ufu.tex
 
@@ -1368,11 +1368,7 @@ of") [15] [16
 
 ]
 ("D:\Guilherme Windows\Desktop\DISSERTAÇÃO\LATEX DISSERTACAO\main_ppgco_ufu.l
-ot"
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17])
-[18]
+ot" [17]) [18]
 ("D:\Guilherme Windows\Desktop\DISSERTAÇÃO\LATEX DISSERTACAO\abrev/Abreviatur
 as.tex") [19
 
@@ -1448,7 +1444,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package hyperref Warning: Suppressing empty link on input line 78.
 
-[36] <figs/training-datasets-pequeno.png, id=652, 501.875pt x 295.1025pt>
+[36] <figs/training-datasets-pequeno.png, id=654, 501.875pt x 295.1025pt>
 File: figs/training-datasets-pequeno.png Graphic file (type png)
 
 <use figs/training-datasets-pequeno.png>
@@ -1472,64 +1468,73 @@ l.228 \include{cap_metodologia/metodologia}
 RTAÇÃO/LATEX DISSERTACAO/figs/training-datasets-pequeno.png>]
 ("D:\Guilherme Windows\Desktop\DISSERTAÇÃO\LATEX DISSERTACAO\cap_resultados_g
 erais/resultados_gerais.tex"
-<figs/geral/imagem-classe-original.png, id=679, 414.54875pt x 199.74625pt>
+Underfull \hbox (badness 2443) in paragraph at lines 15--15
+[]\T1/lmr/bx/n/12 Quantidade de su-per-vi-so-
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/geral/imagem-classe-original.png, id=681, 414.54875pt x 199.74625pt>
 File: figs/geral/imagem-classe-original.png Graphic file (type png)
 
 <use figs/geral/imagem-classe-original.png>
 Package pdftex.def Info: figs/geral/imagem-classe-original.png used on input li
-ne 12.
+ne 33.
 (pdftex.def)             Requested size: 331.63943pt x 159.79721pt.
  [41
 
 
 
 ]
-<figs/geral/imagem-classe-alternativa.png, id=688, 397.485pt x 199.74625pt>
+<figs/geral/imagem-classe-alternativa.png, id=690, 397.485pt x 199.74625pt>
 File: figs/geral/imagem-classe-alternativa.png Graphic file (type png)
 
 <use figs/geral/imagem-classe-alternativa.png>
 Package pdftex.def Info: figs/geral/imagem-classe-alternativa.png used on input
- line 43.
+ line 64.
 (pdftex.def)             Requested size: 317.98842pt x 159.79721pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[42pdfTeX warning (ext4): destination with the same identifier (name{table.4.4}
-) has been already used, duplicate ignored
+ [42pdfTeX warning (ext4): destination with the same identifier (name{table.4.4
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.77 \clearpage
-               ] [43pdfTeX warning (ext4): destination with the same identifier
- (name{table.4.5}) has been already used, duplicate ignored
+l.71 
+     pdfTeX warning (ext4): destination with the same identifier (name{table.4.
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.77 \clearpage
+l.71 
+     ] [43pdfTeX warning (ext4): destination with the same identifier (name{tab
+le.4.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.98 \clearpage
                ] [44pdfTeX warning (ext4): destination with the same identifier
  (name{figure.4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.77 \clearpage
+l.98 \clearpage
                pdfTeX warning (ext4): destination with the same identifier (nam
 e{figure.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.77 \clearpage
+l.98 \clearpage
                 <D:/Guilherme Windows/Desktop/DISSERTAÇÃO/LATEX DISSERTACAO/f
 igs/geral/imagem-classe-original.png (PNG copy)> <D:/Guilherme Windows/Desktop/
 DISSERTAÇÃO/LATEX DISSERTACAO/figs/geral/imagem-classe-alternativa.png (PNG c
 opy)>] [45
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.4.6}) h
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.7}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.105 \clearpage
+l.126 \clearpage
                 ]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1539,28 +1544,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [46
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.4.7}) h
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.8}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.233 ...{cap_resultados_gerais/resultados_gerais}
                                                   pdfTeX warning (ext4): destin
-ation with the same identifier (name{table.4.8}) has been already used, duplica
+ation with the same identifier (name{table.4.9}) has been already used, duplica
 te ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.233 ...{cap_resultados_gerais/resultados_gerais}
                                                   ] [47pdfTeX warning (ext4): d
-estination with the same identifier (name{table.4.9}) has been already used, du
-plicate ignored
+estination with the same identifier (name{table.4.10}) has been already used, d
+uplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.233 ...{cap_resultados_gerais/resultados_gerais}
                                                   ] [48pdfTeX warning (ext4): d
-estination with the same identifier (name{table.4.10}) has been already used, d
+estination with the same identifier (name{table.4.11}) has been already used, d
 uplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1573,7 +1578,7 @@ ndividuais/resultados_individuais.tex" [49
 
 
 ]
-<figs/empresa_a/imagem-classe-original.png, id=736, 414.54875pt x 199.74625pt>
+<figs/empresa_a/imagem-classe-original.png, id=738, 414.54875pt x 199.74625pt>
 File: figs/empresa_a/imagem-classe-original.png Graphic file (type png)
 
 <use figs/empresa_a/imagem-classe-original.png>
@@ -1581,7 +1586,7 @@ Package pdftex.def Info: figs/empresa_a/imagem-classe-original.png used on inpu
 t line 22.
 (pdftex.def)             Requested size: 331.63943pt x 159.79721pt.
 
-<figs/empresa_a/imagem-classe-alternativa.png, id=737, 414.54875pt x 199.74625p
+<figs/empresa_a/imagem-classe-alternativa.png, id=739, 414.54875pt x 199.74625p
 t>
 File: figs/empresa_a/imagem-classe-alternativa.png Graphic file (type png)
  <use figs/empresa_a/imagem-classe-alternativa.png>
@@ -1603,7 +1608,7 @@ l.34
       <D:/Guilherme Windows/Desktop/DISSERTAÇÃO/LATEX DISSERTACAO/figs/empres
 a_a/imagem-classe-original.png (PNG copy)> <D:/Guilherme Windows/Desktop/DISSER
 TAÇÃO/LATEX DISSERTACAO/figs/empresa_a/imagem-classe-alternativa.png>]
-[51pdfTeX warning (ext4): destination with the same identifier (name{table.5.11
+[51pdfTeX warning (ext4): destination with the same identifier (name{table.5.12
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1611,7 +1616,7 @@ TAÇÃO/LATEX DISSERTACAO/figs/empresa_a/imagem-classe-alternativa.png>]
 l.61 \clearpage
                ] [52
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.5.12}) 
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.13}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1623,34 +1628,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [53
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.5.13}) 
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.14}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.155 \clearpage
                 pdfTeX warning (ext4): destination with the same identifier (na
-me{table.5.14}) has been already used, duplicate ignored
+me{table.5.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.155 \clearpage
                 ] [54pdfTeX warning (ext4): destination with the same identifie
-r (name{table.5.15}) has been already used, duplicate ignored
+r (name{table.5.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.155 \clearpage
                 ] [55
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.5.16}) 
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.17}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.186 \clearpage
                 ]
-<figs/empresa_b/imagem-classe-original.png, id=775, 414.54875pt x 199.74625pt>
+<figs/empresa_b/imagem-classe-original.png, id=777, 414.54875pt x 199.74625pt>
 File: figs/empresa_b/imagem-classe-original.png Graphic file (type png)
 
 <use figs/empresa_b/imagem-classe-original.png>
@@ -1658,7 +1663,7 @@ Package pdftex.def Info: figs/empresa_b/imagem-classe-original.png used on inpu
 t line 196.
 (pdftex.def)             Requested size: 331.63943pt x 159.79721pt.
 
-<figs/empresa_b/imagem-classe-alternativa.png, id=776, 407.5225pt x 199.74625pt
+<figs/empresa_b/imagem-classe-alternativa.png, id=778, 407.5225pt x 199.74625pt
 >
 File: figs/empresa_b/imagem-classe-alternativa.png Graphic file (type png)
  <use figs/empresa_b/imagem-classe-alternativa.png>
@@ -1687,14 +1692,14 @@ l.235 \clearpage
 figs/empresa_b/imagem-classe-original.png (PNG copy)> <D:/Guilherme Windows/Des
 ktop/DISSERTAÇÃO/LATEX DISSERTACAO/figs/empresa_b/imagem-classe-alternativa.p
 ng (PNG copy)>] [57pdfTeX warning (ext4): destination with the same identifier 
-(name{table.5.17}) has been already used, duplicate ignored
+(name{table.5.18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.235 \clearpage
                 ] [58
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.5.18}) 
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.19}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1706,34 +1711,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [59
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.5.19}) 
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.20}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.330 \clearpage
                 pdfTeX warning (ext4): destination with the same identifier (na
-me{table.5.20}) has been already used, duplicate ignored
+me{table.5.21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.330 \clearpage
                 ] [60pdfTeX warning (ext4): destination with the same identifie
-r (name{table.5.21}) has been already used, duplicate ignored
+r (name{table.5.22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.330 \clearpage
                 ] [61
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.5.22}) 
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.23}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.361 \clearpage
                 ]
-<figs/empresa_c/imagem-classe-original.png, id=813, 414.54875pt x 199.74625pt>
+<figs/empresa_c/imagem-classe-original.png, id=815, 414.54875pt x 199.74625pt>
 File: figs/empresa_c/imagem-classe-original.png Graphic file (type png)
 
 <use figs/empresa_c/imagem-classe-original.png>
@@ -1741,7 +1746,7 @@ Package pdftex.def Info: figs/empresa_c/imagem-classe-original.png used on inpu
 t line 371.
 (pdftex.def)             Requested size: 331.63943pt x 159.79721pt.
 
-<figs/empresa_c/imagem-classe-alternativa.png, id=814, 407.5225pt x 199.74625pt
+<figs/empresa_c/imagem-classe-alternativa.png, id=816, 407.5225pt x 199.74625pt
 >
 File: figs/empresa_c/imagem-classe-alternativa.png Graphic file (type png)
  <use figs/empresa_c/imagem-classe-alternativa.png>
@@ -1770,14 +1775,14 @@ l.410 \clearpage
 figs/empresa_c/imagem-classe-original.png (PNG copy)> <D:/Guilherme Windows/Des
 ktop/DISSERTAÇÃO/LATEX DISSERTACAO/figs/empresa_c/imagem-classe-alternativa.p
 ng (PNG copy)>] [63pdfTeX warning (ext4): destination with the same identifier 
-(name{table.5.23}) has been already used, duplicate ignored
+(name{table.5.24}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.410 \clearpage
                 ] [64
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.5.24}) 
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.25}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1792,28 +1797,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [65
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.5.25}) 
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.26}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.238 ...tados_individuais/resultados_individuais}
                                                   pdfTeX warning (ext4): destin
-ation with the same identifier (name{table.5.26}) has been already used, duplic
+ation with the same identifier (name{table.5.27}) has been already used, duplic
 ate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.238 ...tados_individuais/resultados_individuais}
                                                   ] [66pdfTeX warning (ext4): d
-estination with the same identifier (name{table.5.27}) has been already used, d
+estination with the same identifier (name{table.5.28}) has been already used, d
 uplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.238 ...tados_individuais/resultados_individuais}
                                                   ] [67pdfTeX warning (ext4): d
-estination with the same identifier (name{table.5.28}) has been already used, d
+estination with the same identifier (name{table.5.29}) has been already used, d
 uplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1875,10 +1880,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 275.
  ) 
 Here is how much of TeX's memory you used:
- 14941 strings out of 493921
- 218691 string characters out of 3147269
- 466711 words of memory out of 3000000
- 17614 multiletter control sequences out of 15000+200000
+ 14944 strings out of 493921
+ 218723 string characters out of 3147269
+ 466826 words of memory out of 3000000
+ 17616 multiletter control sequences out of 15000+200000
  74362 words of font info for 47 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,18n,44p,1381b,671s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1891,9 +1896,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9
 c/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on main_ppgco_ufu.pdf (81 pages, 802924 bytes).
+Output written on main_ppgco_ufu.pdf (81 pages, 804004 bytes).
 PDF statistics:
- 1199 PDF objects out of 1200 (max. 8388607)
- 251 named destinations out of 1000 (max. 500000)
+ 1201 PDF objects out of 1440 (max. 8388607)
+ 252 named destinations out of 1000 (max. 500000)
  527 words of extra memory for PDF output out of 10000 (max. 10000000)
 

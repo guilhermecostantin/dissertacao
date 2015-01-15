@@ -1,11 +1,32 @@
 \chapter[Resultados Gerais]{Resultados Gerais (Todas Empresas)}
 
-Seguindo os passos apresentados no capítulo anterior, nós iremos mostrar os resultados da aplicação da pesquisa, a seleção de características executada no conjunto de dados gerados por essa pesquisa e a aplicação dos classificadores e suas respectivas acurácias na classificação dos desenvolvedores.
+Seguindo os passos apresentados no capítulo anterior, serão mostrados os resultados da aplicação da pesquisa, a seleção de características executada no conjunto de dados gerados por essa pesquisa e a aplicação dos classificadores e suas respectivas acurácias na classificação dos desenvolvedores.
 
 \section{Pesquisa}\label{secao4.2}
-Primeiramente nós iremos apresentar os dados coletados com a pesquisa. Onze respondentes (supervisores) forneceram 61 respostas (avaliações únicas de desenvolvedores). Em alguns casos, alguns supervisores trabalham na mesma empresa, porém eles supervisionam diferente times. No total, oito empresas foram envolvidas na coleta de dados.
+Primeiramente serão apresentados os dados coletados com a pesquisa. Onze respondentes (supervisores) forneceram 61 respostas (avaliações únicas de desenvolvedores). Em alguns casos, alguns supervisores trabalham na mesma empresa, porém eles supervisionam diferente times. No total, oito empresas foram envolvidas na coleta de dados. A tabela \ref{tabela2_1} mostra detalhes sobre a participação de cada empresa.
 
-Nós pedimos para os supervisores classificarem os desenvolvedores em 5 graus de importância. Esses graus de importância e a distribuição dos desenvolvedores avaliados neles é mostrado na \autoref{fig_3}.
+\begin{table}[h]
+	\caption{Relação dos participantes na pesquisa}
+	\label{tabela2_1}
+	\def\arraystretch{2}
+	\begin{tabular}{|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{5.75cm}|>{\centering\arraybackslash}p{5.75cm}|}
+		\hline
+		{\textbf{Empresa}} &
+		\parbox{5.75cm}{\textbf{Quantidade de supervisores/times}} & 
+		\parbox{5.75cm}{\textbf{Quantidade de desenvolvedores avaliados}} \\ \hline
+		A                                      & 2                                                              & 20                                                                    \\ \hline
+		B                                      & 1                                                              & 10                                                                    \\ \hline
+		C                                      & 3                                                              & 20                                                                    \\ \hline
+		D                                      & 1                                                              & 4                                                                     \\ \hline
+		E                                      & 1                                                              & 3                                                                     \\ \hline
+		F                                      & 1                                                              & 2                                                                     \\ \hline
+		G                                      & 1                                                              & 1                                                                     \\ \hline
+		H                                      & 1                                                              & 1                                                                     \\ \hline
+		\textbf{total}                         & 11                                                             & 61                                                                    \\ \hline
+	\end{tabular}
+\end{table}
+
+Foi pedido para os supervisores classificarem os desenvolvedores em 5 graus de importância. Esses graus de importância e a distribuição dos desenvolvedores avaliados neles é mostrado na \autoref{fig_3}.
 
 \begin{figure}[p]
 	\centering
@@ -13,11 +34,11 @@ Nós pedimos para os supervisores classificarem os desenvolvedores em 5 graus de
 	\caption{\label{fig_3}Distribuição dos desenvolvedores avaliados pelas classes de importância}
 \end{figure}
 
-Analisando os resultados da pesquisa, nós chegamos à conclusão que os supervisores foram, em certo nível, conservadores em classificar seus desenvolvedores nas classificações mais baixas de importância. Uma possível explicação para esse comportamento é o supervisor, invés de analisar de uma forma comparativa os desenvolvedores ao realizar a classificação por importância, ter avaliado cada desenvolvedor individualmente, o que pode ter criado um viés ao seguir a linha de raciocínio de que se o desenvolvedor possue baixa importância, ele não estaria na equipe.
+Analisando os resultados da pesquisa, chegou-se à conclusão que os supervisores foram, em certo nível, conservadores em classificar seus desenvolvedores nas classificações mais baixas de importância. Uma possível explicação para esse comportamento é o supervisor, invés de analisar de uma forma comparativa os desenvolvedores ao realizar a classificação por importância, ter avaliado cada desenvolvedor individualmente, o que pode ter criado um viés ao seguir a linha de raciocínio de que se o desenvolvedor possui baixa importância, ele não estaria na equipe.
 
 Esse viés na classificação dos desenvolvedores impacta diretamente a acurácia dos classificadores, visto que eles usam a classe como base para tentar descobrir um padrão nos dados. Caso a classificação não tenha ficado clara para todos os respondentes, os algoritmos podem se confundir e apresentar erros leves, classificando um determinado indivíduo em classes similares, mas não à classe que ele realmente pertence. Esses erros, mesmo que leves, em grande quantidade interferem e possuem um impacto negativo significativo na acurácia do classificador que é proposto nesse estudo.
 
-A partir dessa análise, juntamente com a análise da matriz de confusão gerada pela aplicação dos algoritmos descritos na Seção \ref{secao3.4}, nós decidimos agrupar os desenvolvedores em apenas duas classes, baseadas nas cinco classes originais de importância, como mostrado na \autoref{tabela3}, com o intuito de obter uma análise mais realística.
+A partir dessa análise, juntamente com a análise da matriz de confusão gerada pela aplicação dos algoritmos descritos na Seção \ref{secao3.4}, decidiu-se agrupar os desenvolvedores em apenas duas classes, baseadas nas cinco classes originais de importância, como mostrado na \autoref{tabela3}, com o intuito de obter uma análise mais realística.
 
 %inserir tabela 3
 
@@ -36,7 +57,7 @@ A partir dessa análise, juntamente com a análise da matriz de confusão gerada
 	\end{tabular}
 \end{table}
 
-Utilizando esse novo conjunto de classes para agrupar os desenvolvedores, obtivemos a distribuição mostrada na \autoref{fig_4}.
+Utilizando esse novo conjunto de classes para agrupar os desenvolvedores, obteve-se a distribuição mostrada na \autoref{fig_4}.
 
 \begin{figure}[p]
 	\centering
@@ -46,7 +67,7 @@ Utilizando esse novo conjunto de classes para agrupar os desenvolvedores, obtive
 
 \section{Seleção de Características}\label{secao4.3}
 
-Como explicado na Seção \ref{secao3.3} , nós usamos o algoritmo \textit{GainRatio} para ordenar os atributos propostos, para prosseguirmos com a seleção de características. A \autoref{tabela4} mostra as características ordenadas pelo mérito médio (um grau de influência do atributo na classificação, calculado pelo algoritmo) resultante da aplicação do algoritmo usando as classes originais e a \autoref{tabela5} mostra a mesma visão, utilizando agora as novas classes.
+Como explicado na Seção \ref{secao3.3} , foi utilizado o algoritmo \textit{GainRatio} para ordenar os atributos propostos, para prosseguir com a seleção de características. A \autoref{tabela4} mostra as características ordenadas pelo mérito médio (grau de influência do atributo na classificação, calculado pelo algoritmo) resultante da aplicação do algoritmo usando as classes originais e a \autoref{tabela5} mostra a mesma visão, utilizando agora as novas classes.
 
 %inserir Tabela 4
 \begin{table}[h]
@@ -106,9 +127,9 @@ Como explicado na Seção \ref{secao3.3} , nós usamos o algoritmo \textit{GainR
 
 \section{Classificação}\label{secao4.4}
 
-Considerando que os atributos foram ordenados, nós aplicamos a técnica de seleção de características e usamos apenas os atributos mais relevantes na classificação. Para determinar quantas características precisam ser selecionadas para obtermos uma maior performance, nós conduzimos um teste exaustivo (rodamos os classificadores com um crescente número de características selecionadas, de 2 a 16) e escolhemos a configuração com melhor performance (8 atributos). A \autopageref{tabela7.1} e a \autoref{tabela7.2} mostram então a aplicação exaustiva do algoritmo que associa a seleção de características com os algoritmos de classificação, para o J48 e para o NaïveBayes respectivamente.
+Considerando que os atributos foram ordenados, foi aplicado a técnica de seleção de características e usado apenas os atributos mais relevantes na classificação. Para determinar quantas características precisam ser selecionadas para se obter uma maior performance, foi conduzido um teste exaustivo (os classificadores rodaram com um crescente número de características selecionadas, de 2 a 16) e escolhido a configuração com melhor performance (8 atributos). A \autopageref{tabela7.1} e a \autoref{tabela7.2} mostram então a aplicação exaustiva do algoritmo que associa a seleção de características com os algoritmos de classificação, para o J48 e para o NaïveBayes respectivamente.
 
-A \autoref{tabela6} mostra os resultados da aplicação do algoritmo J48. Como podemos ver, J48 não apresentou uma boa performance, com acurácia perto de 60\%, para o conjunto original de classes, porém já apresentou uma acurácia significativa ao ser aplicado sobre o novo conjunto de classes (80\% de acertos). No caso do J48, para ambos os conjuntos de classe, o classificador obteve a melhor performance utilizando apenas 2 atributos, como mostrado na \autoref{tabela7.1}.
+A \autoref{tabela6} mostra os resultados da aplicação do algoritmo J48.Neste caso, o J48 não apresentou uma boa performance, com acurácia perto de 60\%, para o conjunto original de classes, porém já apresentou uma acurácia significativa ao ser aplicado sobre o novo conjunto de classes (80\% de acertos). No caso do J48, para ambos os conjuntos de classe, o classificador obteve a melhor performance utilizando apenas 2 atributos, como mostrado na \autoref{tabela7.1}.
 
 NaïveBayes, como mostrado na \autoref{tabela7} obteve uma performance similar ao J48 quando aplicado no conjunto original de classes (acurácia perto de 61\%). Já para o novo conjunto de classes, NaïveBayes atingiu uma acurácia expressiva de 85\%. Ambos os melhores resultados do NaïveBayes foram atingidos utilizando 8 características, como mostra a \autoref{tabela7.2}.
 

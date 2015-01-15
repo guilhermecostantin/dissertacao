@@ -10,7 +10,7 @@ Os métodos tradicionais para se medir produtividade em desenvolvimento de softw
 \end{equation} 
 
 \section{Problema e Motivação}\label{secao1.2}
-Dentro das empresas de TI, geralmente é encontrado um departamento de recursos humanos ou desenvolvimento pessoal. Esses departamentos são responsáveis pela devida remuneração e determinação de cargos e posições dentro das empresas, e geralmente o fazem com base em avaliações de desempenho vinda dos supervisores responsáveis de cada área. Geralmente, encontramos um ou mais supervisores ou gerentes responsáveis na área de desenvolvimento, comumente conhecida pelos nomes de indústria ou fábrica de software.
+Dentro das empresas de TI, geralmente é encontrado um departamento de recursos humanos ou desenvolvimento pessoal. Esses departamentos são responsáveis pela devida remuneração e determinação de cargos e posições dentro das empresas, e geralmente o fazem com base em avaliações de desempenho vinda dos supervisores responsáveis de cada área. Geralmente, são encontrados um ou mais supervisores ou gerentes responsáveis na área de desenvolvimento, comumente conhecida pelos nomes de indústria ou fábrica de software.
 
 Utilizar apenas o método tradicional acima para avaliar o desempenho de um desenvolvedor pode ser muito negativo para a empresa. Esse método de avaliar apenas LOC por exemplo é considerado primitivo e produz resultados que não estão de acordo com a realidade \cite{Symons2010}. Quantidade de linhas de código não leva em consideração o esforço necessário para escrevê-las, nem o conhecimento que serviu de base para o mesmo acontecer. Problemas complexos, por exemplo, geralmente necessitam de um desenvolvedor mais experiente para serem resolvidos, e muitas vezes, não são necessárias muitas linhas de código para o fazer.
 
@@ -38,9 +38,9 @@ Várias empresas estão começando a ganhar consciência dessas questões e est�
 \section{Objetivos e Contribuição}
 Como mencionado anteriormente, o desempenho de um desenvolvedor é muito relacionado com sua produtividade, que possui um conceito clássico de quantidade de entregas. Porém, os supervisores e gerentes que participam ativamente da sua área de desenvolvimento e convivem com os desenvolvedores que ali trabalham, possuem percepções diferentes sobre cada membro de seu time. Isso nada mais é que uma avaliação subjetiva de desempenho, que não considera apenas a produção individual resultante, mas diversas outras características que fazem que o desenvolvedor possua uma determinada importância na visão do seu supervisor.
 
-Entendemos que a métrica mais comum hoje é a “produtividade” no sentido de quantidade de entregas. Porém, sabemos que muito mais é levado em consideração ao avaliar a importância de um determinado desenvolvedor, o problema é que essa avaliação geralmente acontece de uma forma subjetiva por parte do supervisor, isto é, cada supervisor, de acordo com a vivência, identifica quais os desenvolvedores mais importantes devido à sua percepção, sem a orientação de métricas bem estabelecidas.
+Entende-se que a métrica mais comum hoje é a “produtividade” no sentido de quantidade de entregas. Porém, muito mais é levado em consideração ao avaliar a importância de um determinado desenvolvedor, o problema é que essa avaliação geralmente acontece de uma forma subjetiva por parte do supervisor, isto é, cada supervisor, de acordo com a vivência, identifica quais os desenvolvedores mais importantes devido à sua percepção, sem a orientação de métricas bem estabelecidas.
 
-Fizemos um levantamento, baseado em estudos passados, de várias métricas que podem influenciar na avaliação de cada desenvolvedor. Realizaremos uma pesquisa com sujeitos humanos (supervisores de áreas de desenvolvimento representando empresas ou times), onde cada um desses sujeitos humanos irá avaliar individualmente os desenvolvedores seguindo as métricas levantadas. Iremos então analisar o conjunto de dados resultante da aplicação da pesquisa com intuito de identificar um padrão nas avaliações dos desenvolvedores. Dessa forma, pretendemos apontar quais as métricas que mais influenciam na avaliação dos supervisores sobre os desenvolvedores, e também obter um classificador de importância dos desenvolvedores, utilizando essas métricas mais relevantes, que esperamos seja de alta acurácia. Os supervisores que preencherem uma quantidade significativa de dados (10 ou mais questionários) também terão sua empresa/time analisados individualmente, tanto na descoberta das métricas mais relevantes como na construção do classificador de importância do desenvolvedor.
+Foi feito um levantamento, baseado em estudos passados, de várias métricas que podem influenciar na avaliação de cada desenvolvedor. Será realizado uma pesquisa com sujeitos humanos (supervisores de áreas de desenvolvimento representando empresas ou times), onde cada um desses sujeitos humanos irá avaliar individualmente os desenvolvedores seguindo as métricas levantadas. Será então analisado o conjunto de dados resultante da aplicação da pesquisa com intuito de identificar um padrão nas avaliações dos desenvolvedores. Dessa forma, pretende-se apontar quais as métricas que mais influenciam na avaliação dos supervisores sobre os desenvolvedores, e também obter um classificador de importância dos desenvolvedores de alta acurácia, utilizando essas métricas mais relevantes. Os supervisores que preencherem uma quantidade significativa de dados (10 ou mais questionários) também terão sua empresa/time analisados individualmente, tanto na descoberta das métricas mais relevantes como na construção do classificador de importância do desenvolvedor.
 
 
 \section{Estrutura da Dissertação}
@@ -48,22 +48,22 @@ Além do presente capítulo introdutório, esta pesquisa apresenta-se desenvolvi
 
 \begin{description}
 	\item[Capítulo 2: Referencial Teórico] \hfill \\
-	Nesse capítulo apresentaremos os conceitos importantes que serão abordados ao longo desse trabalho, bem como outros estudos que atuaram em cima desse mesmo tópico e que serviram de base para produção desse estudo.
+	Nesse capítulo serão apresentados os conceitos importantes que serão abordados ao longo desse trabalho, bem como outros estudos que atuaram em cima desse mesmo tópico e que serviram de base para produção desse estudo.
 	
 	\item [Capítulo 3: Metodologia] \hfill \\
 	Nesse capítulo será apresentado a metodologia usada para conduzir a pesquisa com sujeito humanos, mostrando a criação do conjunto de critérios para os supervisores avaliarem os desenvolvedores e a aplicação da pesquisa. Será mostrado também a estratégia de seleção de características utilizada para identificar quais critérios possuem maior relevância no momento da avaliação do supervisor, e a estratégia para a construção do classificador de importância dos desenvolvedores.
 	
 	\item[Capítulo 4: Resultados Gerais (todas empresas) ] \hfill \\
-	Nesse capítulo apresentaremos o resultado da aplicação da pesquisa, mostrando o número de supervisores e empresas envolvidos na pesquisa e a quantidade de avaliações de desenvolvedores obtidas. Mostraremos também o resultado da aplicação dos algoritmos de seleção de características e de classificação para todas as empresas.
+	Nesse capítulo será apresentado o resultado da aplicação da pesquisa, mostrando o número de supervisores e empresas envolvidos na pesquisa e a quantidade de avaliações de desenvolvedores obtidas. Será mostrado também o resultado da aplicação dos algoritmos de seleção de características e de classificação para todas as empresas.
 	
 	\item[Capítulo 5: Resultados individuais (por empresa) ] \hfill \\
-	Nesse capítulo apresentaremos o resultado da aplicação da pesquisa, aplicação dos algoritmos de seleção de características e de classificação para as empresas que atingirem o número mínimo de avaliações de desenvolvedores.
+	Nesse capítulo será apresentado o resultado da aplicação da pesquisa, aplicação dos algoritmos de seleção de características e de classificação para as empresas que atingirem o número mínimo de avaliações de desenvolvedores.
 	
 	\item[Capítulo 6: Discussão ] \hfill \\
-	Aqui discutiremos os resultados obtidos da aplicação dos algoritmos de seleção de características e classificação, apresentando também algumas ameaças à validade desse estudo.
+	Aqui serão discutidos os resultados obtidos da aplicação dos algoritmos de seleção de características e classificação, apresentando também algumas ameaças à validade desse estudo.
 	
 	\item[Capítulo 7: Conclusões ] \hfill \\
-	Por fim, baseada nos resultados obtidos, apresentaremos a conclusão do trabalho e levantaremos algumas possibilidades de trabalhos futuros que possam ter como base esse estudo.
+	Por fim, baseada nos resultados obtidos, será apresentada a conclusão do trabalho e serão levantadas algumas possibilidades de trabalhos futuros que possam ter como base esse estudo.
 	
 \end{description}
 

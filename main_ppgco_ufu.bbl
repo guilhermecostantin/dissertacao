@@ -82,6 +82,17 @@ ISBN 0130266922.}
   1462--1477, 1988.
 ISSN 0098-5589.}
 
+\bibitem[Boyatzis 1982]{Boyatzis1982}
+\abntrefinfo{Boyatzis}{BOYATZIS}{1982}
+{BOYATZIS, R.~E. \textbf{The competent manager : a model for effective
+  performance}. [S.l.]: New York: Wiley, 1982.}
+
+\bibitem[Boyatzis 2008]{Boyatzis2008}
+\abntrefinfo{Boyatzis}{BOYATZIS}{2008}
+{\underline{\ \ \ \ \ \ \ \ }. Competencies in the 21st century.
+\textbf{Journal of Management Development}, v.~27, n.~1, p. 5--12, 2008.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1108/02621710810840730}.}
+
 \bibitem[Briand, Emam e Bomarius 1998]{Briand1998}
 \abntrefinfo{Briand, Emam e Bomarius}{BRIAND; EMAM; BOMARIUS}{1998}
 {BRIAND, L.; EMAM, K.~E.; BOMARIUS, F. {COBRA: a hybrid method for software
@@ -114,10 +125,6 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/0164-1212(81)90041-8}.}
 \abntrefinfo{Chatzoglou e Macaulay}{CHATZOGLOU; MACAULAY}{1997}
 {CHATZOGLOU, P.~D.; MACAULAY, L.~A. \textbf{{The importance of human factors in
   planning the requirements capture stage of a project}}. 1997. 39--53~p.}
-
-\bibitem[Chiavenato 2008]{Chiavenato2008}
-\abntrefinfo{Chiavenato}{CHIAVENATO}{2008}
-{CHIAVENATO, I. \textbf{{Gest\~{a}o de pessoas}}. 3ª. ed. [S.l.: s.n.], 2008.}
 
 \bibitem[Clincy 2003]{Clincy2003}
 \abntrefinfo{Clincy}{CLINCY}{2003}
@@ -337,6 +344,14 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.infsof.2008.05.009}.}
   2005. v.~1, p. 59--64 Vol. 2.
 ISSN 0730-3157.}
 
+\bibitem[Shirazi e Mortazavi 2009]{Shirazi2009}
+\abntrefinfo{Shirazi e Mortazavi}{SHIRAZI; MORTAZAVI}{2009}
+{SHIRAZI, A.; MORTAZAVI, S. Effective management performance a competency-based
+  perspective.
+\textbf{International Review of Business Research Papers}, v.~5, n.~1, p.
+  1--10, January 2009.
+ISSN 1832-9543.}
+
 \bibitem[Symons 2010]{Symons2010}
 \abntrefinfo{Symons}{SYMONS}{2010}
 {SYMONS, C. {Software Industry Performance: What You Measure Is What You Get}.
@@ -385,14 +400,6 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.im.2003.12.007}.}
 \abntrefinfo{Walston e Felix}{WALSTON; FELIX}{1977}
 {WALSTON, C.~E.; FELIX, C.~P. \textbf{{A method of programming measurement and
   estimation}}. 1977. 54--73~p.}
-
-\bibitem[Witten e Frank 2005]{Witten2005}
-\abntrefinfo{Witten e Frank}{WITTEN; FRANK}{2005}
-{WITTEN, I.~H.; FRANK, E. \textbf{{Data Mining: Practical Machine Learning
-  Tools and Techniques, Second Edition (Morgan Kaufmann Series in Data
-  Management Systems)}}. San Francisco, CA, USA: Morgan Kaufmann Publishers
-  Inc., 2005.
-ISBN 0120884070.}
 
 \bibitem[Wohlin e Ahlgren 1995]{Wohlin1995}
 \abntrefinfo{Wohlin e Ahlgren}{WOHLIN; AHLGREN}{1995}

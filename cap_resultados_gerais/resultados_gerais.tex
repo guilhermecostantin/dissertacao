@@ -44,6 +44,7 @@ A partir dessa análise, juntamente com a análise da matriz de confusão gerada
 %inserir tabela 3
 
 \begin{table}[h]
+	\centering
 	\caption{Novo conjunto de classes de desenvolvedores}
 	\label{tabela3}
 	\def\arraystretch{1.5}
@@ -130,7 +131,7 @@ Como explicado na Seção \ref{secao3.3} , foi utilizado o algoritmo \textit{Gai
 
 \section{Classificação}\label{secao4.4}
 
-Considerando que os atributos foram ordenados, foi aplicado a técnica de seleção de características e usado apenas os atributos mais relevantes na classificação. Para determinar quantas características precisam ser selecionadas para se obter uma maior performance, foi conduzido um teste exaustivo (os classificadores rodaram com um crescente número de características selecionadas, de 2 a 16) e escolhido a configuração com melhor performance (8 atributos). A \autopageref{tabela7.1} e a \autoref{tabela7.2} mostram então a aplicação exaustiva do algoritmo que associa a seleção de características com os algoritmos de classificação, para o J48 e para o NaïveBayes respectivamente.
+Considerando que os atributos foram ordenados, foi aplicado a técnica de seleção de características e usado apenas os atributos mais relevantes na classificação. Para determinar quantas características precisam ser selecionadas para se obter uma maior performance, foi conduzido um teste exaustivo (os classificadores rodaram com um crescente número de características selecionadas, de 2 a 16) e escolhido a configuração com melhor performance (8 atributos). A \autoref{tabela7.1} e a \autoref{tabela7.2} mostram então a aplicação exaustiva do algoritmo que associa a seleção de características com os algoritmos de classificação, para o J48 e para o NaïveBayes respectivamente.
 
 A \autoref{tabela6} mostra os resultados da aplicação do algoritmo J48.Neste caso, o J48 não apresentou uma boa performance, com acurácia perto de 60\%, para o conjunto original de classes, porém já apresentou uma acurácia significativa ao ser aplicado sobre o novo conjunto de classes (80\% de acertos). No caso do J48, para ambos os conjuntos de classe, o classificador obteve a melhor performance utilizando apenas 2 atributos, como mostrado na \autoref{tabela7.1}.
 
@@ -139,6 +140,7 @@ NaïveBayes, como mostrado na \autoref{tabela7} obteve uma performance similar a
 %inserir Tabela 6
 
 \begin{table}[h]
+	\centering
 	\caption{Aplicação do J48 para os diferentes conjuntos de classe }
 	\label{tabela6}
 	\def\arraystretch{1.5}
@@ -153,6 +155,7 @@ NaïveBayes, como mostrado na \autoref{tabela7} obteve uma performance similar a
 %inserir Tabela 7
 
 \begin{table}[h]
+	\centering
 	\caption{Aplicação do NaïveBayes para os diferentes conjuntos de classe }
 	\label{tabela7}
 	\def\arraystretch{1.5}

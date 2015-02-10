@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {3.1.2}Aplica\IeC {\c c}\IeC {\~a}o da Pesquisa}{36}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}Caracteriza\IeC {\c c}\IeC {\~a}o dos respondentes}{36}{subsection.3.1.3}
 \contentsline {section}{\numberline {3.2}Sele\IeC {\c c}\IeC {\~a}o de Caracter\IeC {\'\i }sticas}{36}{section.3.2}
-\contentsline {section}{\numberline {3.3}Classifica\IeC {\c c}\IeC {\~a}o}{37}{section.3.3}
+\contentsline {section}{\numberline {3.3}Classifica\IeC {\c c}\IeC {\~a}o}{38}{section.3.3}
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados Gerais}}{41}{chapter.4}
 \contentsline {section}{\numberline {4.1}Pesquisa}{41}{section.4.1}
 \contentsline {section}{\numberline {4.2}Sele\IeC {\c c}\IeC {\~a}o de Caracter\IeC {\'\i }sticas}{43}{section.4.2}
@@ -39,4 +39,4 @@
 \contentsline {section}{\numberline {6.3}Resultados Individuais (Por Empresa)}{71}{section.6.3}
 \contentsline {section}{\numberline {6.4}Amea\IeC {\c c}as \IeC {\`A} Validade}{72}{section.6.4}
 \contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Conclus\IeC {\~o}es}}{73}{chapter.7}
-\contentsline {chapter}{Refer\^encias}{77}{section*.12}
+\contentsline {chapter}{Refer\^encias}{77}{section*.50}

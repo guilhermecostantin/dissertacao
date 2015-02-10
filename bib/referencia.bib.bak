@@ -321,6 +321,27 @@
   url = {http://dl.acm.org/citation.cfm?id=2487085.2487107}
 }
 
+@ARTICLE{Boyatzis2008,
+  author = {Boyatzis, Richard and Boyatzis, Richard E.},
+  title = {Competencies in the 21st century},
+  journal = {Journal of Management Development},
+  year = {2008},
+  volume = {27},
+  pages = {5-12},
+  number = {1},
+  doi = {10.1108/02621710810840730},
+  url = {http://dx.doi.org/10.1108/02621710810840730}
+}
+
+@BOOK{Boyatzis1982,
+  title = {The competent manager : a model for effective performance},
+  publisher = {New York: Wiley},
+  year = {1982},
+  author = {Boyatzis, Richard E.},
+  owner = {Guilherme},
+  timestamp = {2015.01.20}
+}
+
 @ARTICLE{Briand1998,
   author = {Briand, L.C. and Emam, K. El and Bomarius, F.},
   title = {{COBRA: a hybrid method for software cost estimation, benchmarking,
@@ -999,6 +1020,21 @@
   keywords = {pattern clustering;productivity;software developme}
 }
 
+@ARTICLE{Shirazi2009,
+  author = {Shirazi, Ali and Mortazavi, Saeed},
+  title = {Effective management performance a competency-based perspective},
+  journal = {International Review of Business Research Papers},
+  year = {2009},
+  volume = {5},
+  pages = {1--10},
+  number = {1},
+  month = {January},
+  issn = {1832-9543},
+  keywords = {Field of Research: management performance; competency; future competencies;effective
+	managers},
+  numpages = {9}
+}
+
 @INPROCEEDINGS{Sinha2013,
   author = {Sinha, Vibha Singhal and Mani, Senthil and Gupta, Monika},
   title = {{Exploring Activeness of Users in QA Forums}},
@@ -1059,6 +1095,22 @@
 	wurden miteinander verglichen, um \{\"{A}\}hnlichkeiten herauszufinden.},
   publisher = {Universit\{\"{a}\}t Wien \& Technische Universit\{\"{a}\}t Wien},
   url = {http://eprints.cs.univie.ac.at/467/}
+}
+
+@ARTICLE{Symons2010,
+  author = {Symons, Charles},
+  title = {{Software Industry Performance: What You Measure Is What You Get}},
+  journal = {Software, IEEE},
+  year = {2010},
+  volume = {27},
+  pages = {66--72},
+  number = {6},
+  __markedentry = {[Guilherme:6]},
+  doi = {10.1109/MS.2009.162},
+  issn = {0740-7459},
+  keywords = {DP industry;budgeting;productivity;software houses},
+  owner = {Guilherme},
+  timestamp = {2014.12.26}
 }
 
 @INPROCEEDINGS{Thung2013,

@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {1.3}Estrutura da Disserta\IeC {\c c}\IeC {\~a}o}{26}{section.1.3}
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{29}{chapter.2}
 \contentsline {section}{\numberline {2.1}Levantamento de Caracter\IeC {\'\i }sticas}{30}{section.2.1}
-\contentsline {section}{\numberline {2.2}Data Mining e Classifica\IeC {\c c}\IeC {\~a}o}{32}{section.2.2}
+\contentsline {section}{\numberline {2.2}Minera\IeC {\c c}\IeC {\~a}o de dados e Classifica\IeC {\c c}\IeC {\~a}o}{32}{section.2.2}
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodolodia}}{35}{chapter.3}
 \contentsline {section}{\numberline {3.1}Pesquisa}{35}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Goal-Question-Metric}{35}{subsection.3.1.1}

@@ -101,9 +101,9 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1108/02621710810840730}.}
   Engineering}, 1998.
 ISSN 0270-5257.}
 
-\bibitem[{Brooks Jr} 1987]{BrooksJr1987}
-\abntrefinfo{{Brooks Jr}}{{Brooks Jr}}{1987}
-{{Brooks Jr}, F.~P. {No silver bullet-essence and accidents of software
+\bibitem[Brooks F.P. 1987]{BrooksJr1987}
+\abntrefinfo{Brooks F.P.}{BROOKS F.P.}{1987}
+{BROOKS F.P., J. {No silver bullet-essence and accidents of software
   engineering}.
 \textbf{IEEE computer}, v.~20, n.~4, p. 10--19, 1987.}
 
@@ -211,9 +211,11 @@ Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/2786.2791}.}
 \textbf{IEEE Software}, v.~17, p. 48--56, 2000.
 ISSN 07407459.}
 
-\bibitem[Holmes, Donkin e Witten]{Holmes}
-\abntrefinfo{Holmes, Donkin e Witten}{HOLMES; DONKIN; WITTEN}{}
-{HOLMES, G.; DONKIN, A.; WITTEN, I.~H. {W EKA : A Machine Learning Workbench}.}
+\bibitem[Holmes, Donkin e Witten 1994]{Holmes}
+\abntrefinfo{Holmes, Donkin e Witten}{HOLMES; DONKIN; WITTEN}{1994}
+{HOLMES, G.; DONKIN, A.; WITTEN, I.~H. Weka: A machine learning workbench. In:
+  IEEE. \textbf{Intelligent Information Systems, 1994. Proceedings of the 1994
+  Second Australian and New Zealand Conference on}. [S.l.], 1994. p. 357--361.}
 
 \bibitem[Jones 1986]{Jones1986}
 \abntrefinfo{Jones}{JONES}{1986}

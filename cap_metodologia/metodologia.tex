@@ -1,14 +1,14 @@
 \chapter[Metodolodia]{Metodologia}
 
-Para investigar a prática atual de avaliação de desenvolvedores, é preciso olhar mais profundamente em como as empresas o fazem. No propósito de conduzir esse estudo, foi decidido executar uma pesquisa com sujeitos humanos para extrair a informação desejada e analisá-la. Neste estudo foi pedido para os respondentes primeiro classificar o desenvolvedor (em níveis de importância), e depois preencher o resto do formulário com as características do desenvolvedor.
+Para investigar a prática atual de avaliação de desenvolvedores, é preciso analisar mais profundamente em como as empresas o fazem. No propósito de conduzir esse estudo, foi decidido executar uma pesquisa com sujeitos humanos para extrair a informação desejada e analisá-la. Neste estudo foi pedido para os respondentes avaliarem individualmente seus desenvolvedores, classificando-os primeiramente em níveis de importância, e em seguida preenchendo o restante do formulário com as características do desenvolvedor em questão.
 
-Para analisar os dados obtidos, serão utilizados métodos de classificação para se obter uma visão clara em como as características afetam a classificação dos supervisores, e como produto, dependendo dos dados encontrados, obter um classificador que possa ser utilizado para ajudar os supervisores a ganhar \textit{insights} de como melhorar a importância geral do time.
+Para analisar os dados obtidos, foram utilizados métodos de classificação para se obter uma visão clara em como as características afetam a classificação dos supervisores, e obter também um classificador que possa ajudar os supervisores a ganhar \textit{insights} de como melhorar a importância geral do time.
 
-Esta seção se dedica a explicar o desenho desse experimento, mostrando a criação e a aplicação da pesquisa com os supervisores, e mostrar também como foi conduzida a análise dos dados obtidos dessa pesquisa, incluindo a análise de critérios e a construção do classificador.
+Esta seção se dedica a explicar o desenho desse experimento, mostrando a criação e a aplicação da pesquisa com os supervisores, e mostrar também como foi conduzida a análise dos dados obtidos desta pesquisa, incluindo a análise de critérios e a construção do classificador.
 
 \section{Pesquisa}\label{secao3.2}
 
-Nas próximas subseções serão tratadas a abordagem utilizada para compor a pesquisa, a aplicação da pesquisa em si nos supervisores das empresas participantes e a caracterização dos mesmos.
+Nas próximas subseções serão tratadas a abordagem utilizada para compor a pesquisa, a aplicação da pesquisa nos supervisores das empresas participantes e a caracterização dos mesmos.
 
 \subsection{Goal-Question-Metric}\label{secao3.2.1}
 Foi utilizada uma abordagem chamada Goal-Question-Metric(GQM) \cite{Basili1994} que ajudou a compor a pesquisa. GQM é uma abordagem do tipo top-down, que é baseada no pressuposto que primeiro, para se medir algo, é necessário especificar objetivos (goal), dos quais é possível derivar perguntas (question), e então, especificar as métricas (metric) que precisam ser coletadas para responder essas perguntas.
@@ -78,7 +78,7 @@ Os respondentes da pesquisa são então supervisores de times de desenvolvimento
 
 \section{Seleção de Características}\label{secao3.3}
 
-No intuito de conduzir a análise dos critérios para determinar quais fatores são os mais relevantes e possuem maior influência na avaliação do supervisor, foi utilizada a ferramenta WEKA\cite{Holmes}.
+No intuito de conduzir a análise dos critérios para determinar quais fatores são os mais relevantes e possuem maior influência na avaliação do supervisor, foi utilizada a ferramenta WEKA.
 
 Vários problemas reais possuem diversas características envolvidas (mostradas na \autoref{tabela2}), e apenas algumas dentre elas são relevantes para o objetivo final \cite{Kira1992}, neste caso, classificar a importância de um desenvolvedor. Para resolver esse problema, será utilizada uma estratégia chamada seleção de características (do inglês, Feature Selection), onde será selecionado um subconjunto de características para se ter em foco, e ignorar o restante para acelerar o processo de aprendizado, aprimorar a qualidade do classificador e atingir a melhor acurácia do algoritmo de aprendizado de máquinas \cite{Kira1992,Kohavi1997}. 
 

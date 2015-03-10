@@ -1,29 +1,29 @@
 \select@language {brazil}
 \contentsline {table}{\numberline {1}{\ignorespaces Levantamento dos fatores de import\IeC {\^a}ncia por grupo de semelhan\IeC {\c c}a\relax }}{31}{table.caption.11}
 \contentsline {table}{\numberline {2}{\ignorespaces Revis\IeC {\~a}o da literatura correlata aos fatores de import\IeC {\^a}ncia\relax }}{32}{table.caption.12}
-\contentsline {table}{\numberline {3}{\ignorespaces Goal-Question-Metric\relax }}{37}{table.caption.13}
+\contentsline {table}{\numberline {3}{\ignorespaces Goal-Question-Metric\relax }}{36}{table.caption.13}
 \contentsline {table}{\numberline {4}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o dos participantes na pesquisa\relax }}{42}{table.caption.15}
 \contentsline {table}{\numberline {5}{\ignorespaces Novo conjunto de classes de desenvolvedores\relax }}{43}{table.caption.17}
-\contentsline {table}{\numberline {6}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o dos atributos (conjunto original de 5 classes)\relax }}{44}{table.caption.19}
-\contentsline {table}{\numberline {7}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o dos atributos (novo conjunto de 2 classes)\relax }}{45}{table.caption.20}
+\contentsline {table}{\numberline {6}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o das caracter\IeC {\'\i }sticas (conjunto original de 5 classes)\relax }}{44}{table.caption.19}
+\contentsline {table}{\numberline {7}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o das caracter\IeC {\'\i }sticas (novo conjunto de 2 classes)\relax }}{45}{table.caption.20}
 \contentsline {table}{\numberline {8}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o do J48 para os diferentes conjuntos de classe \relax }}{46}{table.caption.21}
 \contentsline {table}{\numberline {9}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o do Na\IeC {\"\i }veBayes para os diferentes conjuntos de classe \relax }}{46}{table.caption.22}
 \contentsline {table}{\numberline {10}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o exaustiva do J48\relax }}{47}{table.caption.23}
 \contentsline {table}{\numberline {11}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o exaustiva do Na\IeC {\"\i }veBayes\relax }}{48}{table.caption.24}
-\contentsline {table}{\numberline {12}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o dos atributos da Empresa A (conjunto original de 5 classes)\relax }}{52}{table.caption.27}
-\contentsline {table}{\numberline {13}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o dos atributos da Empresa A (conjunto de 2 classes)\relax }}{53}{table.caption.28}
+\contentsline {table}{\numberline {12}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o das caracter\IeC {\'\i }sticas da Empresa A (conjunto original de 5 classes)\relax }}{52}{table.caption.27}
+\contentsline {table}{\numberline {13}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o das caracter\IeC {\'\i }sticas da Empresa A (conjunto de 2 classes)\relax }}{53}{table.caption.28}
 \contentsline {table}{\numberline {14}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o do J48 para os diferentes conjuntos de classe da Empresa A\relax }}{54}{table.caption.29}
 \contentsline {table}{\numberline {15}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o do Na\IeC {\"\i }veBayes para os diferentes conjuntos de classe da Empresa A\relax }}{54}{table.caption.30}
 \contentsline {table}{\numberline {16}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o exaustiva do J48 para a empresa A\relax }}{55}{table.caption.31}
 \contentsline {table}{\numberline {17}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o exaustiva do Na\IeC {\"\i }veBayes para a empresa A\relax }}{56}{table.caption.32}
-\contentsline {table}{\numberline {18}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o dos atributos da Empresa B (conjunto original de 5 classes)\relax }}{58}{table.caption.35}
-\contentsline {table}{\numberline {19}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o dos atributos da Empresa B (conjunto de 2 classes)\relax }}{59}{table.caption.36}
+\contentsline {table}{\numberline {18}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o das caracter\IeC {\'\i }sticas da Empresa B (conjunto original de 5 classes)\relax }}{58}{table.caption.35}
+\contentsline {table}{\numberline {19}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o das caracter\IeC {\'\i }sticas da Empresa B (conjunto de 2 classes)\relax }}{59}{table.caption.36}
 \contentsline {table}{\numberline {20}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o do J48 para os diferentes conjuntos de classe da Empresa B\relax }}{60}{table.caption.37}
 \contentsline {table}{\numberline {21}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o do Na\IeC {\"\i }veBayes para os diferentes conjuntos de classe da Empresa B\relax }}{60}{table.caption.38}
 \contentsline {table}{\numberline {22}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o exaustiva do J48 para a empresa B\relax }}{61}{table.caption.39}
 \contentsline {table}{\numberline {23}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o exaustiva do Na\IeC {\"\i }veBayes para a empresa B\relax }}{62}{table.caption.40}
-\contentsline {table}{\numberline {24}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o dos atributos da Empresa C (conjunto original de 5 classes)\relax }}{64}{table.caption.43}
-\contentsline {table}{\numberline {25}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o dos atributos da Empresa C (conjunto de 2 classes)\relax }}{65}{table.caption.44}
+\contentsline {table}{\numberline {24}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o das caracter\IeC {\'\i }sticas da Empresa C (conjunto original de 5 classes)\relax }}{64}{table.caption.43}
+\contentsline {table}{\numberline {25}{\ignorespaces Ordena\IeC {\c c}\IeC {\~a}o das caracter\IeC {\'\i }sticas da Empresa C (conjunto de 2 classes)\relax }}{65}{table.caption.44}
 \contentsline {table}{\numberline {26}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o do J48 para os diferentes conjuntos de classe da Empresa C\relax }}{66}{table.caption.45}
 \contentsline {table}{\numberline {27}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o do Na\IeC {\"\i }veBayes para os diferentes conjuntos de classe da Empresa C\relax }}{66}{table.caption.46}
 \contentsline {table}{\numberline {28}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o exaustiva do J48 para a empresa C\relax }}{67}{table.caption.47}

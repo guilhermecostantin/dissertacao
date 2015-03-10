@@ -3,8 +3,10 @@
 Seguindo os passos apresentados no capítulo anterior, serão mostrados os resultados da aplicação da pesquisa, a seleção de características executada no conjunto de dados gerados por essa pesquisa e a aplicação dos classificadores e suas respectivas acurácias na classificação dos desenvolvedores.
 
 \section{Pesquisa}\label{secao4.2}
-Primeiramente serão apresentados os dados coletados com a pesquisa. Onze respondentes (supervisores) forneceram 61 respostas (avaliações únicas de desenvolvedores). Em alguns casos, alguns supervisores trabalham na mesma empresa, porém eles supervisionam diferente times. No total, oito empresas foram envolvidas na coleta de dados. A tabela \ref{tabela2_1} mostra detalhes sobre a participação de cada empresa.
-Assim como mostrado na Seção \ref{caracterizacao_respondentes}, as empresas participantes são empresas que possuem uma área de desenvolvimento de software com ao menos um supervisor. Todas as empresas estão situadas na cidade de Uberlândia, e não foi utilizado nenhum fator para discriminar a participação das mesmas na pesquisa, como porte da empresa, número de funcionários ou infra-estrutura por exemplo. De fato, participaram grandes empresas, em faturamento e plantel de funcionários, que fazem parte de grupos ainda maiores, como empresas que possuem um pequeno número de funcionários (até 10), formando assim um grupo bastante heterogêneo de empresas participantes.
+Primeiramente serão apresentados os dados coletados com a pesquisa. Onze respondentes (supervisores) forneceram 61 respostas (avaliações únicas de desenvolvedores). Em alguns casos, mais de um supervisor trabalham na mesma empresa, porém eles supervisionam diferente times. No total, oito empresas foram envolvidas na coleta de dados. Na tabela \ref{tabela2_1}, podemos ver, por empresa, quantos supervisores (que supervisionam diferentes times) responderam a pesquisa e quantos desenvolvedores foram avaliados.
+
+Assim como mostrado na Seção \ref{caracterizacao_respondentes}, as empresas participantes são empresas que possuem uma área de desenvolvimento de software com ao menos um supervisor. Todas as empresas estão situadas na cidade de Uberlândia e trabalham em seus próprios produtos (não apenas desenvolvem software de maneira terceirizada), mas elas variam em tamanho, considerando quantidade de desenvolvedores como critério, setor de operação (ERP, Telecomunicações, etc), e podem variar em tecnologia utilizada.
+
 
 \begin{table}[h]
 	\caption{Relação dos participantes na pesquisa}
@@ -13,7 +15,7 @@ Assim como mostrado na Seção \ref{caracterizacao_respondentes}, as empresas pa
 	\begin{tabular}{|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{5.75cm}|>{\centering\arraybackslash}p{5.75cm}|}
 		\hline
 		{\textbf{Empresa}} &
-		\parbox{5.75cm}{\textbf{Quantidade de supervisores/times}} & 
+		\parbox{5.75cm}{\textbf{Quantidade de supervisores}} & 
 		\parbox{5.75cm}{\textbf{Quantidade de desenvolvedores avaliados}} \\ \hline
 		A                                      & 2                                                              & 20                                                                    \\ \hline
 		B                                      & 1                                                              & 10                                                                    \\ \hline
@@ -35,9 +37,8 @@ Foi pedido para os supervisores classificarem os desenvolvedores em 5 graus de i
 	\caption{\label{fig_3}Distribuição dos desenvolvedores avaliados pelas classes de importância}
 \end{figure}
 
-Analisando os resultados da pesquisa, chegou-se à conclusão que os supervisores foram, em certo nível, conservadores em classificar seus desenvolvedores nas classificações mais baixas de importância. Uma possível explicação para esse comportamento é o supervisor, invés de analisar de uma forma comparativa os desenvolvedores ao realizar a classificação por importância, ter avaliado cada desenvolvedor individualmente, o que pode ter criado um viés ao seguir a linha de raciocínio de que se o desenvolvedor possui baixa importância, ele não estaria na equipe.
-
-Esse viés na classificação dos desenvolvedores impacta diretamente a acurácia dos classificadores, visto que eles usam a classe como base para tentar descobrir um padrão nos dados. Caso a classificação não tenha ficado clara para todos os respondentes, os algoritmos podem se confundir e apresentar erros leves, classificando um determinado indivíduo em classes similares, mas não à classe que ele realmente pertence. Esses erros, mesmo que leves, em grande quantidade interferem e possuem um impacto negativo significativo na acurácia do classificador que é proposto nesse estudo.
+Analisando os resultados da pesquisa, percebe-se que os supervisores podem ter sido, em certo nível, conservadores em classificar seus desenvolvedores nas classificações mais baixas de importância. Uma possível explicação para esse comportamento é o viés criado ao seguir a linha de raciocínio de que se o desenvolvedor possui baixa importância, ele não estaria na equipe.
+Esse viés na classificação dos desenvolvedores impacta diretamente a acurácia dos classificadores, visto que eles usam a classe como base para tentar descobrir um padrão nos dados. Caso a classificação não tenha ficado clara para todos os respondentes, os algoritmos podem se confundir e apresentar erros leves, classificando um determinado indivíduo em classes similares, mas não à classe que ele realmente pertence. Esses erros em grande quantidade interferem e possuem um impacto negativo significativo na acurácia do classificador que é proposto neste estudo.
 
 A partir dessa análise, juntamente com a análise da matriz de confusão gerada pela aplicação dos algoritmos descritos na Seção \ref{secao3.4}, decidiu-se agrupar os desenvolvedores em apenas duas classes, baseadas nas cinco classes originais de importância, como mostrado na \autoref{tabela3}, com o intuito de obter uma análise mais realística.
 
@@ -69,18 +70,18 @@ Utilizando esse novo conjunto de classes para agrupar os desenvolvedores, obteve
 
 \section{Seleção de Características}\label{secao4.3}
 
-Como explicado na Seção \ref{secao3.3} , foi utilizado o algoritmo \textit{GainRatio} para ordenar os atributos propostos, para prosseguir com a seleção de características. A \autoref{tabela4} mostra as características ordenadas pelo mérito médio (grau de influência do atributo na classificação, calculado pelo algoritmo) resultante da aplicação do algoritmo usando as classes originais e a \autoref{tabela5} mostra a mesma visão, utilizando agora o novo conjunto de 2 classes. 
+Como explicado na Seção \ref{secao3.3}, foi utilizado o algoritmo \textit{GainRatio} para ordenar as características propostas, para prosseguir com a seleção de características. A \autoref{tabela4} mostra as características ordenadas pelo mérito médio (grau de influência da característica na classificação, calculado pelo algoritmo) resultante da aplicação do algoritmo usando as classes originais e a \autoref{tabela5} mostra a mesma visão, utilizando o novo conjunto de 2 classes. 
 
-É Possível notar algumas semelhanças e diferenças entre essas tabelas. Os três primeiros atributos da primeira tabela, por exemplo, ocupam também as três primeiras posições na segunda, apesar de estarem em ordem diferente, o que mostra que a mudança do conjunto de classes não teve um impacto muito significativo na relevância desses atributos. Porém, após os três primeiros, é possível notar algumas diferenças mais expressivas no posicionamento dos atributos, mostrando então um maior impacto nos atributos menos relevantes causada pela troca do conjunto de classes.
+É possível notar algumas semelhanças e diferenças entre essas tabelas. as três primeiras características da primeira tabela, por exemplo, ocupam também as três primeiras posições na segunda, apesar de estarem em ordem diferente, o que mostra que a mudança do conjunto de classes não teve um impacto muito significativo na relevância dessas características. Porém, após as três primeiras, é possível notar algumas diferenças mais expressivas no posicionamento dos características, mostrando então um maior impacto nas características menos relevantes causada pela troca do conjunto de classes.
 
 %inserir Tabela 4
 \begin{table}[h]
-	\caption{Ordenação dos atributos (conjunto original de 5 classes)}
+	\caption{Ordenação das características (conjunto original de 5 classes)}
 	\label{tabela4}
 	\def\arraystretch{2}
 	\begin{tabular}{|p{8.5cm}|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{3cm}|}
 		\hline
-		\textbf{Atributos}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
+		\textbf{Características}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
 		Capacidade de resolução de problemas complexos                          & 1.4 +- 0.49                                 & 0.303 +- 0.03                                                                          \\ \hline
 		Qual a sua avaliação sobre a produtividade do desenvolvedor em questão? & 1.6 +- 0.49                                 & 0.29  +- 0.022                                                                         \\ \hline
 		Pró-atividade                                                           & 3.6 +- 0.92                                 & 0.226 +- 0.01                                                                          \\ \hline
@@ -103,12 +104,12 @@ Como explicado na Seção \ref{secao3.3} , foi utilizado o algoritmo \textit{Gai
 %inserir Tabela 5
 
 \begin{table}[h]
-	\caption{Ordenação dos atributos (novo conjunto de 2 classes)}
+	\caption{Ordenação das características (novo conjunto de 2 classes)}
 	\label{tabela5}
 	\def\arraystretch{2}
 	\begin{tabular}{|p{8.5cm}|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{3cm}|}
 		\hline
-		\textbf{Atributos}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
+		\textbf{Características}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
 		Pró-atividade                                                           & 1.2 +- 0.4             & 0.168 +- 0.01         \\ \hline
 		Qual a sua avaliação sobre a produtividade do desenvolvedor em questão? & 1.9 +- 0.54            & 0.156 +- 0.017        \\ \hline
 		Capacidade de resolução de problemas complexos                          & 3.2 +- 0.6             & 0.126 +- 0.013        \\ \hline
@@ -124,16 +125,16 @@ Como explicado na Seção \ref{secao3.3} , foi utilizado o algoritmo \textit{Gai
 		Liderança                                                               & 12 +- 0.89             & 0.052 +- 0.004        \\ \hline
 		Comunicação com os colegas                                              & 13.6 +- 0.92           & 0.039 +- 0.009        \\ \hline
 		Empreendedorismo                                                        & 15.5 +- 0.5            & 0.015 +- 0.005        \\ \hline
-		PRINCIPAL comportamento do desenvolvedor                                & 15.5 +- 0.5            & 0.016 +- 0.007        \\ \hline
+		Principal comportamento do desenvolvedor                                & 15.5 +- 0.5            & 0.016 +- 0.007        \\ \hline
 	\end{tabular}
 \end{table}
 \clearpage
 
 \section{Classificação}\label{secao4.4}
 
-Considerando que os atributos foram ordenados, foi aplicado a técnica de seleção de características e usado apenas os atributos mais relevantes na classificação. Para determinar quantas características precisam ser selecionadas para se obter uma maior performance, foi conduzido um teste exaustivo (os classificadores rodaram com um crescente número de características selecionadas, de 2 a 16) e escolhido a configuração com melhor performance (8 atributos). A \autoref{tabela7.1} e a \autoref{tabela7.2} mostram então a aplicação exaustiva do algoritmo que associa a seleção de características com os algoritmos de classificação, para o J48 e para o NaïveBayes respectivamente.
+Considerando que as características foram ordenados, foi aplicado a técnica de seleção de características e usado apenas as características mais relevantes na classificação. Para determinar quantas características precisam ser selecionadas para se obter uma maior performance, foi conduzido um teste exaustivo (os classificadores rodaram com um crescente número de características selecionadas, de 2 a 16) e escolhido a configuração com melhor performance (8 características). A \autoref{tabela7.1} e a \autoref{tabela7.2} mostram então a aplicação exaustiva do algoritmo que associa a seleção de características com os algoritmos de classificação, para o J48 e para o NaïveBayes respectivamente.
 
-A \autoref{tabela6} mostra os resultados da aplicação do algoritmo J48.Neste caso, o J48 não apresentou uma boa performance, com acurácia perto de 60\%, para o conjunto original de classes, porém já apresentou uma acurácia significativa ao ser aplicado sobre o novo conjunto de classes (80\% de acertos). No caso do J48, para ambos os conjuntos de classe, o classificador obteve a melhor performance utilizando apenas 2 atributos, como mostrado na \autoref{tabela7.1}.
+A \autoref{tabela6} mostra os resultados da aplicação do algoritmo J48.Neste caso, o J48 não apresentou uma boa performance, com acurácia perto de 60\%, para o conjunto original de classes, porém já apresentou uma acurácia significativa ao ser aplicado sobre o novo conjunto de classes (80\% de acertos). No caso do J48, para ambos os conjuntos de classe, o classificador obteve a melhor performance utilizando apenas 2 características, como mostrado na \autoref{tabela7.1}.
 
 NaïveBayes, como mostrado na \autoref{tabela7} obteve uma performance similar ao J48 quando aplicado no conjunto original de classes (acurácia perto de 61\%). Já para o novo conjunto de classes, NaïveBayes atingiu uma acurácia expressiva de 85\%. Ambos os melhores resultados do NaïveBayes foram atingidos utilizando 8 características, como mostra a \autoref{tabela7.2}.
 

@@ -1,20 +1,20 @@
 \chapter[Resultados Individuais por Empresa]{Resultados Individuais por Empresa}
 
-Na pesquisa realizada com as empresas, 3 delas atingiram o número mínimo de respostas que permitem uma análise individual da empresa (10 avaliações de desenvolvedores).Serão apresentados nesse capítulo os resultados obtidos ao analisar individualmente essas empresas. Para fins de privacidade, elas não serão identificadas. No decorrer do estudo, elas serão referenciadas como ``Empresa A'', ``Empresa B'' e ``Empresa C'', como apresentado na \autoref{tabela2_1}.
+Na pesquisa realizada com as empresas, 3 delas atingiram o número mínimo de respostas que permitem uma análise individual da empresa (10 avaliações de desenvolvedores).Serão apresentados nesse capítulo os resultados obtidos ao analisar individualmente essas empresas. Para fins de anonimato, elas não serão identificadas. No decorrer do texto, elas serão referenciadas como ``Empresa A'', ``Empresa B'' e ``Empresa C'', como apresentado na \autoref{tabela2_1}.
 
 \section{Análise das Empresas}
 
-Para cada uma das 3 empresas, será feita a análise utilizando os dois conjuntos de classes, apontando as diferenças nos resultados. Será mostrado então a distribuição dos desenvolvedores ao longo dos dois conjuntos de classes, a seleção de características executadas no conjunto de dados resultantes da pesquisa respondida pelos supervisores das respectivas empresas e o resultado da aplicação dos algoritmos de classificação (dados de diferentes times, porém pertencentes à mesma empresa foram mesclados para uma visão geral da empresa).
+Para cada uma das 3 empresas, foi feita a análise utilizando os dois conjuntos de classes, apontando as diferenças nos resultados. Será mostrado então a distribuição dos desenvolvedores ao longo dos dois conjuntos de classes, a seleção de características executadas no conjunto de dados resultantes da pesquisa respondida pelos supervisores das respectivas empresas e o resultado da aplicação dos algoritmos de classificação (dados de diferentes times, porém pertencentes à mesma empresa foram mesclados para uma visão geral da empresa).
 
-Assim como foi feito com o conjunto de dados que representava todas as empresas, aqui foram aplicados os algoritmos de classificação J48 e NaïveBayes nos dados fornecidos pelas respectivas empresas, utilizando tanto o conjunto original de 5 classes quanto o conjunto de 2 classes. 
+Assim como foi feito com o conjunto de dados de todas as empresas, foram aplicados os algoritmos de classificação J48 e NaïveBayes nos dados fornecidos pelas respectivas empresas, utilizando tanto o conjunto original de 5 classes quanto o conjunto de 2 classes. 
 
-Como explicado na Seção \ref{secao3.4}, para associar a seleção de características com os algoritmos de classificação da maneira correta, será utilizado o Algoritmo \textit{AttributeSelectedClassifier}, usando o algoritmo \textit{GainRatioAttributeEval} para selecionar os atributos mais relevantes. E da mesma maneira que foi realizado a seleção de características ao ser analisado o conjunto de dados de todas as empresas (apresentado na Seção \ref{secao4.4}), a quantidade de características ideal que maximiza a acurácia dos classificadores é escolhida através de um teste exaustivo, começando com apenas duas características e aumentando uma a uma até chegar nas dezesseis características apresentadas na \autoref{tabela2} (o processo foi iniciado com um número de características maior que 1 pois o objetivo não é encontrar correlação de alguma característica em específico com a classe, e sim encontrar um padrão na combinação de características que se correlacione com a importância dada pelo supervisor).
+Como explicado na Seção \ref{secao3.4}, para associar a seleção de características com os algoritmos de classificação da maneira correta, foi utilizado o Algoritmo \textit{AttributeSelectedClassifier}, usando o algoritmo \textit{GainRatioAttributeEval} para selecionar as características mais relevantes. E da mesma maneira que foi realizado a seleção de características ao ser analisado o conjunto de dados de todas as empresas (apresentado na Seção \ref{secao4.4}), a quantidade de características ideal que maximiza a acurácia dos classificadores é escolhida através de um teste exaustivo, começando com apenas duas características e aumentando uma a uma até chegar nas dezesseis características apresentadas na \autoref{tabela2} (o processo foi iniciado com um número de características maior que 1 pois o objetivo não é encontrar correlação de alguma característica em específico com a classe, e sim encontrar um padrão na combinação de características que se correlacione com a importância dada pelo supervisor).
 
 \subsection{Análise da Empresa A}
 
 \subsubsection{Pesquisa}
 
-A empresa A obteve avaliações de 2 supervisores. Como eram times com propósitos bem diferentes, foram consideradas apenas as avaliações de um dos times para representar a Empresa A, visto que o segundo não obteve avaliações suficientes para ser analisado individualmente. Logo, o time avaliado obteve 19 avaliações de desenvolvedores.
+A empresa A apresentou avaliações de 2 supervisores. Como eram times com propósitos bem diferentes, foram consideradas apenas as avaliações de um dos times para representar a Empresa A, visto que o segundo não obteve avaliações suficientes para ser analisado individualmente. Logo, o time avaliado obteve 19 avaliações de desenvolvedores.
 
 A \autoref{fig_7} e a \autoref{fig_8} mostram a distribuição dos desenvolvedores pelo conjunto de classes original e pelo conjunto de 2 classes, respectivamente. É possível notar que, ao comparar a distribuição dos desenvolvedores pelo conjunto original de 5 classes (\autoref{fig_7}) desse empresa com o conjunto das empresas em geral (\autoref{fig_3}), a Empresa A também apresentou um baixo uso das duas classes de importância mais baixas, porém, por ter utilizado mais a classe de importância média, obteve uma distribuição dos desenvolvedores mais balanceada no que se diz respeito ao novo conjunto de duas classes.
 
@@ -33,18 +33,18 @@ A \autoref{fig_7} e a \autoref{fig_8} mostram a distribuição dos desenvolvedor
 \subsubsection{Seleção de Características}
 O resultado da aplicação do algoritmo de seleção de características para o conjunto original de 5 classes e para o conjunto de 2 classes é apresentado na \autoref{tabela8} e na \autoref{tabela9} respectivamente.
 
-Ao comparar o resultado da aplicação do algoritmos para ambos os conjuntos de classe, assim como aconteceu para os dados de todas as empresas, não houve grande variação entre os fatores melhores posicionados. Em ambas as tabelas, os atributos mais relevantes tendem mais para o lado das características individuais e para o compromisso do desenvolvedor para com a empresa, apesar de um fator técnico, de capacidade de resolução de problemas complexos, se fazer presente como atributo relevante nos dois cenários.
+Ao comparar o resultado da aplicação dos algoritmos para ambos os conjuntos de classe, assim como aconteceu para os dados de todas as empresas, não houve grande variação entre os fatores melhores posicionados. Em ambas as tabelas, as características mais relevantes tendem mais para o lado das características individuais e para o compromisso do desenvolvedor para com a empresa, apesar de um fator técnico, de capacidade de resolução de problemas complexos, se fazer presente como característica relevante nos dois cenários.
 
-Ao fazer uma comparação entre os resultados da seleção de características da Empresa A com os dados de todas as empresas, pelo seu respectivo conjunto de classes, é possível encontrar algumas semelhanças, como o atributo mais relevante ser o mesmo tanto para o conjunto de 5 classes quanto para o de 2 classes, respectivamente, e também algumas diferenças significativas, como a distância entre um mesmo fator nos respectivos conjuntos, como os fatores de ``Criatividade'' e ``Avaliação de produtividade'' para o conjunto de 5 classes e ``Comunicação com os colegas'' para o conjunto de 2 classes.
+Ao fazer uma comparação entre os resultados da seleção de características da Empresa A com os dados de todas as empresas, pelo seu respectivo conjunto de classes, é possível encontrar algumas semelhanças, como a característica mais relevante ser o mesmo tanto para o conjunto de 5 classes quanto para o de 2 classes, respectivamente, e também algumas diferenças significativas, como a distância entre um mesmo fator nos respectivos conjuntos, como os fatores de ``Criatividade'' e ``Avaliação de produtividade'' para o conjunto de 5 classes e ``Comunicação com os colegas'' para o conjunto de 2 classes.
 
 %inserir Tabela 8
 \begin{table}[h]
-	\caption{Ordenação dos atributos da Empresa A (conjunto original de 5 classes)}
+	\caption{Ordenação das características da Empresa A (conjunto original de 5 classes)}
 	\label{tabela8}
 	\def\arraystretch{2}
 	\begin{tabular}{|p{8.5cm}|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{3cm}|}
 		\hline
-		\textbf{Atributos}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
+		\textbf{Características}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
 		Capacidade de resolução de problemas complexos                          & 1.5 +- 0.81            & 0.582 +- 0.038        \\ \hline
 		Foco nos resultados                                                     & 2.6 +- 1.02            & 0.519 +- 0.047        \\ \hline
 		Criatividade                                                            & 3 +- 1                 & 0.504 +- 0.035        \\ \hline
@@ -67,12 +67,12 @@ Ao fazer uma comparação entre os resultados da seleção de características d
 
 %inserir Tabela 9
 \begin{table}[h]
-	\caption{Ordenação dos atributos da Empresa A (conjunto de 2 classes)}
+	\caption{Ordenação das características da Empresa A (conjunto de 2 classes)}
 	\label{tabela9}
 	\def\arraystretch{2}
 	\begin{tabular}{|p{8.5cm}|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{3cm}|}
 		\hline
-		\textbf{Atributos}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
+		\textbf{Características}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
 		Pró-atividade                                                           & 1.2 +- 0.4             & 0.323 +- 0.021        \\ \hline
 		Capacidade de resolução de problemas complexos                          & 2.4 +- 0.8             & 0.298 +- 0.032        \\ \hline
 		Comunicação com os colegas                                              & 4 +- 1.48              & 0.254 +- 0.024        \\ \hline
@@ -94,15 +94,15 @@ Ao fazer uma comparação entre os resultados da seleção de características d
 \clearpage
 \subsubsection{Classificação}
 
-A \autoref{tabela10} e a \autoref{tabela11} apresentam os melhores resultados obtidos através da aplicação dos algoritmos J48 e NaïveBayes nos dados da Empresa A, respectivamente. Os algoritmos foram aplicados em ambos conjunto original de 5 classes e no conjunto de 2 classes. 
+A \autoref{tabela10} e a \autoref{tabela11} apresentam os melhores resultados obtidos através da aplicação dos algoritmos J48 e NaïveBayes nos dados da Empresa A, respectivamente. Os algoritmos foram aplicados em ambos conjuntos de 5 classes (original) e de 2 classes. 
 
-A \autoref{tabela11_1} e a \autoref{tabela11_2} mostram a aplicação exaustiva do algoritmo que associa a seleção de características com os algoritmos de classificação, para o J48 e para o NaïveBayes respectivamente.
+A \autoref{tabela11_1} e a \autoref{tabela11_2} mostram a aplicação exaustiva do algoritmo que associa a seleção de características com os algoritmos de classificação, para o J48 e para o NaïveBayes, respectivamente.
 
 Observando o teste exaustivo do J48, é possível notar que ele obteve uma melhor performance utilizando um pequeno número de características ao realizar a classificação. No caso do conjunto original de 5 classes, os melhores resultados foram obtidos selecionando de 2 a 4 características, e ao ser aplicado utilizando o conjunto de 2 classes, a melhor acurácia foi obtida selecionando apenas 2 características. É importante ressaltar também o aumento de aproximadamente 20\% na acurácia do classificador utilizando a segunda classe de dados.
 
 Diferentemente do J48, o NaïveBayes obteve uma melhor performance ao selecionar um maior número de características, de 13 a 15 no conjunto original de 5 classes e acima de 7 no conjunto de 2 classes. O NaïveBayes também teve uma melhoria de performance considerável ao utilizar o novo conjunto de dados (11\%).
 
-Ambos os algoritmos, na sua melhor configuração de quantidade de características selecionadas para a classificação, e utilizando o conjunto de 2 classes que proporcionou um aumenta em suas respectivas acurácias, produziram uma porcentagem de acertos de 79,5\%. Apesar de ser uma porcentagem relevante, essa acurácia é menor que a acurácia obtida ao ser analisado o conjunto com os dados de todas as empresas
+Ambos os algoritmos, na sua melhor configuração de quantidade de características selecionadas para a classificação, e utilizando o conjunto de 2 classes que proporcionou um aumento em suas respectivas acurácias, produziram uma porcentagem de acertos de 79,5\%. Apesar de ser uma porcentagem relevante, essa acurácia é menor que a acurácia obtida ao ser analisado o conjunto com os dados de todas as empresas
 
 %inserir Tabela 10
 \begin{table}[h]
@@ -219,12 +219,12 @@ No caso da Empresa B, as características variam significativamente quando há a
 
 %inserir Tabela 12
 \begin{table}[h]
-	\caption{Ordenação dos atributos da Empresa B (conjunto original de 5 classes)}
+	\caption{Ordenação das características da Empresa B (conjunto original de 5 classes)}
 	\label{tabela12}
 	\def\arraystretch{2}
 	\begin{tabular}{|p{8.5cm}|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{3cm}|}
 		\hline
-		\textbf{Atributos}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
+		\textbf{Características}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
 		Capacidade de resolução de problemas complexos                          & 1.3 +- 0.46            & 0.772 +- 0.078        \\ \hline
 		Liderança                                                               & 2.4 +- 1.02            & 0.652 +- 0.118        \\ \hline
 		Tempo de trabalho (meses)                                               & 4.6 +- 1.43            & 0.562 +- 0.063        \\ \hline
@@ -247,12 +247,12 @@ No caso da Empresa B, as características variam significativamente quando há a
 
 %inserir Tabela 13
 \begin{table}[h]
-	\caption{Ordenação dos atributos da Empresa B (conjunto de 2 classes)}
+	\caption{Ordenação das características da Empresa B (conjunto de 2 classes)}
 	\label{tabela13}
 	\def\arraystretch{2}
 	\begin{tabular}{|p{8.5cm}|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{3cm}|}
 		\hline
-		\textbf{Atributos}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
+		\textbf{Características}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
 		Foco nos resultados                                                     & 2.9 +- 4.41            & 0.327 +- 0.131        \\ \hline
 		Comunicação com os colegas                                              & 3.3 +- 1.42            & 0.244 +- 0.067        \\ \hline
 		Experiência relevante                                                   & 3.4 +- 4.25            & 0.327 +- 0.131        \\ \hline
@@ -275,7 +275,7 @@ No caso da Empresa B, as características variam significativamente quando há a
 
 \subsubsection{Classificação}
 
-A \autoref{tabela14} e a \autoref{tabela15} apresentam os melhores resultados obtidos através da aplicação dos algoritmos J48 e NaïveBayes nos dados da empresa B, respectivamente. Os algoritmos foram aplicados em ambos conjunto original de 5 classes e no conjunto de 2 classes.
+A \autoref{tabela14} e a \autoref{tabela15} apresentam os melhores resultados obtidos através da aplicação dos algoritmos J48 e NaïveBayes nos dados da empresa B, respectivamente. Os algoritmos foram aplicadosem ambos conjuntos de 5 classes (original) e de 2 classes. 
 
 A \autoref{tabela15_1} e a \autoref{tabela15_2} mostram a aplicação exaustiva do algoritmo que associa a seleção de características com os algoritmos de classificação, para o J48 e para o NaïveBayes respectivamente.
 
@@ -394,16 +394,16 @@ A Empresa C obteve 18 avaliaçãos de desenvolvedores, dadas por 2 diferentes su
 \subsubsection{Seleção de Características}
 O resultado da aplicação do algoritmo de seleção de características para o conjunto original de 5 classes e para o conjunto de 2 classes é apresentado na \autoref{tabela16} e na \autoref{tabela17} respectivamente.
 
-No caso de Empresa C, ao analisar os atributos mais relevantes em ambas as tabelas nota-se uma nítida tendência pelos atributos pertencentes ao grupos de características técnicas, inclusive, ao comparar os dados dessas tabelas com os das tabelas que representam o resultado da seleção de características para o conjunto de dados de todas as empresas, a diferença mais notável entre os atributos relevantes é a ausência do atributo ``Pró-atividade'' nos resultados da Empresa C, que aparece como um dos mais relevantes no resultado geral.
+No caso de Empresa C, ao analisar as características mais relevantes em ambas as tabelas nota-se uma nítida tendência pelas características pertencentes ao grupos de características técnicas, inclusive, ao comparar os dados dessas tabelas com os das tabelas que representam o resultado da seleção de características para o conjunto de dados de todas as empresas, a diferença mais notável entre as características relevantes é a ausência da característica ``Pró-atividade'' nos resultados da Empresa C, que aparece como um dos mais relevantes no resultado geral.
 
 %inserir Tabela 16
 \begin{table}[h]
-	\caption{Ordenação dos atributos da Empresa C (conjunto original de 5 classes)}
+	\caption{Ordenação das características da Empresa C (conjunto original de 5 classes)}
 	\label{tabela16}
 	\def\arraystretch{2}
 	\begin{tabular}{|p{8.5cm}|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{3cm}|}
 		\hline
-		\textbf{Atributos}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
+		\textbf{Características}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
 		Capacidade de resolução de problemas complexos                          & 1.1 +- 0.3             & 0.643 +- 0.044        \\ \hline
 		Experiência relevante                                                   & 2.2 +- 0.4             & 0.581 +- 0.037        \\ \hline
 		Conhecimento especializado                                              & 3.3 +- 0.9             & 0.518 +- 0.058        \\ \hline
@@ -426,12 +426,12 @@ No caso de Empresa C, ao analisar os atributos mais relevantes em ambas as tabel
 
 %inserir Tabela 17
 \begin{table}[h]
-	\caption{Ordenação dos atributos da Empresa C (conjunto de 2 classes)}
+	\caption{Ordenação das características da Empresa C (conjunto de 2 classes)}
 	\label{tabela17}
 	\def\arraystretch{2}
 	\begin{tabular}{|p{8.5cm}|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{3cm}|}
 		\hline
-		\textbf{Atributos}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
+		\textbf{Características}                                                      & \textbf{Posição média} & \textbf{Mérito médio} \\ \hline
 		Conhecimento especializado                                              & 1 +- 0                 & 0.26 +- 0.028         \\ \hline
 		Experiência relevante                                                   & 2.3 +- 0.46            & 0.24 +- 0.026         \\ \hline
 		Qual a sua avaliação sobre a produtividade do desenvolvedor em questão? & 3.1 +- 0.83            & 0.227 +- 0.035        \\ \hline
@@ -453,7 +453,7 @@ No caso de Empresa C, ao analisar os atributos mais relevantes em ambas as tabel
 \clearpage
 
 \subsubsection{Classificação}
-A \autoref{tabela18} e a \autoref{tabela19} apresentam os melhores resultados obtidos através da aplicação dos algoritmos J48 e NaïveBayes nos dados da empresa C, respectivamente. Os algoritmos foram aplicados em ambos conjunto original de 5 classes e no conjunto de 2 classes. 
+A \autoref{tabela18} e a \autoref{tabela19} apresentam os melhores resultados obtidos através da aplicação dos algoritmos J48 e NaïveBayes nos dados da empresa C, respectivamente. Os algoritmos foram aplicados em ambos conjuntos de 5 classes (original) e de 2 classes. 
 
 A \autoref{tabela19_1} e a \autoref{tabela19_2} mostram a aplicação exaustiva do algoritmo que associa a seleção de características com os algoritmos de classificação, para o J48 e para o NaïveBayes respectivamente.
 

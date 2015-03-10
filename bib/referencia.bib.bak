@@ -662,10 +662,14 @@
   issn = {07407459}
 }
 
-@ARTICLE{Holmes,
+@INPROCEEDINGS{Holmes,
   author = {Holmes, Geoffrey and Donkin, Andrew and Witten, Ian H},
-  title = {{W EKA : A Machine Learning Workbench}},
-  file = {:Users/guilhermecostantin/Library/Application Support/Mendeley Desktop/Downloaded/Holmes, Donkin, Witten - Unknown - W EKA A Machine Learning Workbench.pdf:pdf}
+  title = {Weka: A machine learning workbench},
+  booktitle = {Intelligent Information Systems, 1994. Proceedings of the 1994 Second
+	Australian and New Zealand Conference on},
+  year = {1994},
+  pages = {357--361},
+  organization = {IEEE}
 }
 
 @INPROCEEDINGS{John1995,

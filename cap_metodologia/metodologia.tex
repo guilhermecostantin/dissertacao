@@ -21,7 +21,7 @@ Para atingir o propósito de um objetivo, é necessário determinar 3 coordenada
 	\item \textbf{Ponto de vista \textit{(ViewPoint)}:} Sob a perspectiva de quem a análise está sendo feita.
 \end{alineas}
 	
-A \autoref{tabela2} mostra o modelo GQM, com o propósito, as perguntas derivadas do mesmo e as métricas levantadas para responder essas perguntas.
+A \autoref{tabela2} mostra o modelo GQM, com o objetivo, as perguntas derivadas do mesmo e as métricas levantadas para responder essas perguntas.
 
 
 \begin{table}[h]
@@ -35,27 +35,31 @@ A \autoref{tabela2} mostra o modelo GQM, com o propósito, as perguntas derivada
 		& \textbf{Questão}                                & a importância                                         \\ \cline{2-3} 
 		& \textbf{Objeto}                                 & do desenvolvedor                                      \\ \cline{2-3} 
 		& \textbf{Ponto de vista}                         & sob a perspectiva do supervisor                       \\ \hline
-		\textbf{Pergunta}                  & \multicolumn{2}{l|}{Qual a produtividade desse desenvolvedor?}                                          \\ \hline\hline
-		\multirow{2}{*}{\textbf{Métricas}} & \multicolumn{2}{l|}{Quantidade de entregas por mês}                                                     \\ \cline{2-3} 
-		& \multicolumn{2}{l|}{Avaliação subjetiva da produtividade}                                               \\ \hline\hline
+		
+		
 		\textbf{Pergunta}                  & \multicolumn{2}{l|}{\parbox{12cm}{ Qual o nível de habilidade técnica que o desenvolvedor em questão possui?}}          \\ \hline
-		\multirow{4}{*}{\textbf{Métricas}} & \multicolumn{2}{l|}{Experiência relevante}                                                              \\ \cline{2-3} 
+		\multirow{5}{*}{\textbf{Métricas}} 
+		& \multicolumn{2}{l|}{Produtividade}                                                              \\ \cline{2-3} 
+		& \multicolumn{2}{l|}{Experiência relevante}                                                              \\ \cline{2-3} 
 		& \multicolumn{2}{l|}{Conhecimento especializado}                                                         \\ \cline{2-3} 
 		& \multicolumn{2}{l|}{Diversidade de habilidades}                                                         \\ \cline{2-3} 
 		& \multicolumn{2}{l|}{Resolução de problemas complexos}                                                   \\ \hline\hline
+		
+		
 		\textbf{Pergunta}                  & \multicolumn{2}{l|}{\parbox{12cm}{Qual o nível de habilidade interpessoal que o desenvolvedor em questão possui?}}     \\ \hline
-		\multirow{2}{*}{\textbf{Métricas}} & \multicolumn{2}{l|}{Comunicação com colegas}                                                            \\ \cline{2-3} 
+		\multirow{3}{*}{\textbf{Métricas}} 
+		& \multicolumn{2}{l|}{Principal comportamento do desenvolvedor ao encontrar um problema}                                                            \\ \cline{2-3} 
+		& \multicolumn{2}{l|}{Comunicação com colegas}                                                            \\ \cline{2-3} 
 		& \multicolumn{2}{l|}{Disposição para ajudar colegas quando solicitado}                                   \\ \hline\hline
-		\textbf{Pergunta}                  & \multicolumn{2}{l|}{\parbox[c][1cm][c]{12cm}{Quando se depara com um problema, qual o principal comportamento do desenvolvedor?}} \\ \hline
-		\multirow{4}{*}{\textbf{Métricas}} & \multicolumn{2}{l|}{(Introspectivo) Tenta resolver sozinho}                                             \\ \cline{2-3} 
-		& \multicolumn{2}{l|}{(Introspectivo) Busca na documentação e livros}                                     \\ \cline{2-3} 
-		& \multicolumn{2}{l|}{(Comunicativo) Procura ou pergunta em sites de perguntas e respostas}               \\ \cline{2-3} 
-		& \multicolumn{2}{l|}{(Comunicativo) Pede ajuda para os colegas ou supervisores}                          \\ \hline\hline
+		
+		
 		\textbf{Pergunta}                  & \multicolumn{2}{l|}{\parbox{12cm}{Qual o nível dessas características no perfil comportamental do desenvolvedor?}}     \\ \hline
 		\multirow{4}{*}{\textbf{Métricas}} & \multicolumn{2}{l|}{Liderança}                                                                          \\ \cline{2-3} 
 		& \multicolumn{2}{l|}{Criatividade}                                                                       \\ \cline{2-3} 
 		& \multicolumn{2}{l|}{Empreendedorismo}                                                                   \\ \cline{2-3} 
 		& \multicolumn{2}{l|}{Pró-atividade}                                                                      \\ \hline\hline
+		
+		
 		\textbf{Pergunta}                  & \multicolumn{2}{l|}{\parbox{12cm}{Qual o compromisso do desenvolvedor em relação à empresa?}}                          \\ \hline
 		\multirow{4}{*}{\textbf{Métricas}} & \multicolumn{2}{l|}{Tempo de trabalho}                                                                  \\ \cline{2-3} 
 		& \multicolumn{2}{l|}{Organização e planejamento}                                                         \\ \cline{2-3} 
@@ -63,6 +67,15 @@ A \autoref{tabela2} mostra o modelo GQM, com o propósito, as perguntas derivada
 		& \multicolumn{2}{l|}{Foco nos resultados}                                                                \\ \hline
 	\end{tabular}
 \end{table}
+
+Para todos os fatores, os supervisores utilizaram uma escala Likert com 5 opções, variando entre ``Muito baixo'' até ``Muito alto'', exceto por dois fatores: ``Tempo de trabalho'', que recebe um valor numérico representando o número de meses que o desenvolvedor trabalha na empresa, e ``Principal comportamento do desenvolvedor ao encontrar um problema'', onde o supervisor deve selecionar uma dentre as seguintes opções:
+
+\begin{itemize}
+	\item Tenta resolver sozinho (Introspectivo)
+	\item Busca na documentação e livros (Introspectivo)
+	\item Procura ou pergunta em sites de perguntas e respostas (Comunicativo)
+	\item Pede ajuda para os colegas ou supervisores (Comunicativo)
+\end{itemize}
 
 \subsection{Aplicação da Pesquisa}
 
@@ -80,13 +93,13 @@ Os respondentes da pesquisa são então supervisores de times de desenvolvimento
 
 No intuito de conduzir a análise dos critérios para determinar quais fatores são os mais relevantes e possuem maior influência na avaliação do supervisor, foi utilizada a ferramenta WEKA.
 
-Vários problemas reais possuem diversas características envolvidas (mostradas na \autoref{tabela2}), e apenas algumas dentre elas são relevantes para o objetivo final \cite{Kira1992}, neste caso, classificar a importância de um desenvolvedor. Para resolver esse problema, será utilizada uma estratégia chamada seleção de características (do inglês, Feature Selection), onde será selecionado um subconjunto de características para se ter em foco, e ignorar o restante para acelerar o processo de aprendizado, aprimorar a qualidade do classificador e atingir a melhor acurácia do algoritmo de aprendizado de máquinas \cite{Kira1992,Kohavi1997}. 
+Vários problemas reais possuem diversas características envolvidas, e apenas algumas dentre elas são relevantes para o objetivo final \cite{Kira1992}. Para resolver esse problema, foi utilizada uma estratégia chamada seleção de características (do inglês, \textit{Feature Selection}), onde é selecionado um subconjunto de características para se ter em foco, e o restante é ignorado para acelerar o processo de aprendizado, aprimorar a qualidade do classificador e atingir a melhor acurácia do algoritmo de aprendizado de máquinas \cite{Kira1992,Kohavi1997}. 
 
-O algoritmo que será utilizado é chamado GainRatioAttributeEval, que avalia os atributos um a um independentemente e os ordena de acordo com sua influência sobre a classe. A seleção de características escolhe baseada nessa ordenação, e isso permite eliminar atributos irrelevantes. Esse método, como não avalia um subconjunto de atributos, não elimina atributos redundantes (apenas os irrelevantes), mas isso não é um problema, pois todos os atributos são conhecidos e esse tipo de avaliador não necessita de um método de busca, o que o torna muito rápido em sua execução.
+O algoritmo utilizado é chamado \textit{GainRatioAttributeEval}, que avalia os atributos um a um independentemente e os ordena de acordo com sua influência sobre a classe. A seleção de características escolhe baseada nessa ordenação, e isso permite eliminar atributos irrelevantes. Esse método, como não avalia um subconjunto de atributos, não elimina atributos redundantes (apenas os irrelevantes), porém como todos os atributos são conhecidos isso não se torna uma ameaça a esse estudo. Por outro lado, por não necessitar de um método de busca, a execução desse algoritmo se torna muito rápida em relação a outros algoritmos com o mesmo propósito.
 
 \section{Classificação}\label{secao3.4}
 
-Como resultado dessa pesquisa, será gerado um conjunto com várias avaliações de supervisores sobre os desenvolvedores. Nesse conjunto serão aplicados algoritmos de aprendizado de máquinas, no intuito de gerar um classificador de importância. Os algoritmos de aprendizado de máquinas precisam de dois conjuntos de dados: um para realizar o treinamento e um para testar o resultado, para verificar a acurácia do classificador. A \autoref{fig_1} mostra o processo que melhor representa esse cenário.
+Como resultado dessa pesquisa, foi gerado um conjunto com várias avaliações de supervisores sobre os desenvolvedores. Nesse conjunto foram aplicados algoritmos de aprendizado de máquinas, no intuito de gerar um classificador de importância. Os algoritmos de aprendizado de máquinas precisam de dois conjuntos de dados: um para realizar o treinamento e um para testar o resultado, para verificar a acurácia do classificador. A \autoref{fig_1} mostra o processo que melhor representa esse cenário.
 
 \begin{figure}[h]
 	\centering
@@ -94,17 +107,17 @@ Como resultado dessa pesquisa, será gerado um conjunto com várias avaliações
 	\caption{\label{fig_1}Processo dos algoritmos de aprendizado de máquinas}
 \end{figure}
 
-Existe uma variedade de métodos para avaliar a performance de um classificador. É possível, por exemplo, selecionar uma porcentagem de um conjunto de dados para aplicar os algoritmos de aprendizado de máquinas e usar o resto para teste. O método de avaliação padrão e mais confiável é chamado cross-validation. Neste caso, será utilizado o 10-fold cross-validation que divide o conjunto em 10 partes iguais (as chamadas folds), usa 9 partes dessa divisão para treinamento e guarda uma parte para teste, e depois, faz isso mais 9 vezes, sempre alternando o pedaço utilizado para teste, assim, uma determinada parte é usada 9 vezes para treinamento e uma para teste. O resultado será a média das 10 vezes que o algoritmo executou.
+Existe uma variedade de métodos para avaliar a performance de um classificador. É possível, por exemplo, selecionar uma porcentagem de um conjunto de dados para aplicar os algoritmos de aprendizado de máquinas e usar o resto para teste. O método de avaliação padrão e mais confiável é chamado \textit{cross-validation}. Neste caso, foi utilizado o \textit{10-fold cross-validation} que divide o conjunto em 10 partes iguais (as chamadas \textit{folds}), usa 9 partes dessa divisão para treinamento e guarda uma parte para teste, e depois, faz isso mais 9 vezes, sempre alternando a parte utilizada para teste, assim, uma determinada parte é usada 9 vezes para treinamento e uma para teste. O resultado é a média das 10 vezes que o algoritmo executou.
 
-Os algoritmos de aprendizado de máquina que serão utilizados são o J48, um classificador em árvore, e o NaïveBayes, um classificador bayesiano.
+Os algoritmos de aprendizado de máquina que foram utilizados são o J48, um classificador em árvore, e o NaïveBayes, um classificador bayesiano.
 
-J48 é uma variação de um famoso sistema chamado C4.5, que foi descrito por Quinlan \cite{Quinlan1993} que usa árvores de decisão para construir um classificador (WEKA inclusive fornece uma visão da árvore gerada com todos os seus pesos.
+J48 é uma variação de um famoso sistema chamado C4.5, descrito por Quinlan \cite{Quinlan1993} que usa árvores de decisão para construir um classificador (WEKA inclusive fornece uma visão da árvore gerada com todos os seus pesos).
 
-NaïveBayes é um método probabilístico que possui duas assunções: que os atributos são igualmente importantes e estatisticamente independentes (essa assunção de independência nunca é 100\% correta, mas os métodos baseados nela geralmente funcionam bem na prática). Observando as métricas que serão coletar e o conjunto de dados que será gerado após a aplicação da pesquisa, esses dois métodos parecem servir bem aos propósitos deste estudo.
+NaïveBayes é um método probabilístico que possui duas assunções: que os atributos são igualmente importantes e estatisticamente independentes (essa assunção de independência nunca é 100\% correta, mas os métodos baseados nela geralmente funcionam bem na prática). Observando as métricas coletadas e o conjunto de dados gerado após a aplicação da pesquisa, esses dois métodos parecem servir bem aos propósitos deste estudo.
 
-Será utilizado também um terceiro algoritmo chamado AttributeSelectClassifier, que na verdade usa um método de seleção de características (nesse caso, o GainRatio) e um algoritmo para executar a classificação (nesse caso, J48 ou NaïveBayes). Esta é uma maneira mais apropriada para aplicar seleção de características porque assim o algoritmo seleciona as características no conjunto de treinamento, tornando os resultados mais confiáveis.
+Foi utilizado também um terceiro algoritmo chamado \textit{AttributeSelectClassifier}, que na verdade usa um método de seleção de características (nesse caso, o \textit{GainRatio}) e um algoritmo para executar a classificação (nesse caso, J48 ou NaïveBayes). Esta é uma maneira mais apropriada para aplicar seleção de características porque assim o algoritmo seleciona as características no conjunto de treinamento, tornando os resultados mais confiáveis.
 
-Por fim, para conduzir todas essas análises será utilizado um modo do programa WEKA chamado EXPERIMENTER, que permite rodar o mesmo experimento mais de uma vez e determinar a média e o desvio padrão, para evitar falsos resultados otimistas ou pessimistas (alta ou baixa acurácia) devido à seleção de atributos nos conjuntos de treinamento e teste. Esse modo permite comparar os resultados de diferentes algoritmos.
+Por fim, para conduzir todas essas análises foi utilizado um modo do programa WEKA chamado EXPERIMENTER, que permite rodar o mesmo experimento mais de uma vez e determinar a média e o desvio padrão, para evitar falsos resultados otimistas ou pessimistas (alta ou baixa acurácia) devido à seleção de atributos nos conjuntos de treinamento e teste. Esse modo permite comparar os resultados de diferentes algoritmos.
 
 
 

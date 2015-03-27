@@ -11,9 +11,9 @@ Esta seção se dedica a explicar o desenho desse experimento, mostrando a cria�
 Nas próximas subseções serão tratadas a abordagem utilizada para compor a pesquisa, a aplicação da pesquisa nos supervisores das empresas participantes e a caracterização dos mesmos.
 
 \subsection{Goal-Question-Metric}\label{secao3.2.1}
-Foi utilizada uma abordagem chamada Goal-Question-Metric(GQM) \cite{Basili1994} que ajudou a compor a pesquisa. GQM é uma abordagem do tipo top-down, que é baseada no pressuposto que primeiro, para se medir algo, é necessário especificar objetivos (goal), dos quais é possível derivar perguntas (question), e então, especificar as métricas (metric) que precisam ser coletadas para responder essas perguntas.
+Foi utilizada uma abordagem chamada Goal-Question-Metric(GQM) \cite{Basili1994} que ajudou a compor a pesquisa. GQM é uma abordagem do tipo \textit{top-down}, que é baseada no pressuposto que primeiro, para se medir algo, é necessário especificar objetivos (goal), dos quais é possível derivar perguntas (question), e então, especificar as métricas (metric) que precisam ser coletadas para responder essas perguntas.
 
-Para atingir o propósito de um objetivo, é necessário determinar 3 coordenadas:
+Para compor um objetivo, é necessário determinar 3 coordenadas:
 
 \begin{alineas}
 	\item \textbf{Questão \textit{(issue)}:} Qual questão/assunto está sendo lidado;
@@ -87,7 +87,7 @@ Para preservar a privacidade das empresas participantes, não foi solicitado nen
 
 A pesquisa foi projetada para ser aplicada em empresas que possuem uma área de desenvolvimento de software, com uma estrutura hierárquica mínima onde existisse o cargo de supervisor, ou gerente, ou engenheiros-chefe, etc (para futuras referências, essa pessoa será referenciada como supervisor).
 
-Os respondentes da pesquisa são então supervisores de times de desenvolvimento. Entende-se que eles são as pessoas certas para o fazer, porque diferentemente do dono da empresa eles estão perto o suficiente do dia a dia de trabalho, e conseguem julgar quais os desenvolvedores mais importantes, mesmo que eles não usem um método formalizado para tal. Eles devem responder a avaliação para cada desenvolvedor.
+Os respondentes da pesquisa são supervisores de times de desenvolvimento. Entende-se que eles são as pessoas certas para o fazer, porque diferentemente do dono da empresa eles estão perto o suficiente do dia a dia de trabalho, e conseguem julgar quais os desenvolvedores mais importantes, mesmo que eles não usem um método formalizado para tal. Eles devem responder a avaliação para cada desenvolvedor.
 
 \section{Seleção de Características}\label{secao3.3}
 
@@ -99,7 +99,9 @@ O algoritmo utilizado é chamado \textit{GainRatioAttributeEval}, que avalia os 
 
 \section{Classificação}\label{secao3.4}
 
-Como resultado dessa pesquisa, foi gerado um conjunto com várias avaliações de supervisores sobre os desenvolvedores. Nesse conjunto foram aplicados algoritmos de aprendizado de máquinas, no intuito de gerar um classificador de importância. Os algoritmos de aprendizado de máquinas precisam de dois conjuntos de dados: um para realizar o treinamento e um para testar o resultado, para verificar a acurácia do classificador. A \autoref{fig_1} mostra o processo que melhor representa esse cenário.
+Esta seção se dedica a explicar quais algoritmos de aprendizado de máquinas foram utilizados nesse estudo. Como resultado da pesquisa mencionada na \autoref{secao3.2} , foi gerado um conjunto com várias avaliações de supervisores sobre os desenvolvedores. Foi pedido para os supervisores classificarem os desenvolvedores em graus de importância, antes de prosseguir com a avaliação sobre as outras características. Dessa forma, no conjunto resultante de dados, possuímos avaliações de 16 diferentes características e uma classificação de importância para cada desenvolvedor. Dessa forma, foi decidido utilizar algoritmos de classificação para fazer a análise desses dados.
+
+Os algoritmos de classificação, que serão referenciados nesses estudo como classificadores, precisam de dois conjuntos de dados: um para realizar o treinamento e um para testar o resultado, para verificar a acurácia do classificador. A \autoref{fig_1} mostra o processo que melhor representa esse cenário.
 
 \begin{figure}[h]
 	\centering
@@ -107,13 +109,15 @@ Como resultado dessa pesquisa, foi gerado um conjunto com várias avaliações d
 	\caption{\label{fig_1}Processo dos algoritmos de aprendizado de máquinas}
 \end{figure}
 
-Existe uma variedade de métodos para avaliar a performance de um classificador. É possível, por exemplo, selecionar uma porcentagem de um conjunto de dados para aplicar os algoritmos de aprendizado de máquinas e usar o resto para teste. O método de avaliação padrão e mais confiável é chamado \textit{cross-validation}. Neste caso, foi utilizado o \textit{10-fold cross-validation} que divide o conjunto em 10 partes iguais (as chamadas \textit{folds}), usa 9 partes dessa divisão para treinamento e guarda uma parte para teste, e depois, faz isso mais 9 vezes, sempre alternando a parte utilizada para teste, assim, uma determinada parte é usada 9 vezes para treinamento e uma para teste. O resultado é a média das 10 vezes que o algoritmo executou.
+Existe uma variedade de métodos para avaliar a performance de um classificador. É possível, por exemplo, selecionar uma porcentagem de um conjunto de dados para aplicar os algoritmos de aprendizado de máquinas e usar o resto para teste. O método de avaliação padrão e mais confiável é chamado \textit{cross-validation}. Neste caso, foi utilizado o \textit{10-fold cross-validation} que divide o conjunto em 10 partes iguais (as chamadas \textit{folds}), usa 9 partes dessa divisão para treinamento e guarda uma parte para teste, e depois, faz isso mais 9 vezes, sempre alternando a parte utilizada para teste, assim, uma determinada parte é usada 9 vezes para treinamento e uma para teste. O resultado é a média das 10 vezes que o algoritmo executou \cite{kohavi1995study}.
 
 Os algoritmos de aprendizado de máquina que foram utilizados são o J48, um classificador em árvore, e o NaïveBayes, um classificador bayesiano.
 
 J48 é uma variação de um famoso sistema chamado C4.5, descrito por Quinlan \cite{Quinlan1993} que usa árvores de decisão para construir um classificador (WEKA inclusive fornece uma visão da árvore gerada com todos os seus pesos).
 
-NaïveBayes é um método probabilístico que possui duas assunções: que os atributos são igualmente importantes e estatisticamente independentes (essa assunção de independência nunca é 100\% correta, mas os métodos baseados nela geralmente funcionam bem na prática). Observando as métricas coletadas e o conjunto de dados gerado após a aplicação da pesquisa, esses dois métodos parecem servir bem aos propósitos deste estudo.
+NaïveBayes é um método probabilístico que possui duas assunções: que os atributos são igualmente importantes e estatisticamente independentes (essa assunção de independência nunca é 100\% correta, mas os métodos baseados nela geralmente funcionam bem na prática) \cite{Langley92ananalysis}. 
+
+Observando as métricas coletadas e o conjunto de dados gerado após a aplicação da pesquisa, esses dois métodos parecem servir bem aos propósitos deste estudo, e os espaços de hipóteses subjacentes (árvores de decisão para o J48 e estatísticas para o NaïveBayes) são diferentes o suficiente que se espera que as conclusões baseadas nesses dois algoritmos de indução sejam aplicáveis a outros algoritmos de indução \cite{kohavi1995study}.
 
 Foi utilizado também um terceiro algoritmo chamado \textit{AttributeSelectClassifier}, que na verdade usa um método de seleção de características (nesse caso, o \textit{GainRatio}) e um algoritmo para executar a classificação (nesse caso, J48 ou NaïveBayes). Esta é uma maneira mais apropriada para aplicar seleção de características porque assim o algoritmo seleciona as características no conjunto de treinamento, tornando os resultados mais confiáveis.
 

@@ -254,6 +254,12 @@ ISSN 00043702.
 Dispon{\'\i}vel em:
   \url{http://www.sciencedirect.com/science/article/pii/S000437029700043X}.}
 
+\bibitem[Kohavi et al. 1995]{kohavi1995study}
+\abntrefinfo{Kohavi et al.}{KOHAVI et al.}{1995}
+{KOHAVI, R. et al. A study of cross-validation and bootstrap for accuracy
+  estimation and model selection. In:  \textbf{Ijcai}. [S.l.: s.n.], 1995.
+  v.~14, n.~2, p. 1137--1145.}
+
 \bibitem[Lakhanpal 1993]{Lakhanpal1993}
 \abntrefinfo{Lakhanpal}{LAKHANPAL}{1993}
 {LAKHANPAL, B. \textbf{{Understanding the factors influencing the performance
@@ -268,6 +274,12 @@ Dispon{\'\i}vel em:
   p. 117--138, 2012.
 Dispon{\'\i}vel em:
   \url{http://airccse.org/journal/ijsea/papers/3112ijsea09.pdf}.}
+
+\bibitem[Langley, Iba e Thompson 1992]{Langley92ananalysis}
+\abntrefinfo{Langley, Iba e Thompson}{LANGLEY; IBA; THOMPSON}{1992}
+{LANGLEY, P.; IBA, W.; THOMPSON, K. An analysis of bayesian classifiers. In:
+  \textbf{IN PROCEEDINGS OF THE TENTH NATIONAL CONFERENCE ON ARTI CIAL
+  INTELLIGENCE}. [S.l.]: MIT Press, 1992. p. 223--228.}
 
 \bibitem[Lokan 2001]{Lokan2001}
 \abntrefinfo{Lokan}{LOKAN}{2001}

@@ -11,7 +11,7 @@
 }
 
 @ARTICLE{AgrellA.andGustafson1994,
-  author = {{Agrell, A. and Gustafson}, R.},
+  author = {Agrell, A. and Gustafson, R.},
   title = {{The Team Climate Inventory (TCI) and group innovation: A psychometric
 	test on a Swedish sample of work groups}},
   journal = {Journal of Occupational and Organizational Psychology},
@@ -831,6 +831,15 @@
 	the right people for the right team.},
   keywords = {Agile Methodology,Agile Teams,Project Management,Scrum,Software Development},
   url = {http://airccse.org/journal/ijsea/papers/3112ijsea09.pdf}
+}
+
+@INPROCEEDINGS{Langley92ananalysis,
+  author = {Pat Langley and Wayne Iba and Kevin Thompson},
+  title = {An analysis of Bayesian classifiers},
+  booktitle = {IN PROCEEDINGS OF THE TENTH NATIONAL CONFERENCE ON ARTI CIAL INTELLIGENCE},
+  year = {1992},
+  pages = {223--228},
+  publisher = {MIT Press}
 }
 
 @INPROCEEDINGS{Lokan2001,

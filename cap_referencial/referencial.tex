@@ -38,7 +38,8 @@ Primeiramente, é importante citar que foram agrupados os fatores levantados por
 		\textbf{Agrupamentos} & \textbf{Fatores de importância} & \textbf{Referências (\autoref{tabela_referencias})} 
 		\\ \hline
 		
-		\multirow{4}{*}{\parbox{4cm}{Características \\técnicas}} & Experiência relevante & \multirow{4}{*}{(1)}
+		\multirow{5}{*}{\parbox{4cm}{Características \\técnicas}} & Produtividade (quantidade de entregas) & \multirow{5}{*}{(1)}
+		\\ \cline{2-2} & Experiência relevante &
 		\\ \cline{2-2} & Conhecimento especializado & 
 		\\ \cline{2-2} & Diversidade de habilidades & 
 		\\ \cline{2-2} & Capacidade de resolução de problemas complexos & 
@@ -83,6 +84,9 @@ Segundo Holmes et al. \cite{Holmes}, mineração de dados  se trata de coletar o
 
 Para realizar as análises deste estudo, será utilizado uma ferramenta chama \acs{WEKA} (Waikato Environment for Knowledge Analysis)\cite{Holmes}. Weka é um software \textit{open-source} que contém um grande número de algoritmos para classificação, pré-processamento de dados, seleção de características, clusterização, regras de associação entre outros. Será feito uso desses algoritmos de aprendizado de máquina, para realizar a mineração de dados no conjunto de dados resultante da pesquisa.
 
-O uso de algoritmos de aprendizado de máquinas não é novidade no estudo sobre a produtividade dos desenvolvedores. Sharpe et al. \cite{Sharpe2005} utilizou algoritmos de reconhecimento de padrões, mais especificamente algoritmos de clusterização, para classificar os desenvolvedores de acordo com sua produtividade. Neste caso, como a avaliação dos desenvolvedores pelos supervisores será obtida sob um conjunto pré-definido de classes, serão utilizados algoritmos de seleção de características para selecionar apenas as características mais relevantes nessa avaliação, e algoritmos de classificação, que utilizarão essa avaliação dos supervisores como base (classe) para tentar obter a maior acurácia possível perante essa classificação prévia feita pelos supervisores.
+O uso de algoritmos de aprendizado de máquinas não é novidade no estudo sobre a produtividade dos desenvolvedores. Sharpe et al. \cite{Sharpe2005} utilizou algoritmos de reconhecimento de padrões, mais especificamente algoritmos de clusterização, para classificar os desenvolvedores de acordo com sua produtividade. 
 
+No caso deste estudo, como a avaliação dos desenvolvedores pelos supervisores será obtida sob um conjunto pré-definido de classes, serão utilizados algoritmos de seleção de características para selecionar apenas as características mais relevantes nessa avaliação, e algoritmos de classificação, que utilizarão essa avaliação dos supervisores como base (classe) para tentar obter a maior acurácia possível perante essa classificação prévia feita pelos supervisores.
+
+Kohavi \cite{kohavi1995study} define um classificador como sendo uma função que mapeia uma instância não categorizada à uma categoria utilizando estruturas de dados internas, um algoritmo de indução como sendo um algoritmo que constrói um classificador a partir de um determinado \textit{dataset} e a acurácia de um classificador como sendo a probabilidade dele classificar corretamente uma instância randomicamente selecionada.
 

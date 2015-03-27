@@ -1,4 +1,4 @@
-\chapter[Resultados Gerais]{Resultados Gerais (Todas Empresas)}
+\chapter[Resultados Gerais]{Resultados Gerais (Todas Empresas)}\label{resultados_gerais}
 
 Seguindo os passos apresentados no capítulo anterior, serão mostrados os resultados da aplicação da pesquisa, a seleção de características executada no conjunto de dados gerados por essa pesquisa e a aplicação dos classificadores e suas respectivas acurácias na classificação dos desenvolvedores.
 
@@ -42,6 +42,8 @@ Esse viés na classificação dos desenvolvedores impacta diretamente a acuráci
 
 A partir dessa análise, juntamente com a análise da matriz de confusão gerada pela aplicação dos algoritmos descritos na Seção \ref{secao3.4}, decidiu-se agrupar os desenvolvedores em apenas duas classes, baseadas nas cinco classes originais de importância, como mostrado na \autoref{tabela3}, com o intuito de obter uma análise mais realística.
 
+Utilizando esse novo conjunto de classes para agrupar os desenvolvedores, obteve-se a distribuição mostrada na \autoref{fig_4}.
+
 %inserir tabela 3
 
 \begin{table}[h]
@@ -60,8 +62,6 @@ A partir dessa análise, juntamente com a análise da matriz de confusão gerada
 	\end{tabular}
 \end{table}
 
-Utilizando esse novo conjunto de classes para agrupar os desenvolvedores, obteve-se a distribuição mostrada na \autoref{fig_4}.
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.8]{figs/geral/imagem-classe-alternativa.png}
@@ -70,7 +70,7 @@ Utilizando esse novo conjunto de classes para agrupar os desenvolvedores, obteve
 
 \section{Seleção de Características}\label{secao4.3}
 
-Como explicado na Seção \ref{secao3.3}, foi utilizado o algoritmo \textit{GainRatio} para ordenar as características propostas, para prosseguir com a seleção de características. A \autoref{tabela4} mostra as características ordenadas pelo mérito médio (grau de influência da característica na classificação, calculado pelo algoritmo) resultante da aplicação do algoritmo usando as classes originais e a \autoref{tabela5} mostra a mesma visão, utilizando o novo conjunto de 2 classes. 
+Como explicado na Seção \ref{secao3.3}, foi utilizado o algoritmo \textit{GainRatio} para ordenar as características propostas, para prosseguir com a seleção de características. A \autoref{tabela4} apresentam as características, a posição média de cada característica na ordenação e o mérito médio (grau de influência da característica na classificação, calculado pelo algoritmo) resultante da aplicação do algoritmo usando as classes originais e a \autoref{tabela5} mostra a mesma visão, utilizando o novo conjunto de 2 classes (são apresentadas as médias da posição e do mérito pois o algoritmo utiliza o \textit{10-fold cross-validation}, ou seja, ele roda 10 vezes, selecionando diferentes conjuntos de dados, e retorna a média dos resultados).
 
 É possível notar algumas semelhanças e diferenças entre essas tabelas. as três primeiras características da primeira tabela, por exemplo, ocupam também as três primeiras posições na segunda, apesar de estarem em ordem diferente, o que mostra que a mudança do conjunto de classes não teve um impacto muito significativo na relevância dessas características. Porém, após as três primeiras, é possível notar algumas diferenças mais expressivas no posicionamento dos características, mostrando então um maior impacto nas características menos relevantes causada pela troca do conjunto de classes.
 
@@ -132,7 +132,9 @@ Como explicado na Seção \ref{secao3.3}, foi utilizado o algoritmo \textit{Gain
 
 \section{Classificação}\label{secao4.4}
 
-Considerando que as características foram ordenados, foi aplicado a técnica de seleção de características e usado apenas as características mais relevantes na classificação. Para determinar quantas características precisam ser selecionadas para se obter uma maior performance, foi conduzido um teste exaustivo (os classificadores rodaram com um crescente número de características selecionadas, de 2 a 16) e escolhido a configuração com melhor performance (8 características). A \autoref{tabela7.1} e a \autoref{tabela7.2} mostram então a aplicação exaustiva do algoritmo que associa a seleção de características com os algoritmos de classificação, para o J48 e para o NaïveBayes respectivamente.
+Considerando que as características foram ordenados, foi aplicado a técnica de seleção de características e usado apenas as características mais relevantes na classificação. Para determinar quantas características precisam ser selecionadas para se obter uma maior performance, foi conduzido um teste exaustivo (os classificadores rodaram com um crescente número de características selecionadas, de 2 a 16) e escolhido a configuração com melhor performance (8 características). 
+
+A \autoref{tabela7.1} e a \autoref{tabela7.2} mostram a aplicação exaustiva do algoritmo que associa a seleção de características com os algoritmos de classificação, para o J48 e para o NaïveBayes respectivamente, mostrando na primeira coluna a quantidade de características utilizadas naquele momento, e na segunda e terceira coluna a porcentagem de acertos (percentual de instâncias corretamente classificadas) para o conjunto original de 5 classes e para o conjunto de 2 classes, respectivamente.
 
 A \autoref{tabela6} mostra os resultados da aplicação do algoritmo J48.Neste caso, o J48 não apresentou uma boa performance, com acurácia perto de 60\%, para o conjunto original de classes, porém já apresentou uma acurácia significativa ao ser aplicado sobre o novo conjunto de classes (80\% de acertos). No caso do J48, para ambos os conjuntos de classe, o classificador obteve a melhor performance utilizando apenas 2 características, como mostrado na \autoref{tabela7.1}.
 

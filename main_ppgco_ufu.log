@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.19)  27 MAR 2015 17:20
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.19)  21 AUG 2015 11:06
 entering extended mode
 **main_ppgco_ufu.tex
 
@@ -1431,7 +1431,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 32.
  [36] [37]
-<figs/training-datasets-pequeno.png, id=663, 501.875pt x 295.1025pt>
+<figs/training-datasets-pequeno.png, id=662, 501.875pt x 295.1025pt>
 File: figs/training-datasets-pequeno.png Graphic file (type png)
 
 <use figs/training-datasets-pequeno.png>
@@ -1453,28 +1453,35 @@ erais/resultados_gerais.tex" [40
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/geral/imagem-classe-original.png, id=694, 414.54875pt x 199.74625pt>
-File: figs/geral/imagem-classe-original.png Graphic file (type png)
+[41] <figs/geral/imagem-classe-original.pdf, id=701, 682.55pt x 361.35pt>
+File: figs/geral/imagem-classe-original.pdf Graphic file (type pdf)
 
-<use figs/geral/imagem-classe-original.png>
-Package pdftex.def Info: figs/geral/imagem-classe-original.png used on input li
-ne 36.
-(pdftex.def)             Requested size: 331.63943pt x 159.79721pt.
+<use figs/geral/imagem-classe-original.pdf>
+Package pdftex.def Info: figs/geral/imagem-classe-original.pdf used on input li
+ne 63.
+(pdftex.def)             Requested size: 307.14467pt x 162.60599pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[41] [42 <D:/Guilherme Windows/Desktop/DISSERTAÇÃO/LATEX DISSERTACAO/figs/ger
-al/imagem-classe-original.png (PNG copy)>]
-<figs/geral/imagem-classe-alternativa.png, id=707, 397.485pt x 199.74625pt>
-File: figs/geral/imagem-classe-alternativa.png Graphic file (type png)
+<figs/geral/imagem-classe-alternativa.pdf, id=702, 682.55pt x 361.35pt>
+File: figs/geral/imagem-classe-alternativa.pdf Graphic file (type pdf)
 
-<use figs/geral/imagem-classe-alternativa.png>
-Package pdftex.def Info: figs/geral/imagem-classe-alternativa.png used on input
- line 67.
-(pdftex.def)             Requested size: 317.98842pt x 159.79721pt.
- [43 <D:/Guilherme Windows/Desktop/DISSERTAÇÃO/LATEX DISSERTACAO/figs/geral/i
-magem-classe-alternativa.png (PNG copy)>] [44] [45
+<use figs/geral/imagem-classe-alternativa.pdf>
+Package pdftex.def Info: figs/geral/imagem-classe-alternativa.pdf used on input
+ line 69.
+(pdftex.def)             Requested size: 307.14467pt x 162.60599pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[42]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[43 <D:/Guilherme Windows/Desktop/DISSERTAÇÃO/LATEX DISSERTACAO/figs/geral/im
+agem-classe-original.pdf> <D:/Guilherme Windows/Desktop/DISSERTAÇÃO/LATEX DIS
+SERTACAO/figs/geral/imagem-classe-alternativa.pdf>] [44] [45
 
 ]
 
@@ -1492,32 +1499,31 @@ ndividuais/resultados_individuais.tex" [49
 
 
 ]
-<figs/empresa_a/imagem-classe-original.png, id=754, 414.54875pt x 199.74625pt>
-File: figs/empresa_a/imagem-classe-original.png Graphic file (type png)
+<figs/empresa_a/imagem-classe-original.pdf, id=847, 682.55pt x 361.35pt>
+File: figs/empresa_a/imagem-classe-original.pdf Graphic file (type pdf)
 
-<use figs/empresa_a/imagem-classe-original.png>
-Package pdftex.def Info: figs/empresa_a/imagem-classe-original.png used on inpu
+<use figs/empresa_a/imagem-classe-original.pdf>
+Package pdftex.def Info: figs/empresa_a/imagem-classe-original.pdf used on inpu
 t line 23.
-(pdftex.def)             Requested size: 331.63943pt x 159.79721pt.
+(pdftex.def)             Requested size: 307.14467pt x 162.60599pt.
 
-<figs/empresa_a/imagem-classe-alternativa.png, id=755, 414.54875pt x 199.74625p
-t>
-File: figs/empresa_a/imagem-classe-alternativa.png Graphic file (type png)
- <use figs/empresa_a/imagem-classe-alternativa.png>
-Package pdftex.def Info: figs/empresa_a/imagem-classe-alternativa.png used on i
-nput line 29.
-(pdftex.def)             Requested size: 331.63943pt x 159.79721pt.
+<figs/empresa_a/imagem-classe-alternativa.pdf, id=848, 682.55pt x 361.35pt>
+File: figs/empresa_a/imagem-classe-alternativa.pdf Graphic file (type pdf)
+
+<use figs/empresa_a/imagem-classe-alternativa.pdf>
+Package pdftex.def Info: figs/empresa_a/imagem-classe-alternativa.pdf used on i
+nput line 26.
+(pdftex.def)             Requested size: 307.14467pt x 162.60599pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50 <D:/Guilherme Windows/Desktop/DISSERTAÇÃO/LATEX DISSERTACAO/figs/empresa_
-a/imagem-classe-original.png (PNG copy)>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[51 <D:/Guilherme Windows/Desktop/DISSERTAÇÃO/LATEX DISSERTACAO/figs/empresa_
-a/imagem-classe-alternativa.png>] [52] [53
+[50] [51 <D:/Guilherme Windows/Desktop/DISSERTAÇÃO/LATEX DISSERTACAO/figs/emp
+resa_a/imagem-classe-original.pdf> <D:/Guilherme Windows/Desktop/DISSERTAÇÃO/
+LATEX DISSERTACAO/figs/empresa_a/imagem-classe-alternativa.pdf>] [52] [53
 
 ]
 
@@ -1528,21 +1534,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ] [55] [56
 
 ]
-<figs/empresa_b/imagem-classe-original.png, id=797, 414.54875pt x 199.74625pt>
-File: figs/empresa_b/imagem-classe-original.png Graphic file (type png)
+<figs/empresa_b/imagem-classe-original.pdf, id=984, 682.55pt x 361.35pt>
+File: figs/empresa_b/imagem-classe-original.pdf Graphic file (type pdf)
 
-<use figs/empresa_b/imagem-classe-original.png>
-Package pdftex.def Info: figs/empresa_b/imagem-classe-original.png used on inpu
-t line 205.
-(pdftex.def)             Requested size: 331.63943pt x 159.79721pt.
+<use figs/empresa_b/imagem-classe-original.pdf>
+Package pdftex.def Info: figs/empresa_b/imagem-classe-original.pdf used on inpu
+t line 202.
+(pdftex.def)             Requested size: 307.14467pt x 162.60599pt.
 
-<figs/empresa_b/imagem-classe-alternativa.png, id=798, 407.5225pt x 199.74625pt
->
-File: figs/empresa_b/imagem-classe-alternativa.png Graphic file (type png)
- <use figs/empresa_b/imagem-classe-alternativa.png>
-Package pdftex.def Info: figs/empresa_b/imagem-classe-alternativa.png used on i
-nput line 211.
-(pdftex.def)             Requested size: 326.01843pt x 159.79721pt.
+<figs/empresa_b/imagem-classe-alternativa.pdf, id=985, 682.55pt x 361.35pt>
+File: figs/empresa_b/imagem-classe-alternativa.pdf Graphic file (type pdf)
+
+<use figs/empresa_b/imagem-classe-alternativa.pdf>
+Package pdftex.def Info: figs/empresa_b/imagem-classe-alternativa.pdf used on i
+nput line 208.
+(pdftex.def)             Requested size: 307.14467pt x 162.60599pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1550,9 +1556,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [57
 
  <D:/Guilherme Windows/Desktop/DISSERTAÇÃO/LATEX DISSERTACAO/figs/empresa_b/i
-magem-classe-original.png (PNG copy)> <D:/Guilherme Windows/Desktop/DISSERTAÇ�
-�O/LATEX DISSERTACAO/figs/empresa_b/imagem-classe-alternativa.png (PNG copy)>] 
-[58] [59
+magem-classe-original.pdf> <D:/Guilherme Windows/Desktop/DISSERTAÇÃO/LATEX DI
+SSERTACAO/figs/empresa_b/imagem-classe-alternativa.pdf>] [58] [59
 
 ]
 
@@ -1563,27 +1568,26 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ] [61] [62
 
 ]
-<figs/empresa_c/imagem-classe-original.png, id=835, 414.54875pt x 199.74625pt>
-File: figs/empresa_c/imagem-classe-original.png Graphic file (type png)
+<figs/empresa_c/imagem-classe-original.pdf, id=1109, 682.55pt x 361.35pt>
+File: figs/empresa_c/imagem-classe-original.pdf Graphic file (type pdf)
 
-<use figs/empresa_c/imagem-classe-original.png>
-Package pdftex.def Info: figs/empresa_c/imagem-classe-original.png used on inpu
-t line 384.
-(pdftex.def)             Requested size: 331.63943pt x 159.79721pt.
+<use figs/empresa_c/imagem-classe-original.pdf>
+Package pdftex.def Info: figs/empresa_c/imagem-classe-original.pdf used on inpu
+t line 381.
+(pdftex.def)             Requested size: 307.14467pt x 162.60599pt.
 
-<figs/empresa_c/imagem-classe-alternativa.png, id=836, 407.5225pt x 199.74625pt
->
-File: figs/empresa_c/imagem-classe-alternativa.png Graphic file (type png)
- <use figs/empresa_c/imagem-classe-alternativa.png>
-Package pdftex.def Info: figs/empresa_c/imagem-classe-alternativa.png used on i
-nput line 390.
-(pdftex.def)             Requested size: 326.01843pt x 159.79721pt.
+<figs/empresa_c/imagem-classe-alternativa.pdf, id=1110, 682.55pt x 361.35pt>
+File: figs/empresa_c/imagem-classe-alternativa.pdf Graphic file (type pdf)
+
+<use figs/empresa_c/imagem-classe-alternativa.pdf>
+Package pdftex.def Info: figs/empresa_c/imagem-classe-alternativa.pdf used on i
+nput line 387.
+(pdftex.def)             Requested size: 307.14467pt x 162.60599pt.
  [63
 
  <D:/Guilherme Windows/Desktop/DISSERTAÇÃO/LATEX DISSERTACAO/figs/empresa_c/i
-magem-classe-original.png (PNG copy)> <D:/Guilherme Windows/Desktop/DISSERTAÇ�
-�O/LATEX DISSERTACAO/figs/empresa_c/imagem-classe-alternativa.png (PNG copy)>] 
-[64] [65
+magem-classe-original.pdf> <D:/Guilherme Windows/Desktop/DISSERTAÇÃO/LATEX DI
+SSERTACAO/figs/empresa_c/imagem-classe-alternativa.pdf>] [64] [65
 
 ]
 
@@ -1657,8 +1661,8 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
  ) 
 Here is how much of TeX's memory you used:
- 16045 strings out of 493921
- 239108 string characters out of 3147269
+ 16044 strings out of 493921
+ 239091 string characters out of 3147269
  489821 words of memory out of 3000000
  18680 multiletter control sequences out of 15000+200000
  91133 words of font info for 58 fonts, out of 3000000 for 9000
@@ -1675,9 +1679,9 @@ ic/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:
 KTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfdin
 g/uzdr.pfb>
-Output written on main_ppgco_ufu.pdf (83 pages, 767103 bytes).
+Output written on main_ppgco_ufu.pdf (83 pages, 837902 bytes).
 PDF statistics:
- 1234 PDF objects out of 1440 (max. 8388607)
- 259 named destinations out of 1000 (max. 500000)
+ 1598 PDF objects out of 1728 (max. 8388607)
+ 258 named destinations out of 1000 (max. 500000)
  491 words of extra memory for PDF output out of 10000 (max. 10000000)
 

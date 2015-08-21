@@ -31,12 +31,6 @@ Assim como mostrado na Seção \ref{caracterizacao_respondentes}, as empresas pa
 
 Foi pedido para os supervisores classificarem os desenvolvedores em 5 graus de importância. Esses graus de importância e a distribuição dos desenvolvedores avaliados neles é mostrado na \autoref{fig_3}.
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[scale=0.8]{figs/geral/imagem-classe-original.png}
-	\caption{\label{fig_3}Distribuição dos desenvolvedores avaliados pelas classes de importância}
-\end{figure}
-
 Analisando os resultados da pesquisa, percebe-se que os supervisores podem ter sido, em certo nível, conservadores em classificar seus desenvolvedores nas classificações mais baixas de importância. Uma possível explicação para esse comportamento é o viés criado ao seguir a linha de raciocínio de que se o desenvolvedor possui baixa importância, ele não estaria na equipe.
 Esse viés na classificação dos desenvolvedores impacta diretamente a acurácia dos classificadores, visto que eles usam a classe como base para tentar descobrir um padrão nos dados. Caso a classificação não tenha ficado clara para todos os respondentes, os algoritmos podem se confundir e apresentar erros leves, classificando um determinado indivíduo em classes similares, mas não à classe que ele realmente pertence. Esses erros em grande quantidade interferem e possuem um impacto negativo significativo na acurácia do classificador que é proposto neste estudo.
 
@@ -62,9 +56,17 @@ Utilizando esse novo conjunto de classes para agrupar os desenvolvedores, obteve
 	\end{tabular}
 \end{table}
 
+
+
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.8]{figs/geral/imagem-classe-alternativa.png}
+	\includegraphics[scale=0.45]{figs/geral/imagem-classe-original}
+	\caption{\label{fig_3}Distribuição dos desenvolvedores avaliados pelas classes de importância}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.45]{figs/geral/imagem-classe-alternativa}
 	\caption{\label{fig_4}Distribuição dos desenvolvedores avaliados pela nova classe de importância}
 \end{figure}
 
